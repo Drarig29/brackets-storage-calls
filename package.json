@@ -11,5 +11,8 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "ts-node": "^10.4.0"
+  }
 }

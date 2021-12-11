@@ -39,22 +39,47 @@ function generateDocumentation(
   /** visit nodes finding exported classes */
   function visit(node: ts.Node) {
     // Only consider exported nodes
-    if (!isNodeExported(node)) {
-      return;
+    // if (!isNodeExported(node)) {
+    //   return;
+    // }
+
+
+    if (ts.isPropertyAccessExpression(node)) {
+      if (node.getText().match(/this\.storage\./)) {
+        const storageMethod = node.getChildAt(2);
+        console.log(storageMethod.getText());
+
+        const symbol = checker.getSymbolAtLocation(storageMethod);
+        
+
+        if (symbol) {
+          console.log(checker.typeToString(
+            checker.getTypeOfSymbolAtLocation(symbol, symbol.valueDeclaration!)
+          ));
+        }
+      }
+    } else {
+      ts.forEachChild(node, visit);  
     }
 
-    if (ts.isClassDeclaration(node) && node.name) {
-      // This is a top level class, get its symbol
-      let symbol = checker.getSymbolAtLocation(node.name);
-      if (symbol) {
-        output.push(serializeClass(symbol));
-      }
-      // No need to walk any further, class expressions/inner declarations
-      // cannot be exported
-    } else if (ts.isModuleDeclaration(node)) {
-      // This is a namespace, visit its children
-      ts.forEachChild(node, visit);
-    }
+    // if (ts.isClassDeclaration(node) && node.name && node.name?.escapedText === 'Reset') {
+    
+    // return;
+    // }
+
+
+    // if (ts.isClassDeclaration(node) && node.name) {
+    //   // This is a top level class, get its symbol
+    //   let symbol = checker.getSymbolAtLocation(node.name);
+    //   if (symbol) {
+    //     output.push(serializeClass(symbol));
+    //   }
+    //   // No need to walk any further, class expressions/inner declarations
+    //   // cannot be exported
+    // } else if (ts.isModuleDeclaration(node)) {
+    //   // This is a namespace, visit its children
+    //   ts.forEachChild(node, visit);
+    // }
   }
 
   /** Serialize a symbol into a json object */
