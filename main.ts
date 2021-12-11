@@ -1,4 +1,5 @@
 import { writeFileSync } from 'fs';
+import { exportToMarkdown } from './markdown';
 import {
   CallExpression,
   Identifier,
@@ -6,23 +7,10 @@ import {
   SyntaxKind,
   ts,
   Type,
-  TypeFormatFlags,
 } from 'ts-morph';
+import { FoundCall, FoundCallArgument } from './types';
 
-interface FoundCallArgument {
-  text: string;
-  type: string;
-}
-
-interface FoundCall {
-  methodName: string;
-  arguments: FoundCallArgument[];
-  returnType: string;
-  sourceFile: string;
-  lineNumber: number;
-}
-
-function getStorageCalls(tsConfigFilePath: string): void {
+function getStorageCalls(tsConfigFilePath: string): FoundCall[] {
   const project = new Project({
     tsConfigFilePath,
   });
@@ -76,7 +64,7 @@ function getStorageCalls(tsConfigFilePath: string): void {
     }
   }
 
-  writeFileSync('calls.json', JSON.stringify(results, null, 2));
+  return results;
 }
 
 function getMethodIndentifier(
@@ -95,4 +83,8 @@ function serializeType(type: Type) {
   return type.getText().replace(/import\([^)]+\)\./g, '');
 }
 
-getStorageCalls(process.argv[2]);
+const calls = getStorageCalls(process.argv[2]);
+const markdownOutput = exportToMarkdown(calls);
+
+writeFileSync('calls.json', JSON.stringify(calls, null, 2));
+writeFileSync('output.md', markdownOutput);
