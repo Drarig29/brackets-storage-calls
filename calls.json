@@ -1,0 +1,3616 @@
+[
+  {
+    "methodName": "insert",
+    "returnType": "Promise<number>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "{\n                number: childCount + 1,\n                stage_id: match.stage_id,\n                parent_id: match.id,\n                status: match.status,\n                opponent1: { id: null },\n                opponent2: { id: null },\n            }",
+        "type": "{ number: number; stage_id: number; parent_id: number; status: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").Status; opponent1: { id: null; }; opponent2: { id: null; }; }"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      },
+      {
+        "text": "data.participant",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant[]"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "data.stage",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage[]"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "data.group",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group[]"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "data.round",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round[]"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "data.match",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[]"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "data.match_game",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame[]"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<number>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stage",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage>"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<number>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "group",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group>"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<number>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "round",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round>"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<number>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "match",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match>"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<number>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "matchGame",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame>"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      },
+      {
+        "text": "participants",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant>[]"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<number>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      },
+      {
+        "text": "participant",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant>"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<number>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "{\n                number: childCount + 1,\n                stage_id: match.stage_id,\n                parent_id: match.id,\n                status: match.status,\n                opponent1: { id: null },\n                opponent2: { id: null },\n            }",
+        "type": "{ number: number; stage_id: number; parent_id: number; status: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").Status; opponent1: { id: null; }; opponent2: { id: null; }; }"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      },
+      {
+        "text": "data.participant",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant[]"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "data.stage",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage[]"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "data.group",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group[]"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "data.round",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round[]"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "data.match",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[]"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "data.match_game",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame[]"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<number>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stage",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage>"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<number>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "group",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group>"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<number>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "round",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round>"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<number>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "match",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match>"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<number>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "matchGame",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame>"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      },
+      {
+        "text": "participants",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant>[]"
+      }
+    ]
+  },
+  {
+    "methodName": "insert",
+    "returnType": "Promise<number>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      },
+      {
+        "text": "participant",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant>"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round[] | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "roundId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round[] | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "{ group_id: round.group_id }",
+        "type": "{ group_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ round_id: firstRound.id }",
+        "type": "{ round_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame | null>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "game.id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group[] | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round[] | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant[] | null>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      },
+      {
+        "text": "{ tournament_id: stage.tournament_id }",
+        "type": "{ tournament_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame[] | null>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "{ parent_id: match.id }",
+        "type": "{ parent_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ stage_id: stage.id }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ round_id: round.id }",
+        "type": "{ round_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "parentId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame[] | null>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "{ parent_id: parentId }",
+        "type": "{ parent_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "storedParent.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "match.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "match.group_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stored.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "match.id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "roundId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "round.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ round_id: round.id }",
+        "type": "{ round_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "round.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "round.group_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ group_id: groupId }",
+        "type": "{ group_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ round_id: roundId }",
+        "type": "{ round_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame[] | null>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "{ parent_id: match.id }",
+        "type": "{ parent_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "matchId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "match.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "match.group_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "match.round_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "matchId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "match.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "match.group_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "matchId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stored.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "stored.group_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame | null>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "gameId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/src/types\").DataTypes[T][] | null>",
+    "arguments": [
+      {
+        "text": "table",
+        "type": "T"
+      },
+      {
+        "text": "filter",
+        "type": "Partial<import(\"/home/corentin/brackets/brackets-manager.js/src/types\").DataTypes[T]>"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/src/types\").DataTypes[T][] | null>",
+    "arguments": [
+      {
+        "text": "table",
+        "type": "T"
+      },
+      {
+        "text": "filter",
+        "type": "Partial<import(\"/home/corentin/brackets/brackets-manager.js/src/types\").DataTypes[T]>"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant[] | null>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage[] | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group[] | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round[] | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant[] | null>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      },
+      {
+        "text": "{ tournament_id: this.stage.tournamentId }",
+        "type": "{ tournament_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant[] | null>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      },
+      {
+        "text": "{ tournament_id: this.stage.tournamentId }",
+        "type": "{ tournament_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage[] | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "{ tournament_id: this.stage.tournamentId }",
+        "type": "{ tournament_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "this.currentStageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant[] | null>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      },
+      {
+        "text": "{ tournament_id: this.stage.tournamentId }",
+        "type": "{ tournament_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round[] | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "roundId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round[] | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "{ group_id: round.group_id }",
+        "type": "{ group_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ round_id: firstRound.id }",
+        "type": "{ round_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame | null>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "game.id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group[] | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round[] | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant[] | null>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      },
+      {
+        "text": "{ tournament_id: stage.tournament_id }",
+        "type": "{ tournament_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame[] | null>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "{ parent_id: match.id }",
+        "type": "{ parent_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ stage_id: stage.id }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ round_id: round.id }",
+        "type": "{ round_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "parentId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame[] | null>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "{ parent_id: parentId }",
+        "type": "{ parent_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "storedParent.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "match.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "match.group_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stored.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "match.id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "roundId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "round.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ round_id: round.id }",
+        "type": "{ round_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "round.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "round.group_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ group_id: groupId }",
+        "type": "{ group_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ round_id: roundId }",
+        "type": "{ round_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame[] | null>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "{ parent_id: match.id }",
+        "type": "{ parent_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "matchId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "match.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "match.group_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "match.round_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "matchId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "match.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "match.group_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "matchId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stored.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "stored.group_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame | null>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "gameId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/src/types\").DataTypes[T][] | null>",
+    "arguments": [
+      {
+        "text": "table",
+        "type": "T"
+      },
+      {
+        "text": "filter",
+        "type": "Partial<import(\"/home/corentin/brackets/brackets-manager.js/src/types\").DataTypes[T]>"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/src/types\").DataTypes[T][] | null>",
+    "arguments": [
+      {
+        "text": "table",
+        "type": "T"
+      },
+      {
+        "text": "filter",
+        "type": "Partial<import(\"/home/corentin/brackets/brackets-manager.js/src/types\").DataTypes[T]>"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant[] | null>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage[] | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group[] | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round[] | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant[] | null>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      },
+      {
+        "text": "{ tournament_id: this.stage.tournamentId }",
+        "type": "{ tournament_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant[] | null>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      },
+      {
+        "text": "{ tournament_id: this.stage.tournamentId }",
+        "type": "{ tournament_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage[] | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "{ tournament_id: this.stage.tournamentId }",
+        "type": "{ tournament_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "this.currentStageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant[] | null>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      },
+      {
+        "text": "{ tournament_id: this.stage.tournamentId }",
+        "type": "{ tournament_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round[] | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "roundId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round[] | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "{ group_id: round.group_id }",
+        "type": "{ group_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ round_id: firstRound.id }",
+        "type": "{ round_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame | null>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "game.id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group[] | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round[] | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant[] | null>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      },
+      {
+        "text": "{ tournament_id: stage.tournament_id }",
+        "type": "{ tournament_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame[] | null>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "{ parent_id: match.id }",
+        "type": "{ parent_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ stage_id: stage.id }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ round_id: round.id }",
+        "type": "{ round_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "parentId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame[] | null>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "{ parent_id: parentId }",
+        "type": "{ parent_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "storedParent.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "match.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "match.group_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stored.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "match.id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "roundId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "round.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ round_id: round.id }",
+        "type": "{ round_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "round.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "round.group_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ group_id: groupId }",
+        "type": "{ group_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ round_id: roundId }",
+        "type": "{ round_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame[] | null>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "{ parent_id: match.id }",
+        "type": "{ parent_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "matchId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "match.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "match.group_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "match.round_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "matchId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "match.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "match.group_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "matchId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stored.stage_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "stored.group_id",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame | null>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "gameId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/src/types\").DataTypes[T][] | null>",
+    "arguments": [
+      {
+        "text": "table",
+        "type": "T"
+      },
+      {
+        "text": "filter",
+        "type": "Partial<import(\"/home/corentin/brackets/brackets-manager.js/src/types\").DataTypes[T]>"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/src/types\").DataTypes[T][] | null>",
+    "arguments": [
+      {
+        "text": "table",
+        "type": "T"
+      },
+      {
+        "text": "filter",
+        "type": "Partial<import(\"/home/corentin/brackets/brackets-manager.js/src/types\").DataTypes[T]>"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant[] | null>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage[] | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group[] | null>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round[] | null>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[] | null>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant[] | null>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      },
+      {
+        "text": "{ tournament_id: this.stage.tournamentId }",
+        "type": "{ tournament_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant[] | null>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      },
+      {
+        "text": "{ tournament_id: this.stage.tournamentId }",
+        "type": "{ tournament_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage[] | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "{ tournament_id: this.stage.tournamentId }",
+        "type": "{ tournament_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "this.currentStageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant[] | null>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      },
+      {
+        "text": "{ tournament_id: this.stage.tournamentId }",
+        "type": "{ tournament_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage | null>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "match.id",
+        "type": "number"
+      },
+      {
+        "text": "match",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "{ parent_id: match.id }",
+        "type": "{ parent_id: number; }"
+      },
+      {
+        "text": "updatedMatchGame",
+        "type": "Partial<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame>"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "stored.id",
+        "type": "number"
+      },
+      {
+        "text": "stored",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      },
+      {
+        "text": "{ child_count: childCount }",
+        "type": "{ child_count: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ group_id: groupId }",
+        "type": "{ group_id: number; }"
+      },
+      {
+        "text": "{ child_count: childCount }",
+        "type": "{ child_count: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ round_id: roundId }",
+        "type": "{ round_id: number; }"
+      },
+      {
+        "text": "{ child_count: childCount }",
+        "type": "{ child_count: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "updated.id",
+        "type": "number"
+      },
+      {
+        "text": "updated",
+        "type": "{ id: number; stage_id: number; group_id: number; round_id: number; number: number; child_count: number; status: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").Status; opponent1: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; opponent2: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; }"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "match.id",
+        "type": "number"
+      },
+      {
+        "text": "{ ...match, child_count: targetChildCount }",
+        "type": "{ child_count: number; id: number; stage_id: number; group_id: number; round_id: number; number: number; status: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").Status; opponent1: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; opponent2: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; }"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "stored.id",
+        "type": "number"
+      },
+      {
+        "text": "stored",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "existing.id",
+        "type": "number"
+      },
+      {
+        "text": "updated",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "existing.id",
+        "type": "number"
+      },
+      {
+        "text": "updated",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      },
+      {
+        "text": "stage",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "match.id",
+        "type": "number"
+      },
+      {
+        "text": "match",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "{ parent_id: match.id }",
+        "type": "{ parent_id: number; }"
+      },
+      {
+        "text": "updatedMatchGame",
+        "type": "Partial<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame>"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "stored.id",
+        "type": "number"
+      },
+      {
+        "text": "stored",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      },
+      {
+        "text": "{ child_count: childCount }",
+        "type": "{ child_count: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ group_id: groupId }",
+        "type": "{ group_id: number; }"
+      },
+      {
+        "text": "{ child_count: childCount }",
+        "type": "{ child_count: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ round_id: roundId }",
+        "type": "{ round_id: number; }"
+      },
+      {
+        "text": "{ child_count: childCount }",
+        "type": "{ child_count: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "updated.id",
+        "type": "number"
+      },
+      {
+        "text": "updated",
+        "type": "{ id: number; stage_id: number; group_id: number; round_id: number; number: number; child_count: number; status: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").Status; opponent1: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; opponent2: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; }"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "match.id",
+        "type": "number"
+      },
+      {
+        "text": "{ ...match, child_count: targetChildCount }",
+        "type": "{ child_count: number; id: number; stage_id: number; group_id: number; round_id: number; number: number; status: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").Status; opponent1: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; opponent2: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; }"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "stored.id",
+        "type": "number"
+      },
+      {
+        "text": "stored",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "existing.id",
+        "type": "number"
+      },
+      {
+        "text": "updated",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "existing.id",
+        "type": "number"
+      },
+      {
+        "text": "updated",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame"
+      }
+    ]
+  },
+  {
+    "methodName": "update",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "stageId",
+        "type": "number"
+      },
+      {
+        "text": "stage",
+        "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage"
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "{\n                parent_id: match.id,\n                number: childCount,\n            }",
+        "type": "{ parent_id: number; number: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "{ id: stageId }",
+        "type": "{ id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "{\n                parent_id: match.id,\n                number: childCount,\n            }",
+        "type": "{ parent_id: number; number: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      },
+      {
+        "text": "{ stage_id: stageId }",
+        "type": "{ stage_id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      },
+      {
+        "text": "{ id: stageId }",
+        "type": "{ id: number; }"
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'participant'",
+        "type": "\"participant\""
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'stage'",
+        "type": "\"stage\""
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'group'",
+        "type": "\"group\""
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'round'",
+        "type": "\"round\""
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match'",
+        "type": "\"match\""
+      }
+    ]
+  },
+  {
+    "methodName": "delete",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "text": "'match_game'",
+        "type": "\"match_game\""
+      }
+    ]
+  }
+]

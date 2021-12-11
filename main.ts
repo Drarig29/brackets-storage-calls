@@ -1,4 +1,16 @@
-import { Project, SyntaxKind } from 'ts-morph';
+import { writeFileSync } from 'fs';
+import { CallExpression, Identifier, Project, SyntaxKind, ts } from 'ts-morph';
+
+interface FoundCallArgument {
+  text: string;
+  type: string;
+}
+
+interface FoundCall {
+  methodName: string;
+  arguments: FoundCallArgument[];
+  returnType: string;
+}
 
 function getStorageCalls(tsConfigFilePath: string): void {
   const project = new Project({
@@ -20,6 +32,8 @@ function getStorageCalls(tsConfigFilePath: string): void {
 
   const crudMethods = crudInterface.getMethods();
 
+  const results: FoundCall[] = [];
+
   for (const method of crudMethods) {
     const references = method.findReferencesAsNodes();
 
@@ -30,9 +44,33 @@ function getStorageCalls(tsConfigFilePath: string): void {
 
       if (!callExpression) continue;
 
-      console.log(callExpression.getArguments());
+      const methodName = getMethodIndentifier(callExpression).getText();
+      const returnType = callExpression.getReturnType().getText();
+
+      const args: FoundCallArgument[] = callExpression
+        .getArguments()
+        .map((arg) => ({
+          text: arg.getText(),
+          type: arg.getType().getText(),
+        }));
+
+      results.push({
+        methodName,
+        returnType,
+        arguments: args,
+      });
     }
   }
+
+  writeFileSync('calls.json', JSON.stringify(results, null, 2));
+}
+
+function getMethodIndentifier(
+  callExpression: CallExpression<ts.CallExpression>
+): Identifier {
+  const propertyAccess = callExpression.getFirstChildByKindOrThrow(SyntaxKind.PropertyAccessExpression);
+  const identifier = propertyAccess.getFirstChildByKindOrThrow(SyntaxKind.Identifier);
+  return identifier;
 }
 
 getStorageCalls(process.argv[2]);
