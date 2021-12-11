@@ -11,7 +11,9 @@
         "text": "{\n                number: childCount + 1,\n                stage_id: match.stage_id,\n                parent_id: match.id,\n                status: match.status,\n                opponent1: { id: null },\n                opponent2: { id: null },\n            }",
         "type": "{ number: number; stage_id: number; parent_id: number; status: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").Status; opponent1: { id: null; }; opponent2: { id: null; }; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 234
   },
   {
     "methodName": "insert",
@@ -25,7 +27,9 @@
         "text": "data.participant",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant[]"
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 71
   },
   {
     "methodName": "insert",
@@ -39,7 +43,9 @@
         "text": "data.stage",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage[]"
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 76
   },
   {
     "methodName": "insert",
@@ -53,7 +59,9 @@
         "text": "data.group",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group[]"
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 81
   },
   {
     "methodName": "insert",
@@ -67,7 +75,9 @@
         "text": "data.round",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round[]"
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 86
   },
   {
     "methodName": "insert",
@@ -81,7 +91,9 @@
         "text": "data.match",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[]"
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 91
   },
   {
     "methodName": "insert",
@@ -95,7 +107,9 @@
         "text": "data.match_game",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame[]"
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 96
   },
   {
     "methodName": "insert",
@@ -109,7 +123,9 @@
         "text": "stage",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage>"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 658
   },
   {
     "methodName": "insert",
@@ -123,7 +139,9 @@
         "text": "group",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group>"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 679
   },
   {
     "methodName": "insert",
@@ -137,7 +155,9 @@
         "text": "round",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round>"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 700
   },
   {
     "methodName": "insert",
@@ -151,7 +171,9 @@
         "text": "match",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match>"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 713
   },
   {
     "methodName": "insert",
@@ -165,7 +187,9 @@
         "text": "matchGame",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame>"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 738
   },
   {
     "methodName": "insert",
@@ -179,7 +203,9 @@
         "text": "participants",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant>[]"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 757
   },
   {
     "methodName": "insert",
@@ -193,7 +219,9 @@
         "text": "participant",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant>"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 764
   },
   {
     "methodName": "insert",
@@ -207,7 +235,9 @@
         "text": "{\n                number: childCount + 1,\n                stage_id: match.stage_id,\n                parent_id: match.id,\n                status: match.status,\n                opponent1: { id: null },\n                opponent2: { id: null },\n            }",
         "type": "{ number: number; stage_id: number; parent_id: number; status: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").Status; opponent1: { id: null; }; opponent2: { id: null; }; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 234
   },
   {
     "methodName": "insert",
@@ -221,7 +251,9 @@
         "text": "data.participant",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant[]"
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 71
   },
   {
     "methodName": "insert",
@@ -235,7 +267,9 @@
         "text": "data.stage",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage[]"
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 76
   },
   {
     "methodName": "insert",
@@ -249,7 +283,9 @@
         "text": "data.group",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group[]"
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 81
   },
   {
     "methodName": "insert",
@@ -263,7 +299,9 @@
         "text": "data.round",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round[]"
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 86
   },
   {
     "methodName": "insert",
@@ -277,7 +315,9 @@
         "text": "data.match",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match[]"
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 91
   },
   {
     "methodName": "insert",
@@ -291,7 +331,9 @@
         "text": "data.match_game",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame[]"
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 96
   },
   {
     "methodName": "insert",
@@ -305,7 +347,9 @@
         "text": "stage",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage>"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 658
   },
   {
     "methodName": "insert",
@@ -319,7 +363,9 @@
         "text": "group",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group>"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 679
   },
   {
     "methodName": "insert",
@@ -333,7 +379,9 @@
         "text": "round",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round>"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 700
   },
   {
     "methodName": "insert",
@@ -347,7 +395,9 @@
         "text": "match",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match>"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 713
   },
   {
     "methodName": "insert",
@@ -361,7 +411,9 @@
         "text": "matchGame",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame>"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 738
   },
   {
     "methodName": "insert",
@@ -375,7 +427,9 @@
         "text": "participants",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant>[]"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 757
   },
   {
     "methodName": "insert",
@@ -389,7 +443,9 @@
         "text": "participant",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/src/types\").OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant>"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 764
   },
   {
     "methodName": "select",
@@ -403,7 +459,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "getter.ts",
+    "lineNumber": 50
   },
   {
     "methodName": "select",
@@ -417,7 +475,9 @@
         "text": "roundId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "getter.ts",
+    "lineNumber": 70
   },
   {
     "methodName": "select",
@@ -431,7 +491,9 @@
         "text": "{ group_id: round.group_id }",
         "type": "{ group_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "getter.ts",
+    "lineNumber": 73
   },
   {
     "methodName": "select",
@@ -445,7 +507,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "getter.ts",
+    "lineNumber": 377
   },
   {
     "methodName": "select",
@@ -459,7 +523,9 @@
         "text": "{ round_id: firstRound.id }",
         "type": "{ round_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "getter.ts",
+    "lineNumber": 380
   },
   {
     "methodName": "select",
@@ -473,7 +539,9 @@
         "text": "game.id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "getter.ts",
+    "lineNumber": 499
   },
   {
     "methodName": "select",
@@ -487,7 +555,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 14
   },
   {
     "methodName": "select",
@@ -501,7 +571,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 17
   },
   {
     "methodName": "select",
@@ -515,7 +587,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 20
   },
   {
     "methodName": "select",
@@ -529,7 +603,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 23
   },
   {
     "methodName": "select",
@@ -543,7 +619,9 @@
         "text": "{ tournament_id: stage.tournament_id }",
         "type": "{ tournament_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 26
   },
   {
     "methodName": "select",
@@ -557,7 +635,9 @@
         "text": "{ parent_id: match.id }",
         "type": "{ parent_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 49
   },
   {
     "methodName": "select",
@@ -571,7 +651,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 61
   },
   {
     "methodName": "select",
@@ -585,7 +667,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 76
   },
   {
     "methodName": "select",
@@ -599,7 +683,9 @@
         "text": "{ stage_id: stage.id }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 100
   },
   {
     "methodName": "select",
@@ -613,7 +699,9 @@
         "text": "{ round_id: round.id }",
         "type": "{ round_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 127
   },
   {
     "methodName": "select",
@@ -627,7 +715,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 18
   },
   {
     "methodName": "select",
@@ -641,7 +731,9 @@
         "text": "parentId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 53
   },
   {
     "methodName": "select",
@@ -655,7 +747,9 @@
         "text": "{ parent_id: parentId }",
         "type": "{ parent_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 56
   },
   {
     "methodName": "select",
@@ -669,7 +763,9 @@
         "text": "storedParent.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 62
   },
   {
     "methodName": "select",
@@ -683,7 +779,9 @@
         "text": "match.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 102
   },
   {
     "methodName": "select",
@@ -697,7 +795,9 @@
         "text": "match.group_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 105
   },
   {
     "methodName": "select",
@@ -711,7 +811,9 @@
         "text": "stored.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 131
   },
   {
     "methodName": "select",
@@ -725,7 +827,9 @@
         "text": "match.id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 20
   },
   {
     "methodName": "select",
@@ -739,7 +843,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 54
   },
   {
     "methodName": "select",
@@ -753,7 +859,9 @@
         "text": "roundId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 74
   },
   {
     "methodName": "select",
@@ -767,7 +875,9 @@
         "text": "round.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 77
   },
   {
     "methodName": "select",
@@ -781,7 +891,9 @@
         "text": "id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 104
   },
   {
     "methodName": "select",
@@ -795,7 +907,9 @@
         "text": "{ round_id: round.id }",
         "type": "{ round_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 130
   },
   {
     "methodName": "select",
@@ -809,7 +923,9 @@
         "text": "round.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 136
   },
   {
     "methodName": "select",
@@ -823,7 +939,9 @@
         "text": "round.group_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 140
   },
   {
     "methodName": "select",
@@ -837,7 +955,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 161
   },
   {
     "methodName": "select",
@@ -851,7 +971,9 @@
         "text": "{ group_id: groupId }",
         "type": "{ group_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 178
   },
   {
     "methodName": "select",
@@ -865,7 +987,9 @@
         "text": "{ round_id: roundId }",
         "type": "{ round_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 195
   },
   {
     "methodName": "select",
@@ -879,7 +1003,9 @@
         "text": "{ parent_id: match.id }",
         "type": "{ parent_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 230
   },
   {
     "methodName": "select",
@@ -893,7 +1019,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 13
   },
   {
     "methodName": "select",
@@ -907,7 +1035,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 33
   },
   {
     "methodName": "select",
@@ -921,7 +1051,9 @@
         "text": "matchId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 56
   },
   {
     "methodName": "select",
@@ -935,7 +1067,9 @@
         "text": "match.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 59
   },
   {
     "methodName": "select",
@@ -949,7 +1083,9 @@
         "text": "match.group_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 62
   },
   {
     "methodName": "select",
@@ -963,7 +1099,9 @@
         "text": "match.round_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 65
   },
   {
     "methodName": "select",
@@ -977,7 +1115,9 @@
         "text": "matchId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 79
   },
   {
     "methodName": "select",
@@ -991,7 +1131,9 @@
         "text": "match.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 82
   },
   {
     "methodName": "select",
@@ -1005,7 +1147,9 @@
         "text": "match.group_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 85
   },
   {
     "methodName": "select",
@@ -1019,7 +1163,9 @@
         "text": "matchId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "reset.ts",
+    "lineNumber": 15
   },
   {
     "methodName": "select",
@@ -1033,7 +1179,9 @@
         "text": "stored.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "reset.ts",
+    "lineNumber": 21
   },
   {
     "methodName": "select",
@@ -1047,7 +1195,9 @@
         "text": "stored.group_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "reset.ts",
+    "lineNumber": 24
   },
   {
     "methodName": "select",
@@ -1061,7 +1211,9 @@
         "text": "gameId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "reset.ts",
+    "lineNumber": 47
   },
   {
     "methodName": "select",
@@ -1075,7 +1227,9 @@
         "text": "filter",
         "type": "Partial<import(\"/home/corentin/brackets/brackets-manager.js/src/types\").DataTypes[T]>"
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 33
   },
   {
     "methodName": "select",
@@ -1089,7 +1243,9 @@
         "text": "filter",
         "type": "Partial<import(\"/home/corentin/brackets/brackets-manager.js/src/types\").DataTypes[T]>"
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 39
   },
   {
     "methodName": "select",
@@ -1099,7 +1255,9 @@
         "text": "'participant'",
         "type": "\"participant\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 104
   },
   {
     "methodName": "select",
@@ -1109,7 +1267,9 @@
         "text": "'stage'",
         "type": "\"stage\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 107
   },
   {
     "methodName": "select",
@@ -1119,7 +1279,9 @@
         "text": "'group'",
         "type": "\"group\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 110
   },
   {
     "methodName": "select",
@@ -1129,7 +1291,9 @@
         "text": "'round'",
         "type": "\"round\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 113
   },
   {
     "methodName": "select",
@@ -1139,7 +1303,9 @@
         "text": "'match'",
         "type": "\"match\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 116
   },
   {
     "methodName": "select",
@@ -1153,7 +1319,9 @@
         "text": "{ tournament_id: this.stage.tournamentId }",
         "type": "{ tournament_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 502
   },
   {
     "methodName": "select",
@@ -1167,7 +1335,9 @@
         "text": "{ tournament_id: this.stage.tournamentId }",
         "type": "{ tournament_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 515
   },
   {
     "methodName": "select",
@@ -1181,7 +1351,9 @@
         "text": "{ tournament_id: this.stage.tournamentId }",
         "type": "{ tournament_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 525
   },
   {
     "methodName": "select",
@@ -1195,7 +1367,9 @@
         "text": "this.currentStageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 655
   },
   {
     "methodName": "select",
@@ -1209,7 +1383,9 @@
         "text": "{ tournament_id: this.stage.tournamentId }",
         "type": "{ tournament_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 753
   },
   {
     "methodName": "select",
@@ -1223,7 +1399,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 834
   },
   {
     "methodName": "select",
@@ -1237,7 +1415,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "getter.ts",
+    "lineNumber": 50
   },
   {
     "methodName": "select",
@@ -1251,7 +1431,9 @@
         "text": "roundId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "getter.ts",
+    "lineNumber": 70
   },
   {
     "methodName": "select",
@@ -1265,7 +1447,9 @@
         "text": "{ group_id: round.group_id }",
         "type": "{ group_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "getter.ts",
+    "lineNumber": 73
   },
   {
     "methodName": "select",
@@ -1279,7 +1463,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "getter.ts",
+    "lineNumber": 377
   },
   {
     "methodName": "select",
@@ -1293,7 +1479,9 @@
         "text": "{ round_id: firstRound.id }",
         "type": "{ round_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "getter.ts",
+    "lineNumber": 380
   },
   {
     "methodName": "select",
@@ -1307,7 +1495,9 @@
         "text": "game.id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "getter.ts",
+    "lineNumber": 499
   },
   {
     "methodName": "select",
@@ -1321,7 +1511,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 14
   },
   {
     "methodName": "select",
@@ -1335,7 +1527,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 17
   },
   {
     "methodName": "select",
@@ -1349,7 +1543,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 20
   },
   {
     "methodName": "select",
@@ -1363,7 +1559,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 23
   },
   {
     "methodName": "select",
@@ -1377,7 +1575,9 @@
         "text": "{ tournament_id: stage.tournament_id }",
         "type": "{ tournament_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 26
   },
   {
     "methodName": "select",
@@ -1391,7 +1591,9 @@
         "text": "{ parent_id: match.id }",
         "type": "{ parent_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 49
   },
   {
     "methodName": "select",
@@ -1405,7 +1607,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 61
   },
   {
     "methodName": "select",
@@ -1419,7 +1623,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 76
   },
   {
     "methodName": "select",
@@ -1433,7 +1639,9 @@
         "text": "{ stage_id: stage.id }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 100
   },
   {
     "methodName": "select",
@@ -1447,7 +1655,9 @@
         "text": "{ round_id: round.id }",
         "type": "{ round_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 127
   },
   {
     "methodName": "select",
@@ -1461,7 +1671,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 18
   },
   {
     "methodName": "select",
@@ -1475,7 +1687,9 @@
         "text": "parentId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 53
   },
   {
     "methodName": "select",
@@ -1489,7 +1703,9 @@
         "text": "{ parent_id: parentId }",
         "type": "{ parent_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 56
   },
   {
     "methodName": "select",
@@ -1503,7 +1719,9 @@
         "text": "storedParent.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 62
   },
   {
     "methodName": "select",
@@ -1517,7 +1735,9 @@
         "text": "match.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 102
   },
   {
     "methodName": "select",
@@ -1531,7 +1751,9 @@
         "text": "match.group_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 105
   },
   {
     "methodName": "select",
@@ -1545,7 +1767,9 @@
         "text": "stored.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 131
   },
   {
     "methodName": "select",
@@ -1559,7 +1783,9 @@
         "text": "match.id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 20
   },
   {
     "methodName": "select",
@@ -1573,7 +1799,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 54
   },
   {
     "methodName": "select",
@@ -1587,7 +1815,9 @@
         "text": "roundId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 74
   },
   {
     "methodName": "select",
@@ -1601,7 +1831,9 @@
         "text": "round.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 77
   },
   {
     "methodName": "select",
@@ -1615,7 +1847,9 @@
         "text": "id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 104
   },
   {
     "methodName": "select",
@@ -1629,7 +1863,9 @@
         "text": "{ round_id: round.id }",
         "type": "{ round_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 130
   },
   {
     "methodName": "select",
@@ -1643,7 +1879,9 @@
         "text": "round.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 136
   },
   {
     "methodName": "select",
@@ -1657,7 +1895,9 @@
         "text": "round.group_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 140
   },
   {
     "methodName": "select",
@@ -1671,7 +1911,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 161
   },
   {
     "methodName": "select",
@@ -1685,7 +1927,9 @@
         "text": "{ group_id: groupId }",
         "type": "{ group_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 178
   },
   {
     "methodName": "select",
@@ -1699,7 +1943,9 @@
         "text": "{ round_id: roundId }",
         "type": "{ round_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 195
   },
   {
     "methodName": "select",
@@ -1713,7 +1959,9 @@
         "text": "{ parent_id: match.id }",
         "type": "{ parent_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 230
   },
   {
     "methodName": "select",
@@ -1727,7 +1975,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 13
   },
   {
     "methodName": "select",
@@ -1741,7 +1991,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 33
   },
   {
     "methodName": "select",
@@ -1755,7 +2007,9 @@
         "text": "matchId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 56
   },
   {
     "methodName": "select",
@@ -1769,7 +2023,9 @@
         "text": "match.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 59
   },
   {
     "methodName": "select",
@@ -1783,7 +2039,9 @@
         "text": "match.group_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 62
   },
   {
     "methodName": "select",
@@ -1797,7 +2055,9 @@
         "text": "match.round_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 65
   },
   {
     "methodName": "select",
@@ -1811,7 +2071,9 @@
         "text": "matchId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 79
   },
   {
     "methodName": "select",
@@ -1825,7 +2087,9 @@
         "text": "match.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 82
   },
   {
     "methodName": "select",
@@ -1839,7 +2103,9 @@
         "text": "match.group_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 85
   },
   {
     "methodName": "select",
@@ -1853,7 +2119,9 @@
         "text": "matchId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "reset.ts",
+    "lineNumber": 15
   },
   {
     "methodName": "select",
@@ -1867,7 +2135,9 @@
         "text": "stored.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "reset.ts",
+    "lineNumber": 21
   },
   {
     "methodName": "select",
@@ -1881,7 +2151,9 @@
         "text": "stored.group_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "reset.ts",
+    "lineNumber": 24
   },
   {
     "methodName": "select",
@@ -1895,7 +2167,9 @@
         "text": "gameId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "reset.ts",
+    "lineNumber": 47
   },
   {
     "methodName": "select",
@@ -1909,7 +2183,9 @@
         "text": "filter",
         "type": "Partial<import(\"/home/corentin/brackets/brackets-manager.js/src/types\").DataTypes[T]>"
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 33
   },
   {
     "methodName": "select",
@@ -1923,7 +2199,9 @@
         "text": "filter",
         "type": "Partial<import(\"/home/corentin/brackets/brackets-manager.js/src/types\").DataTypes[T]>"
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 39
   },
   {
     "methodName": "select",
@@ -1933,7 +2211,9 @@
         "text": "'participant'",
         "type": "\"participant\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 104
   },
   {
     "methodName": "select",
@@ -1943,7 +2223,9 @@
         "text": "'stage'",
         "type": "\"stage\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 107
   },
   {
     "methodName": "select",
@@ -1953,7 +2235,9 @@
         "text": "'group'",
         "type": "\"group\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 110
   },
   {
     "methodName": "select",
@@ -1963,7 +2247,9 @@
         "text": "'round'",
         "type": "\"round\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 113
   },
   {
     "methodName": "select",
@@ -1973,7 +2259,9 @@
         "text": "'match'",
         "type": "\"match\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 116
   },
   {
     "methodName": "select",
@@ -1987,7 +2275,9 @@
         "text": "{ tournament_id: this.stage.tournamentId }",
         "type": "{ tournament_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 502
   },
   {
     "methodName": "select",
@@ -2001,7 +2291,9 @@
         "text": "{ tournament_id: this.stage.tournamentId }",
         "type": "{ tournament_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 515
   },
   {
     "methodName": "select",
@@ -2015,7 +2307,9 @@
         "text": "{ tournament_id: this.stage.tournamentId }",
         "type": "{ tournament_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 525
   },
   {
     "methodName": "select",
@@ -2029,7 +2323,9 @@
         "text": "this.currentStageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 655
   },
   {
     "methodName": "select",
@@ -2043,7 +2339,9 @@
         "text": "{ tournament_id: this.stage.tournamentId }",
         "type": "{ tournament_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 753
   },
   {
     "methodName": "select",
@@ -2057,7 +2355,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 834
   },
   {
     "methodName": "select",
@@ -2071,7 +2371,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "getter.ts",
+    "lineNumber": 50
   },
   {
     "methodName": "select",
@@ -2085,7 +2387,9 @@
         "text": "roundId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "getter.ts",
+    "lineNumber": 70
   },
   {
     "methodName": "select",
@@ -2099,7 +2403,9 @@
         "text": "{ group_id: round.group_id }",
         "type": "{ group_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "getter.ts",
+    "lineNumber": 73
   },
   {
     "methodName": "select",
@@ -2113,7 +2419,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "getter.ts",
+    "lineNumber": 377
   },
   {
     "methodName": "select",
@@ -2127,7 +2435,9 @@
         "text": "{ round_id: firstRound.id }",
         "type": "{ round_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "getter.ts",
+    "lineNumber": 380
   },
   {
     "methodName": "select",
@@ -2141,7 +2451,9 @@
         "text": "game.id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "getter.ts",
+    "lineNumber": 499
   },
   {
     "methodName": "select",
@@ -2155,7 +2467,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 14
   },
   {
     "methodName": "select",
@@ -2169,7 +2483,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 17
   },
   {
     "methodName": "select",
@@ -2183,7 +2499,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 20
   },
   {
     "methodName": "select",
@@ -2197,7 +2515,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 23
   },
   {
     "methodName": "select",
@@ -2211,7 +2531,9 @@
         "text": "{ tournament_id: stage.tournament_id }",
         "type": "{ tournament_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 26
   },
   {
     "methodName": "select",
@@ -2225,7 +2547,9 @@
         "text": "{ parent_id: match.id }",
         "type": "{ parent_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 49
   },
   {
     "methodName": "select",
@@ -2239,7 +2563,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 61
   },
   {
     "methodName": "select",
@@ -2253,7 +2579,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 76
   },
   {
     "methodName": "select",
@@ -2267,7 +2595,9 @@
         "text": "{ stage_id: stage.id }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 100
   },
   {
     "methodName": "select",
@@ -2281,7 +2611,9 @@
         "text": "{ round_id: round.id }",
         "type": "{ round_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "get.ts",
+    "lineNumber": 127
   },
   {
     "methodName": "select",
@@ -2295,7 +2627,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 18
   },
   {
     "methodName": "select",
@@ -2309,7 +2643,9 @@
         "text": "parentId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 53
   },
   {
     "methodName": "select",
@@ -2323,7 +2659,9 @@
         "text": "{ parent_id: parentId }",
         "type": "{ parent_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 56
   },
   {
     "methodName": "select",
@@ -2337,7 +2675,9 @@
         "text": "storedParent.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 62
   },
   {
     "methodName": "select",
@@ -2351,7 +2691,9 @@
         "text": "match.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 102
   },
   {
     "methodName": "select",
@@ -2365,7 +2707,9 @@
         "text": "match.group_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 105
   },
   {
     "methodName": "select",
@@ -2379,7 +2723,9 @@
         "text": "stored.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 131
   },
   {
     "methodName": "select",
@@ -2393,7 +2739,9 @@
         "text": "match.id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 20
   },
   {
     "methodName": "select",
@@ -2407,7 +2755,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 54
   },
   {
     "methodName": "select",
@@ -2421,7 +2771,9 @@
         "text": "roundId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 74
   },
   {
     "methodName": "select",
@@ -2435,7 +2787,9 @@
         "text": "round.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 77
   },
   {
     "methodName": "select",
@@ -2449,7 +2803,9 @@
         "text": "id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 104
   },
   {
     "methodName": "select",
@@ -2463,7 +2819,9 @@
         "text": "{ round_id: round.id }",
         "type": "{ round_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 130
   },
   {
     "methodName": "select",
@@ -2477,7 +2835,9 @@
         "text": "round.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 136
   },
   {
     "methodName": "select",
@@ -2491,7 +2851,9 @@
         "text": "round.group_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 140
   },
   {
     "methodName": "select",
@@ -2505,7 +2867,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 161
   },
   {
     "methodName": "select",
@@ -2519,7 +2883,9 @@
         "text": "{ group_id: groupId }",
         "type": "{ group_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 178
   },
   {
     "methodName": "select",
@@ -2533,7 +2899,9 @@
         "text": "{ round_id: roundId }",
         "type": "{ round_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 195
   },
   {
     "methodName": "select",
@@ -2547,7 +2915,9 @@
         "text": "{ parent_id: match.id }",
         "type": "{ parent_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 230
   },
   {
     "methodName": "select",
@@ -2561,7 +2931,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 13
   },
   {
     "methodName": "select",
@@ -2575,7 +2947,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 33
   },
   {
     "methodName": "select",
@@ -2589,7 +2963,9 @@
         "text": "matchId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 56
   },
   {
     "methodName": "select",
@@ -2603,7 +2979,9 @@
         "text": "match.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 59
   },
   {
     "methodName": "select",
@@ -2617,7 +2995,9 @@
         "text": "match.group_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 62
   },
   {
     "methodName": "select",
@@ -2631,7 +3011,9 @@
         "text": "match.round_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 65
   },
   {
     "methodName": "select",
@@ -2645,7 +3027,9 @@
         "text": "matchId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 79
   },
   {
     "methodName": "select",
@@ -2659,7 +3043,9 @@
         "text": "match.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 82
   },
   {
     "methodName": "select",
@@ -2673,7 +3059,9 @@
         "text": "match.group_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "find.ts",
+    "lineNumber": 85
   },
   {
     "methodName": "select",
@@ -2687,7 +3075,9 @@
         "text": "matchId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "reset.ts",
+    "lineNumber": 15
   },
   {
     "methodName": "select",
@@ -2701,7 +3091,9 @@
         "text": "stored.stage_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "reset.ts",
+    "lineNumber": 21
   },
   {
     "methodName": "select",
@@ -2715,7 +3107,9 @@
         "text": "stored.group_id",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "reset.ts",
+    "lineNumber": 24
   },
   {
     "methodName": "select",
@@ -2729,7 +3123,9 @@
         "text": "gameId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "reset.ts",
+    "lineNumber": 47
   },
   {
     "methodName": "select",
@@ -2743,7 +3139,9 @@
         "text": "filter",
         "type": "Partial<import(\"/home/corentin/brackets/brackets-manager.js/src/types\").DataTypes[T]>"
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 33
   },
   {
     "methodName": "select",
@@ -2757,7 +3155,9 @@
         "text": "filter",
         "type": "Partial<import(\"/home/corentin/brackets/brackets-manager.js/src/types\").DataTypes[T]>"
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 39
   },
   {
     "methodName": "select",
@@ -2767,7 +3167,9 @@
         "text": "'participant'",
         "type": "\"participant\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 104
   },
   {
     "methodName": "select",
@@ -2777,7 +3179,9 @@
         "text": "'stage'",
         "type": "\"stage\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 107
   },
   {
     "methodName": "select",
@@ -2787,7 +3191,9 @@
         "text": "'group'",
         "type": "\"group\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 110
   },
   {
     "methodName": "select",
@@ -2797,7 +3203,9 @@
         "text": "'round'",
         "type": "\"round\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 113
   },
   {
     "methodName": "select",
@@ -2807,7 +3215,9 @@
         "text": "'match'",
         "type": "\"match\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 116
   },
   {
     "methodName": "select",
@@ -2821,7 +3231,9 @@
         "text": "{ tournament_id: this.stage.tournamentId }",
         "type": "{ tournament_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 502
   },
   {
     "methodName": "select",
@@ -2835,7 +3247,9 @@
         "text": "{ tournament_id: this.stage.tournamentId }",
         "type": "{ tournament_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 515
   },
   {
     "methodName": "select",
@@ -2849,7 +3263,9 @@
         "text": "{ tournament_id: this.stage.tournamentId }",
         "type": "{ tournament_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 525
   },
   {
     "methodName": "select",
@@ -2863,7 +3279,9 @@
         "text": "this.currentStageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 655
   },
   {
     "methodName": "select",
@@ -2877,7 +3295,9 @@
         "text": "{ tournament_id: this.stage.tournamentId }",
         "type": "{ tournament_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 753
   },
   {
     "methodName": "select",
@@ -2891,7 +3311,9 @@
         "text": "stageId",
         "type": "number"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 834
   },
   {
     "methodName": "update",
@@ -2909,7 +3331,9 @@
         "text": "match",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 144
   },
   {
     "methodName": "update",
@@ -2927,7 +3351,9 @@
         "text": "updatedMatchGame",
         "type": "Partial<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame>"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 159
   },
   {
     "methodName": "update",
@@ -2945,7 +3371,9 @@
         "text": "stored",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 41
   },
   {
     "methodName": "update",
@@ -2963,7 +3391,9 @@
         "text": "{ child_count: childCount }",
         "type": "{ child_count: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 158
   },
   {
     "methodName": "update",
@@ -2981,7 +3411,9 @@
         "text": "{ child_count: childCount }",
         "type": "{ child_count: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 175
   },
   {
     "methodName": "update",
@@ -2999,7 +3431,9 @@
         "text": "{ child_count: childCount }",
         "type": "{ child_count: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 192
   },
   {
     "methodName": "update",
@@ -3017,7 +3451,9 @@
         "text": "updated",
         "type": "{ id: number; stage_id: number; group_id: number; round_id: number; number: number; child_count: number; status: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").Status; opponent1: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; opponent2: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 218
   },
   {
     "methodName": "update",
@@ -3035,7 +3471,9 @@
         "text": "{ ...match, child_count: targetChildCount }",
         "type": "{ child_count: number; id: number; stage_id: number; group_id: number; round_id: number; number: number; status: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").Status; opponent1: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; opponent2: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 261
   },
   {
     "methodName": "update",
@@ -3053,7 +3491,9 @@
         "text": "stored",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame"
       }
-    ]
+    ],
+    "sourceFile": "reset.ts",
+    "lineNumber": 52
   },
   {
     "methodName": "update",
@@ -3071,7 +3511,9 @@
         "text": "updated",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 716
   },
   {
     "methodName": "update",
@@ -3089,7 +3531,9 @@
         "text": "updated",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 741
   },
   {
     "methodName": "update",
@@ -3107,7 +3551,9 @@
         "text": "stage",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 842
   },
   {
     "methodName": "update",
@@ -3125,7 +3571,9 @@
         "text": "match",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 144
   },
   {
     "methodName": "update",
@@ -3143,7 +3591,9 @@
         "text": "updatedMatchGame",
         "type": "Partial<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame>"
       }
-    ]
+    ],
+    "sourceFile": "updater.ts",
+    "lineNumber": 159
   },
   {
     "methodName": "update",
@@ -3161,7 +3611,9 @@
         "text": "stored",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 41
   },
   {
     "methodName": "update",
@@ -3179,7 +3631,9 @@
         "text": "{ child_count: childCount }",
         "type": "{ child_count: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 158
   },
   {
     "methodName": "update",
@@ -3197,7 +3651,9 @@
         "text": "{ child_count: childCount }",
         "type": "{ child_count: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 175
   },
   {
     "methodName": "update",
@@ -3215,7 +3671,9 @@
         "text": "{ child_count: childCount }",
         "type": "{ child_count: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 192
   },
   {
     "methodName": "update",
@@ -3233,7 +3691,9 @@
         "text": "updated",
         "type": "{ id: number; stage_id: number; group_id: number; round_id: number; number: number; child_count: number; status: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").Status; opponent1: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; opponent2: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 218
   },
   {
     "methodName": "update",
@@ -3251,7 +3711,9 @@
         "text": "{ ...match, child_count: targetChildCount }",
         "type": "{ child_count: number; id: number; stage_id: number; group_id: number; round_id: number; number: number; status: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").Status; opponent1: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; opponent2: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 261
   },
   {
     "methodName": "update",
@@ -3269,7 +3731,9 @@
         "text": "stored",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame"
       }
-    ]
+    ],
+    "sourceFile": "reset.ts",
+    "lineNumber": 52
   },
   {
     "methodName": "update",
@@ -3287,7 +3751,9 @@
         "text": "updated",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 716
   },
   {
     "methodName": "update",
@@ -3305,7 +3771,9 @@
         "text": "updated",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 741
   },
   {
     "methodName": "update",
@@ -3323,7 +3791,9 @@
         "text": "stage",
         "type": "import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage"
       }
-    ]
+    ],
+    "sourceFile": "create.ts",
+    "lineNumber": 842
   },
   {
     "methodName": "delete",
@@ -3337,7 +3807,9 @@
         "text": "{\n                parent_id: match.id,\n                number: childCount,\n            }",
         "type": "{ parent_id: number; number: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 250
   },
   {
     "methodName": "delete",
@@ -3351,7 +3823,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "delete.ts",
+    "lineNumber": 24
   },
   {
     "methodName": "delete",
@@ -3365,7 +3839,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "delete.ts",
+    "lineNumber": 27
   },
   {
     "methodName": "delete",
@@ -3379,7 +3855,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "delete.ts",
+    "lineNumber": 30
   },
   {
     "methodName": "delete",
@@ -3393,7 +3871,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "delete.ts",
+    "lineNumber": 33
   },
   {
     "methodName": "delete",
@@ -3407,7 +3887,9 @@
         "text": "{ id: stageId }",
         "type": "{ id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "delete.ts",
+    "lineNumber": 36
   },
   {
     "methodName": "delete",
@@ -3417,7 +3899,9 @@
         "text": "'participant'",
         "type": "\"participant\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 69
   },
   {
     "methodName": "delete",
@@ -3427,7 +3911,9 @@
         "text": "'stage'",
         "type": "\"stage\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 74
   },
   {
     "methodName": "delete",
@@ -3437,7 +3923,9 @@
         "text": "'group'",
         "type": "\"group\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 79
   },
   {
     "methodName": "delete",
@@ -3447,7 +3935,9 @@
         "text": "'round'",
         "type": "\"round\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 84
   },
   {
     "methodName": "delete",
@@ -3457,7 +3947,9 @@
         "text": "'match'",
         "type": "\"match\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 89
   },
   {
     "methodName": "delete",
@@ -3467,7 +3959,9 @@
         "text": "'match_game'",
         "type": "\"match_game\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 94
   },
   {
     "methodName": "delete",
@@ -3481,7 +3975,9 @@
         "text": "{\n                parent_id: match.id,\n                number: childCount,\n            }",
         "type": "{ parent_id: number; number: number; }"
       }
-    ]
+    ],
+    "sourceFile": "update.ts",
+    "lineNumber": 250
   },
   {
     "methodName": "delete",
@@ -3495,7 +3991,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "delete.ts",
+    "lineNumber": 24
   },
   {
     "methodName": "delete",
@@ -3509,7 +4007,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "delete.ts",
+    "lineNumber": 27
   },
   {
     "methodName": "delete",
@@ -3523,7 +4023,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "delete.ts",
+    "lineNumber": 30
   },
   {
     "methodName": "delete",
@@ -3537,7 +4039,9 @@
         "text": "{ stage_id: stageId }",
         "type": "{ stage_id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "delete.ts",
+    "lineNumber": 33
   },
   {
     "methodName": "delete",
@@ -3551,7 +4055,9 @@
         "text": "{ id: stageId }",
         "type": "{ id: number; }"
       }
-    ]
+    ],
+    "sourceFile": "delete.ts",
+    "lineNumber": 36
   },
   {
     "methodName": "delete",
@@ -3561,7 +4067,9 @@
         "text": "'participant'",
         "type": "\"participant\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 69
   },
   {
     "methodName": "delete",
@@ -3571,7 +4079,9 @@
         "text": "'stage'",
         "type": "\"stage\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 74
   },
   {
     "methodName": "delete",
@@ -3581,7 +4091,9 @@
         "text": "'group'",
         "type": "\"group\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 79
   },
   {
     "methodName": "delete",
@@ -3591,7 +4103,9 @@
         "text": "'round'",
         "type": "\"round\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 84
   },
   {
     "methodName": "delete",
@@ -3601,7 +4115,9 @@
         "text": "'match'",
         "type": "\"match\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 89
   },
   {
     "methodName": "delete",
@@ -3611,6 +4127,8 @@
         "text": "'match_game'",
         "type": "\"match_game\""
       }
-    ]
+    ],
+    "sourceFile": "manager.ts",
+    "lineNumber": 94
   }
 ]

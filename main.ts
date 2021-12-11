@@ -10,6 +10,8 @@ interface FoundCall {
   methodName: string;
   arguments: FoundCallArgument[];
   returnType: string;
+  sourceFile: string;
+  lineNumber: number;
 }
 
 function getStorageCalls(tsConfigFilePath: string): void {
@@ -46,6 +48,8 @@ function getStorageCalls(tsConfigFilePath: string): void {
 
       const methodName = getMethodIndentifier(callExpression).getText();
       const returnType = callExpression.getReturnType().getText();
+      const sourceFile = callExpression.getSourceFile().getBaseName();
+      const lineNumber = callExpression.getStartLineNumber();
 
       const args: FoundCallArgument[] = callExpression
         .getArguments()
@@ -58,6 +62,8 @@ function getStorageCalls(tsConfigFilePath: string): void {
         methodName,
         returnType,
         arguments: args,
+        sourceFile,
+        lineNumber,
       });
     }
   }
@@ -68,8 +74,12 @@ function getStorageCalls(tsConfigFilePath: string): void {
 function getMethodIndentifier(
   callExpression: CallExpression<ts.CallExpression>
 ): Identifier {
-  const propertyAccess = callExpression.getFirstChildByKindOrThrow(SyntaxKind.PropertyAccessExpression);
-  const identifier = propertyAccess.getFirstChildByKindOrThrow(SyntaxKind.Identifier);
+  const propertyAccess = callExpression.getFirstChildByKindOrThrow(
+    SyntaxKind.PropertyAccessExpression
+  );
+  const identifier = propertyAccess.getFirstChildByKindOrThrow(
+    SyntaxKind.Identifier
+  );
   return identifier;
 }
 
