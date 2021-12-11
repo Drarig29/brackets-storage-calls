@@ -1,14 +1,16 @@
 import { writeFileSync } from 'fs';
 import { exportToMarkdown } from './markdown';
+import { FoundCall, FoundCallArgument } from './types';
 import {
   CallExpression,
   Identifier,
+  Node,
   Project,
   SyntaxKind,
   ts,
   Type,
+  TypeFormatFlags,
 } from 'ts-morph';
-import { FoundCall, FoundCallArgument } from './types';
 
 function getStorageCalls(tsConfigFilePath: string): FoundCall[] {
   const project = new Project({
@@ -43,22 +45,27 @@ function getStorageCalls(tsConfigFilePath: string): FoundCall[] {
       if (!callExpression) continue;
 
       const methodName = getMethodIndentifier(callExpression).getText();
-      const returnType = serializeType(callExpression.getReturnType());
-      const sourceFile = callExpression.getSourceFile().getBaseName();
+      const returnType = serializeType(
+        callExpression,
+        callExpression.getReturnType()
+      );
       const lineNumber = callExpression.getStartLineNumber();
 
       const args: FoundCallArgument[] = callExpression
         .getArguments()
         .map((arg) => ({
           text: arg.getText(),
-          type: serializeType(arg.getType()),
+          type: serializeType(arg, arg.getType()),
         }));
 
       results.push({
         methodName,
         returnType,
         arguments: args,
-        sourceFile,
+        sourceFile: {
+          baseName: callExpression.getSourceFile().getBaseName(),
+          fullPath: callExpression.getSourceFile().getFilePath(),
+        },
         lineNumber,
       });
     }
@@ -79,8 +86,10 @@ function getMethodIndentifier(
   return identifier;
 }
 
-function serializeType(type: Type) {
-  return type.getText().replace(/import\([^)]+\)\./g, '');
+function serializeType(enclosingNode: Node<ts.Node>, type: Type) {
+  return type
+    .getText(enclosingNode, TypeFormatFlags.MultilineObjectLiterals)
+    .replace(/import\([^)]+\)\./g, '');
 }
 
 const calls = getStorageCalls(process.argv[2]);

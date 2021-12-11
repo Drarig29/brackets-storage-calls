@@ -9,10 +9,13 @@
       },
       {
         "text": "{\n                number: childCount + 1,\n                stage_id: match.stage_id,\n                parent_id: match.id,\n                status: match.status,\n                opponent1: { id: null },\n                opponent2: { id: null },\n            }",
-        "type": "{ number: number; stage_id: number; parent_id: number; status: Status; opponent1: { id: null; }; opponent2: { id: null; }; }"
+        "type": "{    number: number;    stage_id: number;    parent_id: number;    status: Status;    opponent1: {        id: null;    };    opponent2: {        id: null;    };}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 234
   },
   {
@@ -28,7 +31,10 @@
         "type": "Participant[]"
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 71
   },
   {
@@ -44,7 +50,10 @@
         "type": "Stage[]"
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 76
   },
   {
@@ -60,7 +69,10 @@
         "type": "Group[]"
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 81
   },
   {
@@ -76,7 +88,10 @@
         "type": "Round[]"
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 86
   },
   {
@@ -92,7 +107,10 @@
         "type": "Match[]"
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 91
   },
   {
@@ -108,7 +126,10 @@
         "type": "MatchGame[]"
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 96
   },
   {
@@ -124,7 +145,10 @@
         "type": "OmitId<Stage>"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 658
   },
   {
@@ -140,7 +164,10 @@
         "type": "OmitId<Group>"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 679
   },
   {
@@ -156,7 +183,10 @@
         "type": "OmitId<Round>"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 700
   },
   {
@@ -172,7 +202,10 @@
         "type": "OmitId<Match>"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 713
   },
   {
@@ -188,7 +221,10 @@
         "type": "OmitId<MatchGame>"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 738
   },
   {
@@ -204,7 +240,10 @@
         "type": "OmitId<Participant>[]"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 757
   },
   {
@@ -220,7 +259,10 @@
         "type": "OmitId<Participant>"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 764
   },
   {
@@ -233,10 +275,13 @@
       },
       {
         "text": "{\n                number: childCount + 1,\n                stage_id: match.stage_id,\n                parent_id: match.id,\n                status: match.status,\n                opponent1: { id: null },\n                opponent2: { id: null },\n            }",
-        "type": "{ number: number; stage_id: number; parent_id: number; status: Status; opponent1: { id: null; }; opponent2: { id: null; }; }"
+        "type": "{    number: number;    stage_id: number;    parent_id: number;    status: Status;    opponent1: {        id: null;    };    opponent2: {        id: null;    };}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 234
   },
   {
@@ -252,7 +297,10 @@
         "type": "Participant[]"
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 71
   },
   {
@@ -268,7 +316,10 @@
         "type": "Stage[]"
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 76
   },
   {
@@ -284,7 +335,10 @@
         "type": "Group[]"
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 81
   },
   {
@@ -300,7 +354,10 @@
         "type": "Round[]"
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 86
   },
   {
@@ -316,7 +373,10 @@
         "type": "Match[]"
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 91
   },
   {
@@ -332,7 +392,10 @@
         "type": "MatchGame[]"
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 96
   },
   {
@@ -348,7 +411,10 @@
         "type": "OmitId<Stage>"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 658
   },
   {
@@ -364,7 +430,10 @@
         "type": "OmitId<Group>"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 679
   },
   {
@@ -380,7 +449,10 @@
         "type": "OmitId<Round>"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 700
   },
   {
@@ -396,7 +468,10 @@
         "type": "OmitId<Match>"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 713
   },
   {
@@ -412,7 +487,10 @@
         "type": "OmitId<MatchGame>"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 738
   },
   {
@@ -428,7 +506,10 @@
         "type": "OmitId<Participant>[]"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 757
   },
   {
@@ -444,7 +525,10 @@
         "type": "OmitId<Participant>"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 764
   },
   {
@@ -457,10 +541,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "getter.ts",
+    "sourceFile": {
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
+    },
     "lineNumber": 50
   },
   {
@@ -476,7 +563,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "getter.ts",
+    "sourceFile": {
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
+    },
     "lineNumber": 70
   },
   {
@@ -489,10 +579,13 @@
       },
       {
         "text": "{ group_id: round.group_id }",
-        "type": "{ group_id: number; }"
+        "type": "{    group_id: number;}"
       }
     ],
-    "sourceFile": "getter.ts",
+    "sourceFile": {
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
+    },
     "lineNumber": 73
   },
   {
@@ -505,10 +598,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "getter.ts",
+    "sourceFile": {
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
+    },
     "lineNumber": 377
   },
   {
@@ -521,10 +617,13 @@
       },
       {
         "text": "{ round_id: firstRound.id }",
-        "type": "{ round_id: number; }"
+        "type": "{    round_id: number;}"
       }
     ],
-    "sourceFile": "getter.ts",
+    "sourceFile": {
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
+    },
     "lineNumber": 380
   },
   {
@@ -540,7 +639,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "getter.ts",
+    "sourceFile": {
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
+    },
     "lineNumber": 499
   },
   {
@@ -556,7 +658,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 14
   },
   {
@@ -569,10 +674,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 17
   },
   {
@@ -585,10 +693,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 20
   },
   {
@@ -601,10 +712,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 23
   },
   {
@@ -617,10 +731,13 @@
       },
       {
         "text": "{ tournament_id: stage.tournament_id }",
-        "type": "{ tournament_id: number; }"
+        "type": "{    tournament_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 26
   },
   {
@@ -633,10 +750,13 @@
       },
       {
         "text": "{ parent_id: match.id }",
-        "type": "{ parent_id: number; }"
+        "type": "{    parent_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 49
   },
   {
@@ -652,7 +772,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 61
   },
   {
@@ -668,7 +791,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 76
   },
   {
@@ -681,10 +807,13 @@
       },
       {
         "text": "{ stage_id: stage.id }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 100
   },
   {
@@ -697,10 +826,13 @@
       },
       {
         "text": "{ round_id: round.id }",
-        "type": "{ round_id: number; }"
+        "type": "{    round_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 127
   },
   {
@@ -716,7 +848,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 18
   },
   {
@@ -732,7 +867,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 53
   },
   {
@@ -745,10 +883,13 @@
       },
       {
         "text": "{ parent_id: parentId }",
-        "type": "{ parent_id: number; }"
+        "type": "{    parent_id: number;}"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 56
   },
   {
@@ -764,7 +905,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 62
   },
   {
@@ -780,7 +924,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 102
   },
   {
@@ -796,7 +943,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 105
   },
   {
@@ -812,7 +962,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 131
   },
   {
@@ -828,7 +981,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 20
   },
   {
@@ -844,7 +1000,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 54
   },
   {
@@ -860,7 +1019,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 74
   },
   {
@@ -876,7 +1038,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 77
   },
   {
@@ -892,7 +1057,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 104
   },
   {
@@ -905,10 +1073,13 @@
       },
       {
         "text": "{ round_id: round.id }",
-        "type": "{ round_id: number; }"
+        "type": "{    round_id: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 130
   },
   {
@@ -924,7 +1095,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 136
   },
   {
@@ -940,7 +1114,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 140
   },
   {
@@ -953,10 +1130,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 161
   },
   {
@@ -969,10 +1149,13 @@
       },
       {
         "text": "{ group_id: groupId }",
-        "type": "{ group_id: number; }"
+        "type": "{    group_id: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 178
   },
   {
@@ -985,10 +1168,13 @@
       },
       {
         "text": "{ round_id: roundId }",
-        "type": "{ round_id: number; }"
+        "type": "{    round_id: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 195
   },
   {
@@ -1001,10 +1187,13 @@
       },
       {
         "text": "{ parent_id: match.id }",
-        "type": "{ parent_id: number; }"
+        "type": "{    parent_id: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 230
   },
   {
@@ -1020,7 +1209,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 13
   },
   {
@@ -1036,7 +1228,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 33
   },
   {
@@ -1052,7 +1247,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 56
   },
   {
@@ -1068,7 +1266,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 59
   },
   {
@@ -1084,7 +1285,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 62
   },
   {
@@ -1100,7 +1304,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 65
   },
   {
@@ -1116,7 +1323,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 79
   },
   {
@@ -1132,7 +1342,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 82
   },
   {
@@ -1148,7 +1361,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 85
   },
   {
@@ -1164,7 +1380,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "reset.ts",
+    "sourceFile": {
+      "baseName": "reset.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
+    },
     "lineNumber": 15
   },
   {
@@ -1180,7 +1399,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "reset.ts",
+    "sourceFile": {
+      "baseName": "reset.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
+    },
     "lineNumber": 21
   },
   {
@@ -1196,7 +1418,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "reset.ts",
+    "sourceFile": {
+      "baseName": "reset.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
+    },
     "lineNumber": 24
   },
   {
@@ -1212,7 +1437,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "reset.ts",
+    "sourceFile": {
+      "baseName": "reset.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
+    },
     "lineNumber": 47
   },
   {
@@ -1228,7 +1456,10 @@
         "type": "Partial<DataTypes[T]>"
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 33
   },
   {
@@ -1244,7 +1475,10 @@
         "type": "Partial<DataTypes[T]>"
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 39
   },
   {
@@ -1256,7 +1490,10 @@
         "type": "\"participant\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 104
   },
   {
@@ -1268,7 +1505,10 @@
         "type": "\"stage\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 107
   },
   {
@@ -1280,7 +1520,10 @@
         "type": "\"group\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 110
   },
   {
@@ -1292,7 +1535,10 @@
         "type": "\"round\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 113
   },
   {
@@ -1304,7 +1550,10 @@
         "type": "\"match\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 116
   },
   {
@@ -1317,10 +1566,13 @@
       },
       {
         "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{ tournament_id: number; }"
+        "type": "{    tournament_id: number;}"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 502
   },
   {
@@ -1333,10 +1585,13 @@
       },
       {
         "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{ tournament_id: number; }"
+        "type": "{    tournament_id: number;}"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 515
   },
   {
@@ -1349,10 +1604,13 @@
       },
       {
         "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{ tournament_id: number; }"
+        "type": "{    tournament_id: number;}"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 525
   },
   {
@@ -1368,7 +1626,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 655
   },
   {
@@ -1381,10 +1642,13 @@
       },
       {
         "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{ tournament_id: number; }"
+        "type": "{    tournament_id: number;}"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 753
   },
   {
@@ -1400,7 +1664,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 834
   },
   {
@@ -1413,10 +1680,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "getter.ts",
+    "sourceFile": {
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
+    },
     "lineNumber": 50
   },
   {
@@ -1432,7 +1702,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "getter.ts",
+    "sourceFile": {
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
+    },
     "lineNumber": 70
   },
   {
@@ -1445,10 +1718,13 @@
       },
       {
         "text": "{ group_id: round.group_id }",
-        "type": "{ group_id: number; }"
+        "type": "{    group_id: number;}"
       }
     ],
-    "sourceFile": "getter.ts",
+    "sourceFile": {
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
+    },
     "lineNumber": 73
   },
   {
@@ -1461,10 +1737,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "getter.ts",
+    "sourceFile": {
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
+    },
     "lineNumber": 377
   },
   {
@@ -1477,10 +1756,13 @@
       },
       {
         "text": "{ round_id: firstRound.id }",
-        "type": "{ round_id: number; }"
+        "type": "{    round_id: number;}"
       }
     ],
-    "sourceFile": "getter.ts",
+    "sourceFile": {
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
+    },
     "lineNumber": 380
   },
   {
@@ -1496,7 +1778,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "getter.ts",
+    "sourceFile": {
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
+    },
     "lineNumber": 499
   },
   {
@@ -1512,7 +1797,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 14
   },
   {
@@ -1525,10 +1813,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 17
   },
   {
@@ -1541,10 +1832,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 20
   },
   {
@@ -1557,10 +1851,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 23
   },
   {
@@ -1573,10 +1870,13 @@
       },
       {
         "text": "{ tournament_id: stage.tournament_id }",
-        "type": "{ tournament_id: number; }"
+        "type": "{    tournament_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 26
   },
   {
@@ -1589,10 +1889,13 @@
       },
       {
         "text": "{ parent_id: match.id }",
-        "type": "{ parent_id: number; }"
+        "type": "{    parent_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 49
   },
   {
@@ -1608,7 +1911,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 61
   },
   {
@@ -1624,7 +1930,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 76
   },
   {
@@ -1637,10 +1946,13 @@
       },
       {
         "text": "{ stage_id: stage.id }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 100
   },
   {
@@ -1653,10 +1965,13 @@
       },
       {
         "text": "{ round_id: round.id }",
-        "type": "{ round_id: number; }"
+        "type": "{    round_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 127
   },
   {
@@ -1672,7 +1987,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 18
   },
   {
@@ -1688,7 +2006,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 53
   },
   {
@@ -1701,10 +2022,13 @@
       },
       {
         "text": "{ parent_id: parentId }",
-        "type": "{ parent_id: number; }"
+        "type": "{    parent_id: number;}"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 56
   },
   {
@@ -1720,7 +2044,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 62
   },
   {
@@ -1736,7 +2063,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 102
   },
   {
@@ -1752,7 +2082,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 105
   },
   {
@@ -1768,7 +2101,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 131
   },
   {
@@ -1784,7 +2120,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 20
   },
   {
@@ -1800,7 +2139,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 54
   },
   {
@@ -1816,7 +2158,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 74
   },
   {
@@ -1832,7 +2177,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 77
   },
   {
@@ -1848,7 +2196,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 104
   },
   {
@@ -1861,10 +2212,13 @@
       },
       {
         "text": "{ round_id: round.id }",
-        "type": "{ round_id: number; }"
+        "type": "{    round_id: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 130
   },
   {
@@ -1880,7 +2234,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 136
   },
   {
@@ -1896,7 +2253,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 140
   },
   {
@@ -1909,10 +2269,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 161
   },
   {
@@ -1925,10 +2288,13 @@
       },
       {
         "text": "{ group_id: groupId }",
-        "type": "{ group_id: number; }"
+        "type": "{    group_id: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 178
   },
   {
@@ -1941,10 +2307,13 @@
       },
       {
         "text": "{ round_id: roundId }",
-        "type": "{ round_id: number; }"
+        "type": "{    round_id: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 195
   },
   {
@@ -1957,10 +2326,13 @@
       },
       {
         "text": "{ parent_id: match.id }",
-        "type": "{ parent_id: number; }"
+        "type": "{    parent_id: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 230
   },
   {
@@ -1976,7 +2348,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 13
   },
   {
@@ -1992,7 +2367,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 33
   },
   {
@@ -2008,7 +2386,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 56
   },
   {
@@ -2024,7 +2405,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 59
   },
   {
@@ -2040,7 +2424,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 62
   },
   {
@@ -2056,7 +2443,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 65
   },
   {
@@ -2072,7 +2462,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 79
   },
   {
@@ -2088,7 +2481,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 82
   },
   {
@@ -2104,7 +2500,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 85
   },
   {
@@ -2120,7 +2519,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "reset.ts",
+    "sourceFile": {
+      "baseName": "reset.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
+    },
     "lineNumber": 15
   },
   {
@@ -2136,7 +2538,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "reset.ts",
+    "sourceFile": {
+      "baseName": "reset.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
+    },
     "lineNumber": 21
   },
   {
@@ -2152,7 +2557,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "reset.ts",
+    "sourceFile": {
+      "baseName": "reset.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
+    },
     "lineNumber": 24
   },
   {
@@ -2168,7 +2576,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "reset.ts",
+    "sourceFile": {
+      "baseName": "reset.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
+    },
     "lineNumber": 47
   },
   {
@@ -2184,7 +2595,10 @@
         "type": "Partial<DataTypes[T]>"
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 33
   },
   {
@@ -2200,7 +2614,10 @@
         "type": "Partial<DataTypes[T]>"
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 39
   },
   {
@@ -2212,7 +2629,10 @@
         "type": "\"participant\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 104
   },
   {
@@ -2224,7 +2644,10 @@
         "type": "\"stage\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 107
   },
   {
@@ -2236,7 +2659,10 @@
         "type": "\"group\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 110
   },
   {
@@ -2248,7 +2674,10 @@
         "type": "\"round\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 113
   },
   {
@@ -2260,7 +2689,10 @@
         "type": "\"match\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 116
   },
   {
@@ -2273,10 +2705,13 @@
       },
       {
         "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{ tournament_id: number; }"
+        "type": "{    tournament_id: number;}"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 502
   },
   {
@@ -2289,10 +2724,13 @@
       },
       {
         "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{ tournament_id: number; }"
+        "type": "{    tournament_id: number;}"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 515
   },
   {
@@ -2305,10 +2743,13 @@
       },
       {
         "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{ tournament_id: number; }"
+        "type": "{    tournament_id: number;}"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 525
   },
   {
@@ -2324,7 +2765,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 655
   },
   {
@@ -2337,10 +2781,13 @@
       },
       {
         "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{ tournament_id: number; }"
+        "type": "{    tournament_id: number;}"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 753
   },
   {
@@ -2356,7 +2803,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 834
   },
   {
@@ -2369,10 +2819,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "getter.ts",
+    "sourceFile": {
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
+    },
     "lineNumber": 50
   },
   {
@@ -2388,7 +2841,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "getter.ts",
+    "sourceFile": {
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
+    },
     "lineNumber": 70
   },
   {
@@ -2401,10 +2857,13 @@
       },
       {
         "text": "{ group_id: round.group_id }",
-        "type": "{ group_id: number; }"
+        "type": "{    group_id: number;}"
       }
     ],
-    "sourceFile": "getter.ts",
+    "sourceFile": {
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
+    },
     "lineNumber": 73
   },
   {
@@ -2417,10 +2876,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "getter.ts",
+    "sourceFile": {
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
+    },
     "lineNumber": 377
   },
   {
@@ -2433,10 +2895,13 @@
       },
       {
         "text": "{ round_id: firstRound.id }",
-        "type": "{ round_id: number; }"
+        "type": "{    round_id: number;}"
       }
     ],
-    "sourceFile": "getter.ts",
+    "sourceFile": {
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
+    },
     "lineNumber": 380
   },
   {
@@ -2452,7 +2917,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "getter.ts",
+    "sourceFile": {
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
+    },
     "lineNumber": 499
   },
   {
@@ -2468,7 +2936,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 14
   },
   {
@@ -2481,10 +2952,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 17
   },
   {
@@ -2497,10 +2971,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 20
   },
   {
@@ -2513,10 +2990,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 23
   },
   {
@@ -2529,10 +3009,13 @@
       },
       {
         "text": "{ tournament_id: stage.tournament_id }",
-        "type": "{ tournament_id: number; }"
+        "type": "{    tournament_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 26
   },
   {
@@ -2545,10 +3028,13 @@
       },
       {
         "text": "{ parent_id: match.id }",
-        "type": "{ parent_id: number; }"
+        "type": "{    parent_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 49
   },
   {
@@ -2564,7 +3050,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 61
   },
   {
@@ -2580,7 +3069,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 76
   },
   {
@@ -2593,10 +3085,13 @@
       },
       {
         "text": "{ stage_id: stage.id }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 100
   },
   {
@@ -2609,10 +3104,13 @@
       },
       {
         "text": "{ round_id: round.id }",
-        "type": "{ round_id: number; }"
+        "type": "{    round_id: number;}"
       }
     ],
-    "sourceFile": "get.ts",
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
     "lineNumber": 127
   },
   {
@@ -2628,7 +3126,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 18
   },
   {
@@ -2644,7 +3145,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 53
   },
   {
@@ -2657,10 +3161,13 @@
       },
       {
         "text": "{ parent_id: parentId }",
-        "type": "{ parent_id: number; }"
+        "type": "{    parent_id: number;}"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 56
   },
   {
@@ -2676,7 +3183,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 62
   },
   {
@@ -2692,7 +3202,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 102
   },
   {
@@ -2708,7 +3221,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 105
   },
   {
@@ -2724,7 +3240,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 131
   },
   {
@@ -2740,7 +3259,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 20
   },
   {
@@ -2756,7 +3278,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 54
   },
   {
@@ -2772,7 +3297,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 74
   },
   {
@@ -2788,7 +3316,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 77
   },
   {
@@ -2804,7 +3335,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 104
   },
   {
@@ -2817,10 +3351,13 @@
       },
       {
         "text": "{ round_id: round.id }",
-        "type": "{ round_id: number; }"
+        "type": "{    round_id: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 130
   },
   {
@@ -2836,7 +3373,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 136
   },
   {
@@ -2852,7 +3392,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 140
   },
   {
@@ -2865,10 +3408,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 161
   },
   {
@@ -2881,10 +3427,13 @@
       },
       {
         "text": "{ group_id: groupId }",
-        "type": "{ group_id: number; }"
+        "type": "{    group_id: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 178
   },
   {
@@ -2897,10 +3446,13 @@
       },
       {
         "text": "{ round_id: roundId }",
-        "type": "{ round_id: number; }"
+        "type": "{    round_id: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 195
   },
   {
@@ -2913,10 +3465,13 @@
       },
       {
         "text": "{ parent_id: match.id }",
-        "type": "{ parent_id: number; }"
+        "type": "{    parent_id: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 230
   },
   {
@@ -2932,7 +3487,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 13
   },
   {
@@ -2948,7 +3506,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 33
   },
   {
@@ -2964,7 +3525,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 56
   },
   {
@@ -2980,7 +3544,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 59
   },
   {
@@ -2996,7 +3563,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 62
   },
   {
@@ -3012,7 +3582,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 65
   },
   {
@@ -3028,7 +3601,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 79
   },
   {
@@ -3044,7 +3620,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 82
   },
   {
@@ -3060,7 +3639,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "find.ts",
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
     "lineNumber": 85
   },
   {
@@ -3076,7 +3658,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "reset.ts",
+    "sourceFile": {
+      "baseName": "reset.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
+    },
     "lineNumber": 15
   },
   {
@@ -3092,7 +3677,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "reset.ts",
+    "sourceFile": {
+      "baseName": "reset.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
+    },
     "lineNumber": 21
   },
   {
@@ -3108,7 +3696,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "reset.ts",
+    "sourceFile": {
+      "baseName": "reset.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
+    },
     "lineNumber": 24
   },
   {
@@ -3124,7 +3715,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "reset.ts",
+    "sourceFile": {
+      "baseName": "reset.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
+    },
     "lineNumber": 47
   },
   {
@@ -3140,7 +3734,10 @@
         "type": "Partial<DataTypes[T]>"
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 33
   },
   {
@@ -3156,7 +3753,10 @@
         "type": "Partial<DataTypes[T]>"
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 39
   },
   {
@@ -3168,7 +3768,10 @@
         "type": "\"participant\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 104
   },
   {
@@ -3180,7 +3783,10 @@
         "type": "\"stage\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 107
   },
   {
@@ -3192,7 +3798,10 @@
         "type": "\"group\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 110
   },
   {
@@ -3204,7 +3813,10 @@
         "type": "\"round\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 113
   },
   {
@@ -3216,7 +3828,10 @@
         "type": "\"match\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 116
   },
   {
@@ -3229,10 +3844,13 @@
       },
       {
         "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{ tournament_id: number; }"
+        "type": "{    tournament_id: number;}"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 502
   },
   {
@@ -3245,10 +3863,13 @@
       },
       {
         "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{ tournament_id: number; }"
+        "type": "{    tournament_id: number;}"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 515
   },
   {
@@ -3261,10 +3882,13 @@
       },
       {
         "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{ tournament_id: number; }"
+        "type": "{    tournament_id: number;}"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 525
   },
   {
@@ -3280,7 +3904,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 655
   },
   {
@@ -3293,10 +3920,13 @@
       },
       {
         "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{ tournament_id: number; }"
+        "type": "{    tournament_id: number;}"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 753
   },
   {
@@ -3312,7 +3942,10 @@
         "type": "number"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 834
   },
   {
@@ -3332,7 +3965,10 @@
         "type": "Match"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 144
   },
   {
@@ -3345,14 +3981,17 @@
       },
       {
         "text": "{ parent_id: match.id }",
-        "type": "{ parent_id: number; }"
+        "type": "{    parent_id: number;}"
       },
       {
         "text": "updatedMatchGame",
         "type": "Partial<MatchGame>"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 159
   },
   {
@@ -3372,7 +4011,10 @@
         "type": "MatchGame"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 41
   },
   {
@@ -3385,14 +4027,17 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       },
       {
         "text": "{ child_count: childCount }",
-        "type": "{ child_count: number; }"
+        "type": "{    child_count: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 158
   },
   {
@@ -3405,14 +4050,17 @@
       },
       {
         "text": "{ group_id: groupId }",
-        "type": "{ group_id: number; }"
+        "type": "{    group_id: number;}"
       },
       {
         "text": "{ child_count: childCount }",
-        "type": "{ child_count: number; }"
+        "type": "{    child_count: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 175
   },
   {
@@ -3425,14 +4073,17 @@
       },
       {
         "text": "{ round_id: roundId }",
-        "type": "{ round_id: number; }"
+        "type": "{    round_id: number;}"
       },
       {
         "text": "{ child_count: childCount }",
-        "type": "{ child_count: number; }"
+        "type": "{    child_count: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 192
   },
   {
@@ -3449,10 +4100,13 @@
       },
       {
         "text": "updated",
-        "type": "{ id: number; stage_id: number; group_id: number; round_id: number; number: number; child_count: number; status: Status; opponent1: ParticipantResult | null; opponent2: ParticipantResult | null; }"
+        "type": "{    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    child_count: number;    status: Status;    opponent1: ParticipantResult | null;   ..."
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 218
   },
   {
@@ -3469,10 +4123,13 @@
       },
       {
         "text": "{ ...match, child_count: targetChildCount }",
-        "type": "{ child_count: number; id: number; stage_id: number; group_id: number; round_id: number; number: number; status: Status; opponent1: ParticipantResult | null; opponent2: ParticipantResult | null; }"
+        "type": "{    child_count: number;    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    status: Status;    opponent1: ParticipantResult | null;   ..."
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 261
   },
   {
@@ -3492,7 +4149,10 @@
         "type": "MatchGame"
       }
     ],
-    "sourceFile": "reset.ts",
+    "sourceFile": {
+      "baseName": "reset.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
+    },
     "lineNumber": 52
   },
   {
@@ -3512,7 +4172,10 @@
         "type": "Match"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 716
   },
   {
@@ -3532,7 +4195,10 @@
         "type": "MatchGame"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 741
   },
   {
@@ -3552,7 +4218,10 @@
         "type": "Stage"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 842
   },
   {
@@ -3572,7 +4241,10 @@
         "type": "Match"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 144
   },
   {
@@ -3585,14 +4257,17 @@
       },
       {
         "text": "{ parent_id: match.id }",
-        "type": "{ parent_id: number; }"
+        "type": "{    parent_id: number;}"
       },
       {
         "text": "updatedMatchGame",
         "type": "Partial<MatchGame>"
       }
     ],
-    "sourceFile": "updater.ts",
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
     "lineNumber": 159
   },
   {
@@ -3612,7 +4287,10 @@
         "type": "MatchGame"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 41
   },
   {
@@ -3625,14 +4303,17 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       },
       {
         "text": "{ child_count: childCount }",
-        "type": "{ child_count: number; }"
+        "type": "{    child_count: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 158
   },
   {
@@ -3645,14 +4326,17 @@
       },
       {
         "text": "{ group_id: groupId }",
-        "type": "{ group_id: number; }"
+        "type": "{    group_id: number;}"
       },
       {
         "text": "{ child_count: childCount }",
-        "type": "{ child_count: number; }"
+        "type": "{    child_count: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 175
   },
   {
@@ -3665,14 +4349,17 @@
       },
       {
         "text": "{ round_id: roundId }",
-        "type": "{ round_id: number; }"
+        "type": "{    round_id: number;}"
       },
       {
         "text": "{ child_count: childCount }",
-        "type": "{ child_count: number; }"
+        "type": "{    child_count: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 192
   },
   {
@@ -3689,10 +4376,13 @@
       },
       {
         "text": "updated",
-        "type": "{ id: number; stage_id: number; group_id: number; round_id: number; number: number; child_count: number; status: Status; opponent1: ParticipantResult | null; opponent2: ParticipantResult | null; }"
+        "type": "{    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    child_count: number;    status: Status;    opponent1: ParticipantResult | null;   ..."
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 218
   },
   {
@@ -3709,10 +4399,13 @@
       },
       {
         "text": "{ ...match, child_count: targetChildCount }",
-        "type": "{ child_count: number; id: number; stage_id: number; group_id: number; round_id: number; number: number; status: Status; opponent1: ParticipantResult | null; opponent2: ParticipantResult | null; }"
+        "type": "{    child_count: number;    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    status: Status;    opponent1: ParticipantResult | null;   ..."
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 261
   },
   {
@@ -3732,7 +4425,10 @@
         "type": "MatchGame"
       }
     ],
-    "sourceFile": "reset.ts",
+    "sourceFile": {
+      "baseName": "reset.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
+    },
     "lineNumber": 52
   },
   {
@@ -3752,7 +4448,10 @@
         "type": "Match"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 716
   },
   {
@@ -3772,7 +4471,10 @@
         "type": "MatchGame"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 741
   },
   {
@@ -3792,7 +4494,10 @@
         "type": "Stage"
       }
     ],
-    "sourceFile": "create.ts",
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
     "lineNumber": 842
   },
   {
@@ -3805,10 +4510,13 @@
       },
       {
         "text": "{\n                parent_id: match.id,\n                number: childCount,\n            }",
-        "type": "{ parent_id: number; number: number; }"
+        "type": "{    parent_id: number;    number: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 250
   },
   {
@@ -3821,10 +4529,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "delete.ts",
+    "sourceFile": {
+      "baseName": "delete.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/delete.ts"
+    },
     "lineNumber": 24
   },
   {
@@ -3837,10 +4548,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "delete.ts",
+    "sourceFile": {
+      "baseName": "delete.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/delete.ts"
+    },
     "lineNumber": 27
   },
   {
@@ -3853,10 +4567,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "delete.ts",
+    "sourceFile": {
+      "baseName": "delete.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/delete.ts"
+    },
     "lineNumber": 30
   },
   {
@@ -3869,10 +4586,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "delete.ts",
+    "sourceFile": {
+      "baseName": "delete.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/delete.ts"
+    },
     "lineNumber": 33
   },
   {
@@ -3885,10 +4605,13 @@
       },
       {
         "text": "{ id: stageId }",
-        "type": "{ id: number; }"
+        "type": "{    id: number;}"
       }
     ],
-    "sourceFile": "delete.ts",
+    "sourceFile": {
+      "baseName": "delete.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/delete.ts"
+    },
     "lineNumber": 36
   },
   {
@@ -3900,7 +4623,10 @@
         "type": "\"participant\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 69
   },
   {
@@ -3912,7 +4638,10 @@
         "type": "\"stage\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 74
   },
   {
@@ -3924,7 +4653,10 @@
         "type": "\"group\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 79
   },
   {
@@ -3936,7 +4668,10 @@
         "type": "\"round\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 84
   },
   {
@@ -3948,7 +4683,10 @@
         "type": "\"match\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 89
   },
   {
@@ -3960,7 +4698,10 @@
         "type": "\"match_game\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 94
   },
   {
@@ -3973,10 +4714,13 @@
       },
       {
         "text": "{\n                parent_id: match.id,\n                number: childCount,\n            }",
-        "type": "{ parent_id: number; number: number; }"
+        "type": "{    parent_id: number;    number: number;}"
       }
     ],
-    "sourceFile": "update.ts",
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
     "lineNumber": 250
   },
   {
@@ -3989,10 +4733,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "delete.ts",
+    "sourceFile": {
+      "baseName": "delete.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/delete.ts"
+    },
     "lineNumber": 24
   },
   {
@@ -4005,10 +4752,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "delete.ts",
+    "sourceFile": {
+      "baseName": "delete.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/delete.ts"
+    },
     "lineNumber": 27
   },
   {
@@ -4021,10 +4771,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "delete.ts",
+    "sourceFile": {
+      "baseName": "delete.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/delete.ts"
+    },
     "lineNumber": 30
   },
   {
@@ -4037,10 +4790,13 @@
       },
       {
         "text": "{ stage_id: stageId }",
-        "type": "{ stage_id: number; }"
+        "type": "{    stage_id: number;}"
       }
     ],
-    "sourceFile": "delete.ts",
+    "sourceFile": {
+      "baseName": "delete.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/delete.ts"
+    },
     "lineNumber": 33
   },
   {
@@ -4053,10 +4809,13 @@
       },
       {
         "text": "{ id: stageId }",
-        "type": "{ id: number; }"
+        "type": "{    id: number;}"
       }
     ],
-    "sourceFile": "delete.ts",
+    "sourceFile": {
+      "baseName": "delete.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/delete.ts"
+    },
     "lineNumber": 36
   },
   {
@@ -4068,7 +4827,10 @@
         "type": "\"participant\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 69
   },
   {
@@ -4080,7 +4842,10 @@
         "type": "\"stage\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 74
   },
   {
@@ -4092,7 +4857,10 @@
         "type": "\"group\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 79
   },
   {
@@ -4104,7 +4872,10 @@
         "type": "\"round\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 84
   },
   {
@@ -4116,7 +4887,10 @@
         "type": "\"match\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 89
   },
   {
@@ -4128,7 +4902,10 @@
         "type": "\"match_game\""
       }
     ],
-    "sourceFile": "manager.ts",
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
     "lineNumber": 94
   }
 ]

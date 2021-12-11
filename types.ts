@@ -7,6 +7,9 @@ export interface FoundCall {
   methodName: string;
   arguments: FoundCallArgument[];
   returnType: string;
-  sourceFile: string;
+  sourceFile: {
+    fullPath: string;
+    baseName: string;
+  };
   lineNumber: number;
 }
