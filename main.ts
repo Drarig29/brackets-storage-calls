@@ -1,5 +1,5 @@
 import { writeFileSync } from 'fs';
-import { CallExpression, Identifier, Project, SyntaxKind, ts } from 'ts-morph';
+import { CallExpression, Identifier, Project, SyntaxKind, ts, Type } from 'ts-morph';
 
 interface FoundCallArgument {
   text: string;
@@ -47,7 +47,7 @@ function getStorageCalls(tsConfigFilePath: string): void {
       if (!callExpression) continue;
 
       const methodName = getMethodIndentifier(callExpression).getText();
-      const returnType = callExpression.getReturnType().getText();
+      const returnType = serializeType(callExpression.getReturnType());
       const sourceFile = callExpression.getSourceFile().getBaseName();
       const lineNumber = callExpression.getStartLineNumber();
 
@@ -55,7 +55,7 @@ function getStorageCalls(tsConfigFilePath: string): void {
         .getArguments()
         .map((arg) => ({
           text: arg.getText(),
-          type: arg.getType().getText(),
+          type: serializeType(arg.getType()),
         }));
 
       results.push({
@@ -81,6 +81,10 @@ function getMethodIndentifier(
     SyntaxKind.Identifier
   );
   return identifier;
+}
+
+function serializeType(type: Type) {
+  return type.getText().replace(/import\([^)]+\)\./, '');
 }
 
 getStorageCalls(process.argv[2]);
