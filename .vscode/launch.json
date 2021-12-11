@@ -18,7 +18,7 @@
             ],
             "program": "main.ts",
             "args": [
-                "../brackets-manager.js/src/index.ts"
+                "../brackets-manager.js/tsconfig.json"
             ]
         }
     ]
