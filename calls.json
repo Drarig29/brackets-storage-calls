@@ -121,7 +121,7 @@
       },
       {
         "text": "stage",
-        "type": "OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage>"
+        "type": "OmitId<Stage>"
       }
     ],
     "sourceFile": "create.ts",
@@ -137,7 +137,7 @@
       },
       {
         "text": "group",
-        "type": "OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group>"
+        "type": "OmitId<Group>"
       }
     ],
     "sourceFile": "create.ts",
@@ -153,7 +153,7 @@
       },
       {
         "text": "round",
-        "type": "OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round>"
+        "type": "OmitId<Round>"
       }
     ],
     "sourceFile": "create.ts",
@@ -169,7 +169,7 @@
       },
       {
         "text": "match",
-        "type": "OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match>"
+        "type": "OmitId<Match>"
       }
     ],
     "sourceFile": "create.ts",
@@ -185,7 +185,7 @@
       },
       {
         "text": "matchGame",
-        "type": "OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame>"
+        "type": "OmitId<MatchGame>"
       }
     ],
     "sourceFile": "create.ts",
@@ -201,7 +201,7 @@
       },
       {
         "text": "participants",
-        "type": "OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant>[]"
+        "type": "OmitId<Participant>[]"
       }
     ],
     "sourceFile": "create.ts",
@@ -217,7 +217,7 @@
       },
       {
         "text": "participant",
-        "type": "OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant>"
+        "type": "OmitId<Participant>"
       }
     ],
     "sourceFile": "create.ts",
@@ -345,7 +345,7 @@
       },
       {
         "text": "stage",
-        "type": "OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Stage>"
+        "type": "OmitId<Stage>"
       }
     ],
     "sourceFile": "create.ts",
@@ -361,7 +361,7 @@
       },
       {
         "text": "group",
-        "type": "OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Group>"
+        "type": "OmitId<Group>"
       }
     ],
     "sourceFile": "create.ts",
@@ -377,7 +377,7 @@
       },
       {
         "text": "round",
-        "type": "OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Round>"
+        "type": "OmitId<Round>"
       }
     ],
     "sourceFile": "create.ts",
@@ -393,7 +393,7 @@
       },
       {
         "text": "match",
-        "type": "OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Match>"
+        "type": "OmitId<Match>"
       }
     ],
     "sourceFile": "create.ts",
@@ -409,7 +409,7 @@
       },
       {
         "text": "matchGame",
-        "type": "OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").MatchGame>"
+        "type": "OmitId<MatchGame>"
       }
     ],
     "sourceFile": "create.ts",
@@ -425,7 +425,7 @@
       },
       {
         "text": "participants",
-        "type": "OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant>[]"
+        "type": "OmitId<Participant>[]"
       }
     ],
     "sourceFile": "create.ts",
@@ -441,7 +441,7 @@
       },
       {
         "text": "participant",
-        "type": "OmitId<import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/storage\").Participant>"
+        "type": "OmitId<Participant>"
       }
     ],
     "sourceFile": "create.ts",
@@ -3449,7 +3449,7 @@
       },
       {
         "text": "updated",
-        "type": "{ id: number; stage_id: number; group_id: number; round_id: number; number: number; child_count: number; status: Status; opponent1: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; opponent2: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; }"
+        "type": "{ id: number; stage_id: number; group_id: number; round_id: number; number: number; child_count: number; status: Status; opponent1: ParticipantResult | null; opponent2: ParticipantResult | null; }"
       }
     ],
     "sourceFile": "update.ts",
@@ -3469,7 +3469,7 @@
       },
       {
         "text": "{ ...match, child_count: targetChildCount }",
-        "type": "{ child_count: number; id: number; stage_id: number; group_id: number; round_id: number; number: number; status: Status; opponent1: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; opponent2: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; }"
+        "type": "{ child_count: number; id: number; stage_id: number; group_id: number; round_id: number; number: number; status: Status; opponent1: ParticipantResult | null; opponent2: ParticipantResult | null; }"
       }
     ],
     "sourceFile": "update.ts",
@@ -3689,7 +3689,7 @@
       },
       {
         "text": "updated",
-        "type": "{ id: number; stage_id: number; group_id: number; round_id: number; number: number; child_count: number; status: Status; opponent1: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; opponent2: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; }"
+        "type": "{ id: number; stage_id: number; group_id: number; round_id: number; number: number; child_count: number; status: Status; opponent1: ParticipantResult | null; opponent2: ParticipantResult | null; }"
       }
     ],
     "sourceFile": "update.ts",
@@ -3709,7 +3709,7 @@
       },
       {
         "text": "{ ...match, child_count: targetChildCount }",
-        "type": "{ child_count: number; id: number; stage_id: number; group_id: number; round_id: number; number: number; status: Status; opponent1: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; opponent2: import(\"/home/corentin/brackets/brackets-manager.js/node_modules/.pnpm/brackets-model@1.3.9/node_modules/brackets-model/dist/other\").ParticipantResult | null; }"
+        "type": "{ child_count: number; id: number; stage_id: number; group_id: number; round_id: number; number: number; status: Status; opponent1: ParticipantResult | null; opponent2: ParticipantResult | null; }"
       }
     ],
     "sourceFile": "update.ts",

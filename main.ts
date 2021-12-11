@@ -1,5 +1,13 @@
 import { writeFileSync } from 'fs';
-import { CallExpression, Identifier, Project, SyntaxKind, ts, Type } from 'ts-morph';
+import {
+  CallExpression,
+  Identifier,
+  Project,
+  SyntaxKind,
+  ts,
+  Type,
+  TypeFormatFlags,
+} from 'ts-morph';
 
 interface FoundCallArgument {
   text: string;
@@ -84,7 +92,7 @@ function getMethodIndentifier(
 }
 
 function serializeType(type: Type) {
-  return type.getText().replace(/import\([^)]+\)\./, '');
+  return type.getText().replace(/import\([^)]+\)\./g, '');
 }
 
 getStorageCalls(process.argv[2]);
