@@ -3,6 +3,7 @@ import { exportToMarkdown } from './markdown';
 import { FoundCall, FoundCallArgument } from './types';
 import {
   CallExpression,
+  Identifier,
   Node,
   Project,
   SyntaxKind,
@@ -38,6 +39,12 @@ function getStorageCalls(tsConfigFilePath: string): FoundCall[] {
       .filter(node => node.getSourceFile().getBaseName() !== 'types.ts');
 
     for (const reference of references) {
+      const originalDefinitionBody = method.getFullText();
+      const definitionBodyFromReference = (reference as Identifier).getDefinitionNodes()[0].getFullText();
+      if (originalDefinitionBody !== definitionBodyFromReference) {
+        continue; // Verify that this reference is a reference of the current `method` overload.
+      }
+
       const callExpression = reference.getFirstAncestorByKind(
         SyntaxKind.CallExpression
       );

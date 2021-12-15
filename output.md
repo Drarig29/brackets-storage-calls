@@ -1,25 +1,3 @@
-`insert('stage'): Promise<number>` [create.ts:658]
-
-### Argument 1
-
-- Name
-
-values
-
-- Type
-
-```ts
-OmitId<Stage>
-```
-
-- Usage
-
-```js
-stage
-```
-
----
-
 `insert('stage'): Promise<boolean>` [manager.ts:76]
 
 ### Argument 1
@@ -42,24 +20,24 @@ data.stage
 
 ---
 
-`select('stage'): Promise<Stage | null>` [create.ts:834]
+`insert('stage'): Promise<number>` [create.ts:658]
 
 ### Argument 1
 
 - Name
 
-filter
+value
 
 - Type
 
 ```ts
-number
+OmitId<Stage>
 ```
 
 - Usage
 
 ```js
-stageId
+stage
 ```
 
 ---
@@ -88,6 +66,28 @@ filter
 
 ---
 
+`select('stage'): Promise<Stage | null>` [create.ts:834]
+
+### Argument 1
+
+- Name
+
+id
+
+- Type
+
+```ts
+number
+```
+
+- Usage
+
+```js
+stageId
+```
+
+---
+
 `select('stage'): Promise<Stage[] | null>` [manager.ts:107]
 
 ---
@@ -98,7 +98,7 @@ filter
 
 - Name
 
-filter
+id
 
 - Type
 
@@ -132,10 +132,6 @@ stage
 
 ---
 
-`delete('stage'): Promise<boolean>` [manager.ts:74]
-
----
-
 `delete('stage'): Promise<boolean>` [delete.ts:36]
 
 ### Argument 1
@@ -160,25 +156,7 @@ filter
 
 ---
 
-`insert('group'): Promise<number>` [create.ts:679]
-
-### Argument 1
-
-- Name
-
-values
-
-- Type
-
-```ts
-OmitId<Group>
-```
-
-- Usage
-
-```js
-group
-```
+`delete('stage'): Promise<boolean>` [manager.ts:74]
 
 ---
 
@@ -204,28 +182,24 @@ data.group
 
 ---
 
-`select('group'): Promise<Group[] | null>` [manager.ts:110]
-
----
-
-`select('group'): Promise<Group | null>` [reset.ts:24]
+`insert('group'): Promise<number>` [create.ts:679]
 
 ### Argument 1
 
 - Name
 
-filter
+value
 
 - Type
 
 ```ts
-number
+OmitId<Group>
 ```
 
 - Usage
 
 ```js
-stored.group_id
+group
 ```
 
 ---
@@ -254,7 +228,29 @@ filter
 
 ---
 
-`delete('group'): Promise<boolean>` [manager.ts:79]
+`select('group'): Promise<Group | null>` [reset.ts:24]
+
+### Argument 1
+
+- Name
+
+id
+
+- Type
+
+```ts
+number
+```
+
+- Usage
+
+```js
+stored.group_id
+```
+
+---
+
+`select('group'): Promise<Group[] | null>` [manager.ts:110]
 
 ---
 
@@ -282,25 +278,7 @@ filter
 
 ---
 
-`insert('round'): Promise<number>` [create.ts:700]
-
-### Argument 1
-
-- Name
-
-values
-
-- Type
-
-```ts
-OmitId<Round>
-```
-
-- Usage
-
-```js
-round
-```
+`delete('group'): Promise<boolean>` [manager.ts:79]
 
 ---
 
@@ -326,28 +304,24 @@ data.round
 
 ---
 
-`select('round'): Promise<Round[] | null>` [manager.ts:113]
-
----
-
-`select('round'): Promise<Round | null>` [find.ts:65]
+`insert('round'): Promise<number>` [create.ts:700]
 
 ### Argument 1
 
 - Name
 
-filter
+value
 
 - Type
 
 ```ts
-number
+OmitId<Round>
 ```
 
 - Usage
 
 ```js
-match.round_id
+round
 ```
 
 ---
@@ -400,7 +374,29 @@ filter
 
 ---
 
-`delete('round'): Promise<boolean>` [manager.ts:84]
+`select('round'): Promise<Round | null>` [find.ts:65]
+
+### Argument 1
+
+- Name
+
+id
+
+- Type
+
+```ts
+number
+```
+
+- Usage
+
+```js
+match.round_id
+```
+
+---
+
+`select('round'): Promise<Round[] | null>` [manager.ts:113]
 
 ---
 
@@ -428,25 +424,7 @@ filter
 
 ---
 
-`insert('match'): Promise<number>` [create.ts:713]
-
-### Argument 1
-
-- Name
-
-values
-
-- Type
-
-```ts
-OmitId<Match>
-```
-
-- Usage
-
-```js
-match
-```
+`delete('round'): Promise<boolean>` [manager.ts:84]
 
 ---
 
@@ -472,28 +450,24 @@ data.match
 
 ---
 
-`select('match'): Promise<Match[] | null>` [manager.ts:116]
-
----
-
-`select('match'): Promise<Match | null>` [reset.ts:15]
+`insert('match'): Promise<number>` [create.ts:713]
 
 ### Argument 1
 
 - Name
 
-filter
+value
 
 - Type
 
 ```ts
-number
+OmitId<Match>
 ```
 
 - Usage
 
 ```js
-matchId
+match
 ```
 
 ---
@@ -570,13 +544,13 @@ filter
 
 ---
 
-`update('match'): Promise<boolean>` [create.ts:716]
+`select('match'): Promise<Match | null>` [reset.ts:15]
 
 ### Argument 1
 
 - Name
 
-filter
+id
 
 - Type
 
@@ -587,126 +561,12 @@ number
 - Usage
 
 ```js
-existing.id
-```
-
-### Argument 2
-
-- Name
-
-value
-
-- Type
-
-```ts
-Match
-```
-
-- Usage
-
-```js
-updated
+matchId
 ```
 
 ---
 
-`update('match'): Promise<boolean>` [update.ts:261]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
-
-```ts
-number
-```
-
-- Usage
-
-```js
-match.id
-```
-
-### Argument 2
-
-- Name
-
-value
-
-- Type
-
-```ts
-{
-    child_count: number;
-    id: number;
-    stage_id: number;
-    group_id: number;
-    round_id: number;
-    number: number;
-    status: Status;
-    opponent1: ParticipantResult | null;
-    opponent2: ParticipantResult | null;
-}
-```
-
-- Usage
-
-```js
-{ ...match, child_count: targetChildCount }
-```
-
----
-
-`update('match'): Promise<boolean>` [update.ts:218]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
-
-```ts
-number
-```
-
-- Usage
-
-```js
-updated.id
-```
-
-### Argument 2
-
-- Name
-
-value
-
-- Type
-
-```ts
-{
-    id: number;
-    stage_id: number;
-    group_id: number;
-    round_id: number;
-    number: number;
-    child_count: number;
-    status: Status;
-    opponent1: ParticipantResult | null;
-    opponent2: ParticipantResult | null;
-}
-```
-
-- Usage
-
-```js
-updated
-```
+`select('match'): Promise<Match[] | null>` [manager.ts:116]
 
 ---
 
@@ -842,7 +702,143 @@ value
 
 ---
 
-`delete('match'): Promise<boolean>` [manager.ts:89]
+`update('match'): Promise<boolean>` [create.ts:716]
+
+### Argument 1
+
+- Name
+
+id
+
+- Type
+
+```ts
+number
+```
+
+- Usage
+
+```js
+existing.id
+```
+
+### Argument 2
+
+- Name
+
+value
+
+- Type
+
+```ts
+Match
+```
+
+- Usage
+
+```js
+updated
+```
+
+---
+
+`update('match'): Promise<boolean>` [update.ts:261]
+
+### Argument 1
+
+- Name
+
+id
+
+- Type
+
+```ts
+number
+```
+
+- Usage
+
+```js
+match.id
+```
+
+### Argument 2
+
+- Name
+
+value
+
+- Type
+
+```ts
+{
+    child_count: number;
+    id: number;
+    stage_id: number;
+    group_id: number;
+    round_id: number;
+    number: number;
+    status: Status;
+    opponent1: ParticipantResult | null;
+    opponent2: ParticipantResult | null;
+}
+```
+
+- Usage
+
+```js
+{ ...match, child_count: targetChildCount }
+```
+
+---
+
+`update('match'): Promise<boolean>` [update.ts:218]
+
+### Argument 1
+
+- Name
+
+id
+
+- Type
+
+```ts
+number
+```
+
+- Usage
+
+```js
+updated.id
+```
+
+### Argument 2
+
+- Name
+
+value
+
+- Type
+
+```ts
+{
+    id: number;
+    stage_id: number;
+    group_id: number;
+    round_id: number;
+    number: number;
+    child_count: number;
+    status: Status;
+    opponent1: ParticipantResult | null;
+    opponent2: ParticipantResult | null;
+}
+```
+
+- Usage
+
+```js
+updated
+```
 
 ---
 
@@ -870,25 +866,7 @@ filter
 
 ---
 
-`insert('match_game'): Promise<number>` [create.ts:738]
-
-### Argument 1
-
-- Name
-
-values
-
-- Type
-
-```ts
-OmitId<MatchGame>
-```
-
-- Usage
-
-```js
-matchGame
-```
+`delete('match'): Promise<boolean>` [manager.ts:89]
 
 ---
 
@@ -914,13 +892,35 @@ data.match_game
 
 ---
 
+`insert('match_game'): Promise<number>` [create.ts:738]
+
+### Argument 1
+
+- Name
+
+value
+
+- Type
+
+```ts
+OmitId<MatchGame>
+```
+
+- Usage
+
+```js
+matchGame
+```
+
+---
+
 `insert('match_game'): Promise<number>` [update.ts:234]
 
 ### Argument 1
 
 - Name
 
-values
+value
 
 - Type
 
@@ -954,28 +954,6 @@ values
 
 ---
 
-`select('match_game'): Promise<MatchGame | null>` [reset.ts:47]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
-
-```ts
-number
-```
-
-- Usage
-
-```js
-gameId
-```
-
----
-
 `select('match_game'): Promise<MatchGame[] | null>` [update.ts:230]
 
 ### Argument 1
@@ -1000,13 +978,13 @@ filter
 
 ---
 
-`update('match_game'): Promise<boolean>` [create.ts:741]
+`select('match_game'): Promise<MatchGame | null>` [reset.ts:47]
 
 ### Argument 1
 
 - Name
 
-filter
+id
 
 - Type
 
@@ -1017,25 +995,7 @@ number
 - Usage
 
 ```js
-existing.id
-```
-
-### Argument 2
-
-- Name
-
-value
-
-- Type
-
-```ts
-MatchGame
-```
-
-- Usage
-
-```js
-updated
+gameId
 ```
 
 ---
@@ -1082,7 +1042,43 @@ updatedMatchGame
 
 ---
 
-`delete('match_game'): Promise<boolean>` [manager.ts:94]
+`update('match_game'): Promise<boolean>` [create.ts:741]
+
+### Argument 1
+
+- Name
+
+id
+
+- Type
+
+```ts
+number
+```
+
+- Usage
+
+```js
+existing.id
+```
+
+### Argument 2
+
+- Name
+
+value
+
+- Type
+
+```ts
+MatchGame
+```
+
+- Usage
+
+```js
+updated
+```
 
 ---
 
@@ -1138,25 +1134,7 @@ filter
 
 ---
 
-`insert('participant'): Promise<number>` [create.ts:764]
-
-### Argument 1
-
-- Name
-
-values
-
-- Type
-
-```ts
-OmitId<Participant>
-```
-
-- Usage
-
-```js
-participant
-```
+`delete('match_game'): Promise<boolean>` [manager.ts:94]
 
 ---
 
@@ -1200,6 +1178,28 @@ Participant[]
 
 ```js
 data.participant
+```
+
+---
+
+`insert('participant'): Promise<number>` [create.ts:764]
+
+### Argument 1
+
+- Name
+
+value
+
+- Type
+
+```ts
+OmitId<Participant>
+```
+
+- Usage
+
+```js
+participant
 ```
 
 ---
