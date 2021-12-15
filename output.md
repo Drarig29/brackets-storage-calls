@@ -1,5 +1,7 @@
 `insert('stage'): Promise<number>` [create.ts:658]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -15,6 +17,8 @@ stage
 ---
 
 `insert('stage'): Promise<boolean>` [manager.ts:76]
+
+### Argument 1
 
 - Types
 
@@ -32,6 +36,8 @@ data.stage
 
 `insert('stage'): Promise<number>` [create.ts:658]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -47,6 +53,8 @@ stage
 ---
 
 `insert('stage'): Promise<boolean>` [manager.ts:76]
+
+### Argument 1
 
 - Types
 
@@ -64,6 +72,8 @@ data.stage
 
 `select('stage'): Promise<Stage | null>` [create.ts:834]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -80,6 +90,8 @@ stageId
 
 `select('stage'): Promise<Stage | null>` [create.ts:655]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -95,6 +107,8 @@ this.currentStageId
 ---
 
 `select('stage'): Promise<Stage[] | null>` [create.ts:525]
+
+### Argument 1
 
 - Types
 
@@ -118,6 +132,8 @@ this.currentStageId
 
 `select('stage'): Promise<Stage | null>` [reset.ts:21]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -133,6 +149,8 @@ stored.stage_id
 ---
 
 `select('stage'): Promise<Stage | null>` [find.ts:82]
+
+### Argument 1
 
 - Types
 
@@ -150,6 +168,8 @@ match.stage_id
 
 `select('stage'): Promise<Stage | null>` [find.ts:59]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -165,6 +185,8 @@ match.stage_id
 ---
 
 `select('stage'): Promise<Stage | null>` [find.ts:33]
+
+### Argument 1
 
 - Types
 
@@ -182,6 +204,8 @@ stageId
 
 `select('stage'): Promise<Stage | null>` [find.ts:13]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -197,6 +221,8 @@ stageId
 ---
 
 `select('stage'): Promise<Stage | null>` [update.ts:136]
+
+### Argument 1
 
 - Types
 
@@ -214,6 +240,8 @@ round.stage_id
 
 `select('stage'): Promise<Stage | null>` [update.ts:77]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -229,6 +257,8 @@ round.stage_id
 ---
 
 `select('stage'): Promise<Stage | null>` [update.ts:54]
+
+### Argument 1
 
 - Types
 
@@ -246,6 +276,8 @@ stageId
 
 `select('stage'): Promise<Stage | null>` [updater.ts:131]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -261,6 +293,8 @@ stored.stage_id
 ---
 
 `select('stage'): Promise<Stage | null>` [updater.ts:102]
+
+### Argument 1
 
 - Types
 
@@ -278,6 +312,8 @@ match.stage_id
 
 `select('stage'): Promise<Stage | null>` [updater.ts:62]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -293,6 +329,8 @@ storedParent.stage_id
 ---
 
 `select('stage'): Promise<Stage | null>` [updater.ts:18]
+
+### Argument 1
 
 - Types
 
@@ -310,6 +348,8 @@ stageId
 
 `select('stage'): Promise<Stage | null>` [get.ts:235]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -325,6 +365,8 @@ stageId
 ---
 
 `select('stage'): Promise<Stage | null>` [get.ts:88]
+
+### Argument 1
 
 - Types
 
@@ -342,6 +384,8 @@ stageId
 
 `select('stage'): Promise<Stage | null>` [get.ts:73]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -357,6 +401,8 @@ stageId
 ---
 
 `select('stage'): Promise<Stage[] | null>` [get.ts:35]
+
+### Argument 1
 
 - Types
 
@@ -376,6 +422,8 @@ stageId
 
 `select('stage'): Promise<Stage | null>` [create.ts:834]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -392,6 +440,8 @@ stageId
 
 `select('stage'): Promise<Stage | null>` [create.ts:655]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -407,6 +457,8 @@ this.currentStageId
 ---
 
 `select('stage'): Promise<Stage[] | null>` [create.ts:525]
+
+### Argument 1
 
 - Types
 
@@ -430,6 +482,8 @@ this.currentStageId
 
 `select('stage'): Promise<Stage | null>` [reset.ts:21]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -445,6 +499,8 @@ stored.stage_id
 ---
 
 `select('stage'): Promise<Stage | null>` [find.ts:82]
+
+### Argument 1
 
 - Types
 
@@ -462,6 +518,8 @@ match.stage_id
 
 `select('stage'): Promise<Stage | null>` [find.ts:59]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -477,6 +535,8 @@ match.stage_id
 ---
 
 `select('stage'): Promise<Stage | null>` [find.ts:33]
+
+### Argument 1
 
 - Types
 
@@ -494,6 +554,8 @@ stageId
 
 `select('stage'): Promise<Stage | null>` [find.ts:13]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -509,6 +571,8 @@ stageId
 ---
 
 `select('stage'): Promise<Stage | null>` [update.ts:136]
+
+### Argument 1
 
 - Types
 
@@ -526,6 +590,8 @@ round.stage_id
 
 `select('stage'): Promise<Stage | null>` [update.ts:77]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -541,6 +607,8 @@ round.stage_id
 ---
 
 `select('stage'): Promise<Stage | null>` [update.ts:54]
+
+### Argument 1
 
 - Types
 
@@ -558,6 +626,8 @@ stageId
 
 `select('stage'): Promise<Stage | null>` [updater.ts:131]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -573,6 +643,8 @@ stored.stage_id
 ---
 
 `select('stage'): Promise<Stage | null>` [updater.ts:102]
+
+### Argument 1
 
 - Types
 
@@ -590,6 +662,8 @@ match.stage_id
 
 `select('stage'): Promise<Stage | null>` [updater.ts:62]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -605,6 +679,8 @@ storedParent.stage_id
 ---
 
 `select('stage'): Promise<Stage | null>` [updater.ts:18]
+
+### Argument 1
 
 - Types
 
@@ -622,6 +698,8 @@ stageId
 
 `select('stage'): Promise<Stage | null>` [get.ts:235]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -637,6 +715,8 @@ stageId
 ---
 
 `select('stage'): Promise<Stage | null>` [get.ts:88]
+
+### Argument 1
 
 - Types
 
@@ -654,6 +734,8 @@ stageId
 
 `select('stage'): Promise<Stage | null>` [get.ts:73]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -669,6 +751,8 @@ stageId
 ---
 
 `select('stage'): Promise<Stage[] | null>` [get.ts:35]
+
+### Argument 1
 
 - Types
 
@@ -688,6 +772,8 @@ stageId
 
 `select('stage'): Promise<Stage | null>` [create.ts:834]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -704,6 +790,8 @@ stageId
 
 `select('stage'): Promise<Stage | null>` [create.ts:655]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -719,6 +807,8 @@ this.currentStageId
 ---
 
 `select('stage'): Promise<Stage[] | null>` [create.ts:525]
+
+### Argument 1
 
 - Types
 
@@ -742,6 +832,8 @@ this.currentStageId
 
 `select('stage'): Promise<Stage | null>` [reset.ts:21]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -757,6 +849,8 @@ stored.stage_id
 ---
 
 `select('stage'): Promise<Stage | null>` [find.ts:82]
+
+### Argument 1
 
 - Types
 
@@ -774,6 +868,8 @@ match.stage_id
 
 `select('stage'): Promise<Stage | null>` [find.ts:59]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -789,6 +885,8 @@ match.stage_id
 ---
 
 `select('stage'): Promise<Stage | null>` [find.ts:33]
+
+### Argument 1
 
 - Types
 
@@ -806,6 +904,8 @@ stageId
 
 `select('stage'): Promise<Stage | null>` [find.ts:13]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -821,6 +921,8 @@ stageId
 ---
 
 `select('stage'): Promise<Stage | null>` [update.ts:136]
+
+### Argument 1
 
 - Types
 
@@ -838,6 +940,8 @@ round.stage_id
 
 `select('stage'): Promise<Stage | null>` [update.ts:77]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -853,6 +957,8 @@ round.stage_id
 ---
 
 `select('stage'): Promise<Stage | null>` [update.ts:54]
+
+### Argument 1
 
 - Types
 
@@ -870,6 +976,8 @@ stageId
 
 `select('stage'): Promise<Stage | null>` [updater.ts:131]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -885,6 +993,8 @@ stored.stage_id
 ---
 
 `select('stage'): Promise<Stage | null>` [updater.ts:102]
+
+### Argument 1
 
 - Types
 
@@ -902,6 +1012,8 @@ match.stage_id
 
 `select('stage'): Promise<Stage | null>` [updater.ts:62]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -917,6 +1029,8 @@ storedParent.stage_id
 ---
 
 `select('stage'): Promise<Stage | null>` [updater.ts:18]
+
+### Argument 1
 
 - Types
 
@@ -934,6 +1048,8 @@ stageId
 
 `select('stage'): Promise<Stage | null>` [get.ts:235]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -949,6 +1065,8 @@ stageId
 ---
 
 `select('stage'): Promise<Stage | null>` [get.ts:88]
+
+### Argument 1
 
 - Types
 
@@ -966,6 +1084,8 @@ stageId
 
 `select('stage'): Promise<Stage | null>` [get.ts:73]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -981,6 +1101,8 @@ stageId
 ---
 
 `select('stage'): Promise<Stage[] | null>` [get.ts:35]
+
+### Argument 1
 
 - Types
 
@@ -1000,6 +1122,8 @@ stageId
 
 `update('stage'): Promise<boolean>` [create.ts:842]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1010,12 +1134,28 @@ number
 
 ```js
 stageId
+```
+
+### Argument 2
+
+- Types
+
+```ts
+Stage
+```
+
+- Usage
+
+```js
+stage
 ```
 
 ---
 
 `update('stage'): Promise<boolean>` [create.ts:842]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1026,6 +1166,20 @@ number
 
 ```js
 stageId
+```
+
+### Argument 2
+
+- Types
+
+```ts
+Stage
+```
+
+- Usage
+
+```js
+stage
 ```
 
 ---
@@ -1035,6 +1189,8 @@ stageId
 ---
 
 `delete('stage'): Promise<boolean>` [delete.ts:36]
+
+### Argument 1
 
 - Types
 
@@ -1058,6 +1214,8 @@ stageId
 
 `delete('stage'): Promise<boolean>` [delete.ts:36]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1076,6 +1234,8 @@ stageId
 
 `insert('group'): Promise<number>` [create.ts:679]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1091,6 +1251,8 @@ group
 ---
 
 `insert('group'): Promise<boolean>` [manager.ts:81]
+
+### Argument 1
 
 - Types
 
@@ -1108,6 +1270,8 @@ data.group
 
 `insert('group'): Promise<number>` [create.ts:679]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1123,6 +1287,8 @@ group
 ---
 
 `insert('group'): Promise<boolean>` [manager.ts:81]
+
+### Argument 1
 
 - Types
 
@@ -1144,6 +1310,8 @@ data.group
 
 `select('group'): Promise<Group | null>` [reset.ts:24]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1159,6 +1327,8 @@ stored.group_id
 ---
 
 `select('group'): Promise<Group | null>` [find.ts:85]
+
+### Argument 1
 
 - Types
 
@@ -1176,6 +1346,8 @@ match.group_id
 
 `select('group'): Promise<Group | null>` [find.ts:62]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1191,6 +1363,8 @@ match.group_id
 ---
 
 `select('group'): Promise<Group | null>` [update.ts:140]
+
+### Argument 1
 
 - Types
 
@@ -1208,6 +1382,8 @@ round.group_id
 
 `select('group'): Promise<Group | null>` [updater.ts:105]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1223,6 +1399,8 @@ match.group_id
 ---
 
 `select('group'): Promise<Group[] | null>` [get.ts:238]
+
+### Argument 1
 
 - Types
 
@@ -1246,6 +1424,8 @@ match.group_id
 
 `select('group'): Promise<Group | null>` [reset.ts:24]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1261,6 +1441,8 @@ stored.group_id
 ---
 
 `select('group'): Promise<Group | null>` [find.ts:85]
+
+### Argument 1
 
 - Types
 
@@ -1278,6 +1460,8 @@ match.group_id
 
 `select('group'): Promise<Group | null>` [find.ts:62]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1293,6 +1477,8 @@ match.group_id
 ---
 
 `select('group'): Promise<Group | null>` [update.ts:140]
+
+### Argument 1
 
 - Types
 
@@ -1310,6 +1496,8 @@ round.group_id
 
 `select('group'): Promise<Group | null>` [updater.ts:105]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1325,6 +1513,8 @@ match.group_id
 ---
 
 `select('group'): Promise<Group[] | null>` [get.ts:238]
+
+### Argument 1
 
 - Types
 
@@ -1348,6 +1538,8 @@ match.group_id
 
 `select('group'): Promise<Group | null>` [reset.ts:24]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1363,6 +1555,8 @@ stored.group_id
 ---
 
 `select('group'): Promise<Group | null>` [find.ts:85]
+
+### Argument 1
 
 - Types
 
@@ -1380,6 +1574,8 @@ match.group_id
 
 `select('group'): Promise<Group | null>` [find.ts:62]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1395,6 +1591,8 @@ match.group_id
 ---
 
 `select('group'): Promise<Group | null>` [update.ts:140]
+
+### Argument 1
 
 - Types
 
@@ -1412,6 +1610,8 @@ round.group_id
 
 `select('group'): Promise<Group | null>` [updater.ts:105]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1428,27 +1628,7 @@ match.group_id
 
 `select('group'): Promise<Group[] | null>` [get.ts:238]
 
-- Types
-
-```ts
-{
-    stage_id: number;
-}
-```
-
-- Usage
-
-```js
-{ stage_id: stageId }
-```
-
----
-
-`delete('group'): Promise<boolean>` [manager.ts:79]
-
----
-
-`delete('group'): Promise<boolean>` [delete.ts:33]
+### Argument 1
 
 - Types
 
@@ -1472,6 +1652,32 @@ match.group_id
 
 `delete('group'): Promise<boolean>` [delete.ts:33]
 
+### Argument 1
+
+- Types
+
+```ts
+{
+    stage_id: number;
+}
+```
+
+- Usage
+
+```js
+{ stage_id: stageId }
+```
+
+---
+
+`delete('group'): Promise<boolean>` [manager.ts:79]
+
+---
+
+`delete('group'): Promise<boolean>` [delete.ts:33]
+
+### Argument 1
+
 - Types
 
 ```ts
@@ -1490,6 +1696,8 @@ match.group_id
 
 `insert('round'): Promise<number>` [create.ts:700]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1505,6 +1713,8 @@ round
 ---
 
 `insert('round'): Promise<boolean>` [manager.ts:86]
+
+### Argument 1
 
 - Types
 
@@ -1522,6 +1732,8 @@ data.round
 
 `insert('round'): Promise<number>` [create.ts:700]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1537,6 +1749,8 @@ round
 ---
 
 `insert('round'): Promise<boolean>` [manager.ts:86]
+
+### Argument 1
 
 - Types
 
@@ -1558,6 +1772,8 @@ data.round
 
 `select('round'): Promise<Round | null>` [find.ts:65]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1574,6 +1790,8 @@ match.round_id
 
 `select('round'): Promise<Round | null>` [update.ts:74]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1589,6 +1807,8 @@ roundId
 ---
 
 `select('round'): Promise<Round[] | null>` [get.ts:241]
+
+### Argument 1
 
 - Types
 
@@ -1608,6 +1828,8 @@ roundId
 
 `select('round'): Promise<Round[] | null>` [getter.ts:73]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1626,6 +1848,8 @@ roundId
 
 `select('round'): Promise<Round | null>` [getter.ts:70]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1641,6 +1865,8 @@ roundId
 ---
 
 `select('round'): Promise<Round[] | null>` [getter.ts:50]
+
+### Argument 1
 
 - Types
 
@@ -1664,6 +1890,8 @@ roundId
 
 `select('round'): Promise<Round | null>` [find.ts:65]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1680,6 +1908,8 @@ match.round_id
 
 `select('round'): Promise<Round | null>` [update.ts:74]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1695,6 +1925,8 @@ roundId
 ---
 
 `select('round'): Promise<Round[] | null>` [get.ts:241]
+
+### Argument 1
 
 - Types
 
@@ -1714,6 +1946,8 @@ roundId
 
 `select('round'): Promise<Round[] | null>` [getter.ts:73]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1732,6 +1966,8 @@ roundId
 
 `select('round'): Promise<Round | null>` [getter.ts:70]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1747,6 +1983,8 @@ roundId
 ---
 
 `select('round'): Promise<Round[] | null>` [getter.ts:50]
+
+### Argument 1
 
 - Types
 
@@ -1770,6 +2008,8 @@ roundId
 
 `select('round'): Promise<Round | null>` [find.ts:65]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1786,6 +2026,8 @@ match.round_id
 
 `select('round'): Promise<Round | null>` [update.ts:74]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1801,6 +2043,8 @@ roundId
 ---
 
 `select('round'): Promise<Round[] | null>` [get.ts:241]
+
+### Argument 1
 
 - Types
 
@@ -1820,6 +2064,8 @@ roundId
 
 `select('round'): Promise<Round[] | null>` [getter.ts:73]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1838,6 +2084,8 @@ roundId
 
 `select('round'): Promise<Round | null>` [getter.ts:70]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1853,6 +2101,8 @@ roundId
 ---
 
 `select('round'): Promise<Round[] | null>` [getter.ts:50]
+
+### Argument 1
 
 - Types
 
@@ -1876,6 +2126,8 @@ roundId
 
 `delete('round'): Promise<boolean>` [delete.ts:30]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1898,6 +2150,8 @@ roundId
 
 `delete('round'): Promise<boolean>` [delete.ts:30]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1916,6 +2170,8 @@ roundId
 
 `insert('match'): Promise<number>` [create.ts:713]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1931,6 +2187,8 @@ match
 ---
 
 `insert('match'): Promise<boolean>` [manager.ts:91]
+
+### Argument 1
 
 - Types
 
@@ -1948,6 +2206,8 @@ data.match
 
 `insert('match'): Promise<number>` [create.ts:713]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1963,6 +2223,8 @@ match
 ---
 
 `insert('match'): Promise<boolean>` [manager.ts:91]
+
+### Argument 1
 
 - Types
 
@@ -1984,6 +2246,8 @@ data.match
 
 `select('match'): Promise<Match | null>` [reset.ts:15]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -1999,6 +2263,8 @@ matchId
 ---
 
 `select('match'): Promise<Match | null>` [find.ts:79]
+
+### Argument 1
 
 - Types
 
@@ -2016,6 +2282,8 @@ matchId
 
 `select('match'): Promise<Match | null>` [find.ts:56]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2031,6 +2299,8 @@ matchId
 ---
 
 `select('match'): Promise<Match[] | null>` [update.ts:195]
+
+### Argument 1
 
 - Types
 
@@ -2050,6 +2320,8 @@ matchId
 
 `select('match'): Promise<Match[] | null>` [update.ts:178]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2067,6 +2339,8 @@ matchId
 ---
 
 `select('match'): Promise<Match[] | null>` [update.ts:161]
+
+### Argument 1
 
 - Types
 
@@ -2086,6 +2360,8 @@ matchId
 
 `select('match'): Promise<Match[] | null>` [update.ts:130]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2104,6 +2380,8 @@ matchId
 
 `select('match'): Promise<Match | null>` [update.ts:104]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2119,6 +2397,8 @@ id
 ---
 
 `select('match'): Promise<Match | null>` [update.ts:20]
+
+### Argument 1
 
 - Types
 
@@ -2136,6 +2416,8 @@ match.id
 
 `select('match'): Promise<Match | null>` [updater.ts:53]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2151,6 +2433,8 @@ parentId
 ---
 
 `select('match'): Promise<Match[] | null>` [get.ts:244]
+
+### Argument 1
 
 - Types
 
@@ -2170,6 +2454,8 @@ parentId
 
 `select('match'): Promise<Match[] | null>` [get.ts:139]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2187,6 +2473,8 @@ parentId
 ---
 
 `select('match'): Promise<Match[] | null>` [get.ts:112]
+
+### Argument 1
 
 - Types
 
@@ -2206,6 +2494,8 @@ parentId
 
 `select('match'): Promise<Match[] | null>` [getter.ts:380]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2223,6 +2513,8 @@ parentId
 ---
 
 `select('match'): Promise<Match[] | null>` [getter.ts:377]
+
+### Argument 1
 
 - Types
 
@@ -2246,6 +2538,8 @@ parentId
 
 `select('match'): Promise<Match | null>` [reset.ts:15]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2261,6 +2555,8 @@ matchId
 ---
 
 `select('match'): Promise<Match | null>` [find.ts:79]
+
+### Argument 1
 
 - Types
 
@@ -2278,6 +2574,8 @@ matchId
 
 `select('match'): Promise<Match | null>` [find.ts:56]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2293,6 +2591,8 @@ matchId
 ---
 
 `select('match'): Promise<Match[] | null>` [update.ts:195]
+
+### Argument 1
 
 - Types
 
@@ -2312,6 +2612,8 @@ matchId
 
 `select('match'): Promise<Match[] | null>` [update.ts:178]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2329,6 +2631,8 @@ matchId
 ---
 
 `select('match'): Promise<Match[] | null>` [update.ts:161]
+
+### Argument 1
 
 - Types
 
@@ -2348,6 +2652,8 @@ matchId
 
 `select('match'): Promise<Match[] | null>` [update.ts:130]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2366,6 +2672,8 @@ matchId
 
 `select('match'): Promise<Match | null>` [update.ts:104]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2381,6 +2689,8 @@ id
 ---
 
 `select('match'): Promise<Match | null>` [update.ts:20]
+
+### Argument 1
 
 - Types
 
@@ -2398,6 +2708,8 @@ match.id
 
 `select('match'): Promise<Match | null>` [updater.ts:53]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2413,6 +2725,8 @@ parentId
 ---
 
 `select('match'): Promise<Match[] | null>` [get.ts:244]
+
+### Argument 1
 
 - Types
 
@@ -2432,6 +2746,8 @@ parentId
 
 `select('match'): Promise<Match[] | null>` [get.ts:139]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2449,6 +2765,8 @@ parentId
 ---
 
 `select('match'): Promise<Match[] | null>` [get.ts:112]
+
+### Argument 1
 
 - Types
 
@@ -2468,6 +2786,8 @@ parentId
 
 `select('match'): Promise<Match[] | null>` [getter.ts:380]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2485,6 +2805,8 @@ parentId
 ---
 
 `select('match'): Promise<Match[] | null>` [getter.ts:377]
+
+### Argument 1
 
 - Types
 
@@ -2508,6 +2830,8 @@ parentId
 
 `select('match'): Promise<Match | null>` [reset.ts:15]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2523,6 +2847,8 @@ matchId
 ---
 
 `select('match'): Promise<Match | null>` [find.ts:79]
+
+### Argument 1
 
 - Types
 
@@ -2540,6 +2866,8 @@ matchId
 
 `select('match'): Promise<Match | null>` [find.ts:56]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2555,6 +2883,8 @@ matchId
 ---
 
 `select('match'): Promise<Match[] | null>` [update.ts:195]
+
+### Argument 1
 
 - Types
 
@@ -2574,6 +2904,8 @@ matchId
 
 `select('match'): Promise<Match[] | null>` [update.ts:178]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2591,6 +2923,8 @@ matchId
 ---
 
 `select('match'): Promise<Match[] | null>` [update.ts:161]
+
+### Argument 1
 
 - Types
 
@@ -2610,6 +2944,8 @@ matchId
 
 `select('match'): Promise<Match[] | null>` [update.ts:130]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2628,6 +2964,8 @@ matchId
 
 `select('match'): Promise<Match | null>` [update.ts:104]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2643,6 +2981,8 @@ id
 ---
 
 `select('match'): Promise<Match | null>` [update.ts:20]
+
+### Argument 1
 
 - Types
 
@@ -2660,6 +3000,8 @@ match.id
 
 `select('match'): Promise<Match | null>` [updater.ts:53]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2675,6 +3017,8 @@ parentId
 ---
 
 `select('match'): Promise<Match[] | null>` [get.ts:244]
+
+### Argument 1
 
 - Types
 
@@ -2694,6 +3038,8 @@ parentId
 
 `select('match'): Promise<Match[] | null>` [get.ts:139]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2711,6 +3057,8 @@ parentId
 ---
 
 `select('match'): Promise<Match[] | null>` [get.ts:112]
+
+### Argument 1
 
 - Types
 
@@ -2730,6 +3078,8 @@ parentId
 
 `select('match'): Promise<Match[] | null>` [getter.ts:380]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2747,6 +3097,8 @@ parentId
 ---
 
 `select('match'): Promise<Match[] | null>` [getter.ts:377]
+
+### Argument 1
 
 - Types
 
@@ -2766,6 +3118,8 @@ parentId
 
 `update('match'): Promise<boolean>` [create.ts:716]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2778,9 +3132,25 @@ number
 existing.id
 ```
 
+### Argument 2
+
+- Types
+
+```ts
+Match
+```
+
+- Usage
+
+```js
+updated
+```
+
 ---
 
 `update('match'): Promise<boolean>` [update.ts:261]
+
+### Argument 1
 
 - Types
 
@@ -2794,9 +3164,33 @@ number
 match.id
 ```
 
+### Argument 2
+
+- Types
+
+```ts
+{
+    child_count: number;
+    id: number;
+    stage_id: number;
+    group_id: number;
+    round_id: number;
+    number: number;
+    status: Status;
+    opponent1: ParticipantResult | null;   ...
+```
+
+- Usage
+
+```js
+{ ...match, child_count: targetChildCount }
+```
+
 ---
 
 `update('match'): Promise<boolean>` [update.ts:218]
+
+### Argument 1
 
 - Types
 
@@ -2810,9 +3204,33 @@ number
 updated.id
 ```
 
+### Argument 2
+
+- Types
+
+```ts
+{
+    id: number;
+    stage_id: number;
+    group_id: number;
+    round_id: number;
+    number: number;
+    child_count: number;
+    status: Status;
+    opponent1: ParticipantResult | null;   ...
+```
+
+- Usage
+
+```js
+updated
+```
+
 ---
 
 `update('match'): Promise<boolean>` [update.ts:192]
+
+### Argument 1
 
 - Types
 
@@ -2828,9 +3246,27 @@ updated.id
 { round_id: roundId }
 ```
 
+### Argument 2
+
+- Types
+
+```ts
+{
+    child_count: number;
+}
+```
+
+- Usage
+
+```js
+{ child_count: childCount }
+```
+
 ---
 
 `update('match'): Promise<boolean>` [update.ts:175]
+
+### Argument 1
 
 - Types
 
@@ -2846,9 +3282,27 @@ updated.id
 { group_id: groupId }
 ```
 
+### Argument 2
+
+- Types
+
+```ts
+{
+    child_count: number;
+}
+```
+
+- Usage
+
+```js
+{ child_count: childCount }
+```
+
 ---
 
 `update('match'): Promise<boolean>` [update.ts:158]
+
+### Argument 1
 
 - Types
 
@@ -2864,9 +3318,27 @@ updated.id
 { stage_id: stageId }
 ```
 
+### Argument 2
+
+- Types
+
+```ts
+{
+    child_count: number;
+}
+```
+
+- Usage
+
+```js
+{ child_count: childCount }
+```
+
 ---
 
 `update('match'): Promise<boolean>` [updater.ts:144]
+
+### Argument 1
 
 - Types
 
@@ -2878,12 +3350,28 @@ number
 
 ```js
 match.id
+```
+
+### Argument 2
+
+- Types
+
+```ts
+Match
+```
+
+- Usage
+
+```js
+match
 ```
 
 ---
 
 `update('match'): Promise<boolean>` [create.ts:716]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -2896,9 +3384,25 @@ number
 existing.id
 ```
 
+### Argument 2
+
+- Types
+
+```ts
+Match
+```
+
+- Usage
+
+```js
+updated
+```
+
 ---
 
 `update('match'): Promise<boolean>` [update.ts:261]
+
+### Argument 1
 
 - Types
 
@@ -2912,9 +3416,33 @@ number
 match.id
 ```
 
+### Argument 2
+
+- Types
+
+```ts
+{
+    child_count: number;
+    id: number;
+    stage_id: number;
+    group_id: number;
+    round_id: number;
+    number: number;
+    status: Status;
+    opponent1: ParticipantResult | null;   ...
+```
+
+- Usage
+
+```js
+{ ...match, child_count: targetChildCount }
+```
+
 ---
 
 `update('match'): Promise<boolean>` [update.ts:218]
+
+### Argument 1
 
 - Types
 
@@ -2928,9 +3456,33 @@ number
 updated.id
 ```
 
+### Argument 2
+
+- Types
+
+```ts
+{
+    id: number;
+    stage_id: number;
+    group_id: number;
+    round_id: number;
+    number: number;
+    child_count: number;
+    status: Status;
+    opponent1: ParticipantResult | null;   ...
+```
+
+- Usage
+
+```js
+updated
+```
+
 ---
 
 `update('match'): Promise<boolean>` [update.ts:192]
+
+### Argument 1
 
 - Types
 
@@ -2946,9 +3498,27 @@ updated.id
 { round_id: roundId }
 ```
 
+### Argument 2
+
+- Types
+
+```ts
+{
+    child_count: number;
+}
+```
+
+- Usage
+
+```js
+{ child_count: childCount }
+```
+
 ---
 
 `update('match'): Promise<boolean>` [update.ts:175]
+
+### Argument 1
 
 - Types
 
@@ -2964,9 +3534,27 @@ updated.id
 { group_id: groupId }
 ```
 
+### Argument 2
+
+- Types
+
+```ts
+{
+    child_count: number;
+}
+```
+
+- Usage
+
+```js
+{ child_count: childCount }
+```
+
 ---
 
 `update('match'): Promise<boolean>` [update.ts:158]
+
+### Argument 1
 
 - Types
 
@@ -2982,9 +3570,27 @@ updated.id
 { stage_id: stageId }
 ```
 
+### Argument 2
+
+- Types
+
+```ts
+{
+    child_count: number;
+}
+```
+
+- Usage
+
+```js
+{ child_count: childCount }
+```
+
 ---
 
 `update('match'): Promise<boolean>` [updater.ts:144]
+
+### Argument 1
 
 - Types
 
@@ -2998,6 +3604,20 @@ number
 match.id
 ```
 
+### Argument 2
+
+- Types
+
+```ts
+Match
+```
+
+- Usage
+
+```js
+match
+```
+
 ---
 
 `delete('match'): Promise<boolean>` [manager.ts:89]
@@ -3005,6 +3625,8 @@ match.id
 ---
 
 `delete('match'): Promise<boolean>` [delete.ts:27]
+
+### Argument 1
 
 - Types
 
@@ -3027,6 +3649,8 @@ match.id
 ---
 
 `delete('match'): Promise<boolean>` [delete.ts:27]
+
+### Argument 1
 
 - Types
 
@@ -3046,6 +3670,8 @@ match.id
 
 `insert('match_game'): Promise<number>` [create.ts:738]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3062,6 +3688,8 @@ matchGame
 
 `insert('match_game'): Promise<boolean>` [manager.ts:96]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3077,6 +3705,8 @@ data.match_game
 ---
 
 `insert('match_game'): Promise<number>` [update.ts:234]
+
+### Argument 1
 
 - Types
 
@@ -3112,6 +3742,8 @@ data.match_game
 
 `insert('match_game'): Promise<number>` [create.ts:738]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3128,6 +3760,8 @@ matchGame
 
 `insert('match_game'): Promise<boolean>` [manager.ts:96]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3143,6 +3777,8 @@ data.match_game
 ---
 
 `insert('match_game'): Promise<number>` [update.ts:234]
+
+### Argument 1
 
 - Types
 
@@ -3178,6 +3814,8 @@ data.match_game
 
 `select('match_game'): Promise<MatchGame | null>` [reset.ts:47]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3193,6 +3831,8 @@ gameId
 ---
 
 `select('match_game'): Promise<MatchGame[] | null>` [update.ts:230]
+
+### Argument 1
 
 - Types
 
@@ -3212,6 +3852,8 @@ gameId
 
 `select('match_game'): Promise<MatchGame[] | null>` [updater.ts:56]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3230,6 +3872,8 @@ gameId
 
 `select('match_game'): Promise<MatchGame[] | null>` [get.ts:61]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3247,6 +3891,8 @@ gameId
 ---
 
 `select('match_game'): Promise<MatchGame | null>` [getter.ts:499]
+
+### Argument 1
 
 - Types
 
@@ -3264,6 +3910,8 @@ game.id
 
 `select('match_game'): Promise<MatchGame | null>` [reset.ts:47]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3279,6 +3927,8 @@ gameId
 ---
 
 `select('match_game'): Promise<MatchGame[] | null>` [update.ts:230]
+
+### Argument 1
 
 - Types
 
@@ -3298,6 +3948,8 @@ gameId
 
 `select('match_game'): Promise<MatchGame[] | null>` [updater.ts:56]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3316,6 +3968,8 @@ gameId
 
 `select('match_game'): Promise<MatchGame[] | null>` [get.ts:61]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3333,6 +3987,8 @@ gameId
 ---
 
 `select('match_game'): Promise<MatchGame | null>` [getter.ts:499]
+
+### Argument 1
 
 - Types
 
@@ -3350,6 +4006,8 @@ game.id
 
 `select('match_game'): Promise<MatchGame | null>` [reset.ts:47]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3365,6 +4023,8 @@ gameId
 ---
 
 `select('match_game'): Promise<MatchGame[] | null>` [update.ts:230]
+
+### Argument 1
 
 - Types
 
@@ -3384,6 +4044,8 @@ gameId
 
 `select('match_game'): Promise<MatchGame[] | null>` [updater.ts:56]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3401,6 +4063,8 @@ gameId
 ---
 
 `select('match_game'): Promise<MatchGame[] | null>` [get.ts:61]
+
+### Argument 1
 
 - Types
 
@@ -3420,6 +4084,8 @@ gameId
 
 `select('match_game'): Promise<MatchGame | null>` [getter.ts:499]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3436,6 +4102,8 @@ game.id
 
 `update('match_game'): Promise<boolean>` [create.ts:741]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3448,9 +4116,25 @@ number
 existing.id
 ```
 
+### Argument 2
+
+- Types
+
+```ts
+MatchGame
+```
+
+- Usage
+
+```js
+updated
+```
+
 ---
 
 `update('match_game'): Promise<boolean>` [reset.ts:52]
+
+### Argument 1
 
 - Types
 
@@ -3462,12 +4146,28 @@ number
 
 ```js
 stored.id
+```
+
+### Argument 2
+
+- Types
+
+```ts
+MatchGame
+```
+
+- Usage
+
+```js
+stored
 ```
 
 ---
 
 `update('match_game'): Promise<boolean>` [update.ts:41]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3480,9 +4180,25 @@ number
 stored.id
 ```
 
+### Argument 2
+
+- Types
+
+```ts
+MatchGame
+```
+
+- Usage
+
+```js
+stored
+```
+
 ---
 
 `update('match_game'): Promise<boolean>` [updater.ts:159]
+
+### Argument 1
 
 - Types
 
@@ -3496,12 +4212,28 @@ stored.id
 
 ```js
 { parent_id: match.id }
+```
+
+### Argument 2
+
+- Types
+
+```ts
+Partial<MatchGame>
+```
+
+- Usage
+
+```js
+updatedMatchGame
 ```
 
 ---
 
 `update('match_game'): Promise<boolean>` [create.ts:741]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3514,9 +4246,25 @@ number
 existing.id
 ```
 
+### Argument 2
+
+- Types
+
+```ts
+MatchGame
+```
+
+- Usage
+
+```js
+updated
+```
+
 ---
 
 `update('match_game'): Promise<boolean>` [reset.ts:52]
+
+### Argument 1
 
 - Types
 
@@ -3528,12 +4276,28 @@ number
 
 ```js
 stored.id
+```
+
+### Argument 2
+
+- Types
+
+```ts
+MatchGame
+```
+
+- Usage
+
+```js
+stored
 ```
 
 ---
 
 `update('match_game'): Promise<boolean>` [update.ts:41]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3546,9 +4310,25 @@ number
 stored.id
 ```
 
+### Argument 2
+
+- Types
+
+```ts
+MatchGame
+```
+
+- Usage
+
+```js
+stored
+```
+
 ---
 
 `update('match_game'): Promise<boolean>` [updater.ts:159]
+
+### Argument 1
 
 - Types
 
@@ -3562,6 +4342,20 @@ stored.id
 
 ```js
 { parent_id: match.id }
+```
+
+### Argument 2
+
+- Types
+
+```ts
+Partial<MatchGame>
+```
+
+- Usage
+
+```js
+updatedMatchGame
 ```
 
 ---
@@ -3571,6 +4365,8 @@ stored.id
 ---
 
 `delete('match_game'): Promise<boolean>` [delete.ts:24]
+
+### Argument 1
 
 - Types
 
@@ -3589,6 +4385,8 @@ stored.id
 ---
 
 `delete('match_game'): Promise<boolean>` [update.ts:250]
+
+### Argument 1
 
 - Types
 
@@ -3616,6 +4414,8 @@ stored.id
 
 `delete('match_game'): Promise<boolean>` [delete.ts:24]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3633,6 +4433,8 @@ stored.id
 ---
 
 `delete('match_game'): Promise<boolean>` [update.ts:250]
+
+### Argument 1
 
 - Types
 
@@ -3656,6 +4458,8 @@ stored.id
 
 `insert('participant'): Promise<number>` [create.ts:764]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3672,6 +4476,8 @@ participant
 
 `insert('participant'): Promise<boolean>` [create.ts:757]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3687,6 +4493,8 @@ participants
 ---
 
 `insert('participant'): Promise<boolean>` [manager.ts:71]
+
+### Argument 1
 
 - Types
 
@@ -3704,6 +4512,8 @@ data.participant
 
 `insert('participant'): Promise<number>` [create.ts:764]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3719,6 +4529,8 @@ participant
 ---
 
 `insert('participant'): Promise<boolean>` [create.ts:757]
+
+### Argument 1
 
 - Types
 
@@ -3736,6 +4548,8 @@ participants
 
 `insert('participant'): Promise<boolean>` [manager.ts:71]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3752,6 +4566,8 @@ data.participant
 
 `select('participant'): Promise<Participant[] | null>` [create.ts:753]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3770,6 +4586,8 @@ data.participant
 
 `select('participant'): Promise<Participant[] | null>` [create.ts:515]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3787,6 +4605,8 @@ data.participant
 ---
 
 `select('participant'): Promise<Participant[] | null>` [create.ts:502]
+
+### Argument 1
 
 - Types
 
@@ -3810,6 +4630,8 @@ data.participant
 
 `select('participant'): Promise<Participant[] | null>` [get.ts:40]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3827,6 +4649,8 @@ data.participant
 ---
 
 `select('participant'): Promise<Participant[] | null>` [get.ts:16]
+
+### Argument 1
 
 - Types
 
@@ -3846,6 +4670,8 @@ data.participant
 
 `select('participant'): Promise<Participant[] | null>` [create.ts:753]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3864,6 +4690,8 @@ data.participant
 
 `select('participant'): Promise<Participant[] | null>` [create.ts:515]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3881,6 +4709,8 @@ data.participant
 ---
 
 `select('participant'): Promise<Participant[] | null>` [create.ts:502]
+
+### Argument 1
 
 - Types
 
@@ -3904,6 +4734,8 @@ data.participant
 
 `select('participant'): Promise<Participant[] | null>` [get.ts:40]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3921,6 +4753,8 @@ data.participant
 ---
 
 `select('participant'): Promise<Participant[] | null>` [get.ts:16]
+
+### Argument 1
 
 - Types
 
@@ -3940,6 +4774,8 @@ data.participant
 
 `select('participant'): Promise<Participant[] | null>` [create.ts:753]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3958,6 +4794,8 @@ data.participant
 
 `select('participant'): Promise<Participant[] | null>` [create.ts:515]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -3975,6 +4813,8 @@ data.participant
 ---
 
 `select('participant'): Promise<Participant[] | null>` [create.ts:502]
+
+### Argument 1
 
 - Types
 
@@ -3998,6 +4838,8 @@ data.participant
 
 `select('participant'): Promise<Participant[] | null>` [get.ts:40]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -4015,6 +4857,8 @@ data.participant
 ---
 
 `select('participant'): Promise<Participant[] | null>` [get.ts:16]
+
+### Argument 1
 
 - Types
 
@@ -4042,6 +4886,8 @@ data.participant
 
 `select(table): Promise<DataTypes[T][] | null>` [manager.ts:39]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -4057,6 +4903,8 @@ filter
 ---
 
 `select(table): Promise<DataTypes[T][] | null>` [manager.ts:33]
+
+### Argument 1
 
 - Types
 
@@ -4074,6 +4922,8 @@ filter
 
 `select(table): Promise<DataTypes[T][] | null>` [manager.ts:39]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -4089,6 +4939,8 @@ filter
 ---
 
 `select(table): Promise<DataTypes[T][] | null>` [manager.ts:33]
+
+### Argument 1
 
 - Types
 
@@ -4106,6 +4958,8 @@ filter
 
 `select(table): Promise<DataTypes[T][] | null>` [manager.ts:39]
 
+### Argument 1
+
 - Types
 
 ```ts
@@ -4121,6 +4975,8 @@ filter
 ---
 
 `select(table): Promise<DataTypes[T][] | null>` [manager.ts:33]
+
+### Argument 1
 
 - Types
 

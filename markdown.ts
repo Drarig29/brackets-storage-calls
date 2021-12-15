@@ -1,7 +1,13 @@
 import { FoundCall, Priority } from './types';
 
 export function exportToMarkdown(calls: FoundCall[]): string {
-  const sorted = calls.sort((a, b) => {
+  const found = {};
+  const filtered = calls.filter(call => {
+    // const key = call.
+    return true;
+  });
+
+  const sorted = filtered.sort((a, b) => {
     const up = prioritizer(a, b);
     let r: Priority;
 
@@ -33,13 +39,15 @@ export function exportToMarkdown(calls: FoundCall[]): string {
   for (const call of sorted) {
     output += `\`${call.methodName}(${call.arguments[0].text}): ${call.returnType}\` [${call.sourceFile.baseName}:${call.lineNumber}]\n\n`;
 
-    if (call.arguments[1]) {
-      output += '- Types\n\n';
-      output += `${formatTsCode(call.arguments[1].type)}\n\n`;
+      for (let i = 1; i < call.arguments.length; i++) {
+        output += `### Argument ${i}\n\n`;
 
-      output += '- Usage\n\n';
-      output += `${formatJsCode(call.arguments[1].text)}\n\n`;
-    }
+        output += '- Types\n\n';
+        output += `${formatTsCode(call.arguments[i].type)}\n\n`;
+
+        output += '- Usage\n\n';
+        output += `${formatJsCode(call.arguments[i].text)}\n\n`;
+      }
 
     output += '---\n\n';
   }
