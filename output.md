@@ -2,7 +2,11 @@
 
 ### Argument 1
 
-- Types
+- Name
+
+values
+
+- Type
 
 ```ts
 OmitId<Stage>
@@ -20,7 +24,11 @@ stage
 
 ### Argument 1
 
-- Types
+- Name
+
+values
+
+- Type
 
 ```ts
 Stage[]
@@ -38,7 +46,11 @@ data.stage
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 number
@@ -56,7 +68,11 @@ stageId
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 {
@@ -80,7 +96,11 @@ stageId
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 number
@@ -94,7 +114,11 @@ stageId
 
 ### Argument 2
 
-- Types
+- Name
+
+value
+
+- Type
 
 ```ts
 Stage
@@ -116,7 +140,11 @@ stage
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 {
@@ -136,7 +164,11 @@ stage
 
 ### Argument 1
 
-- Types
+- Name
+
+values
+
+- Type
 
 ```ts
 OmitId<Group>
@@ -154,7 +186,11 @@ group
 
 ### Argument 1
 
-- Types
+- Name
+
+values
+
+- Type
 
 ```ts
 Group[]
@@ -176,7 +212,11 @@ data.group
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 number
@@ -194,7 +234,11 @@ stored.group_id
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 {
@@ -218,7 +262,11 @@ stored.group_id
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 {
@@ -238,7 +286,11 @@ stored.group_id
 
 ### Argument 1
 
-- Types
+- Name
+
+values
+
+- Type
 
 ```ts
 OmitId<Round>
@@ -256,7 +308,11 @@ round
 
 ### Argument 1
 
-- Types
+- Name
+
+values
+
+- Type
 
 ```ts
 Round[]
@@ -278,7 +334,11 @@ data.round
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 number
@@ -296,7 +356,11 @@ match.round_id
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 {
@@ -316,7 +380,11 @@ match.round_id
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 {
@@ -340,7 +408,11 @@ match.round_id
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 {
@@ -360,7 +432,11 @@ match.round_id
 
 ### Argument 1
 
-- Types
+- Name
+
+values
+
+- Type
 
 ```ts
 OmitId<Match>
@@ -378,7 +454,11 @@ match
 
 ### Argument 1
 
-- Types
+- Name
+
+values
+
+- Type
 
 ```ts
 Match[]
@@ -400,7 +480,11 @@ data.match
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 number
@@ -418,7 +502,11 @@ matchId
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 {
@@ -438,7 +526,11 @@ matchId
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 {
@@ -458,7 +550,11 @@ matchId
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 {
@@ -478,7 +574,11 @@ matchId
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 number
@@ -492,7 +592,11 @@ existing.id
 
 ### Argument 2
 
-- Types
+- Name
+
+value
+
+- Type
 
 ```ts
 Match
@@ -510,7 +614,11 @@ updated
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 number
@@ -524,7 +632,11 @@ match.id
 
 ### Argument 2
 
-- Types
+- Name
+
+value
+
+- Type
 
 ```ts
 {
@@ -552,7 +664,11 @@ match.id
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 number
@@ -566,7 +682,11 @@ updated.id
 
 ### Argument 2
 
-- Types
+- Name
+
+value
+
+- Type
 
 ```ts
 {
@@ -594,7 +714,11 @@ updated
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 {
@@ -610,7 +734,11 @@ updated
 
 ### Argument 2
 
-- Types
+- Name
+
+value
+
+- Type
 
 ```ts
 {
@@ -630,7 +758,11 @@ updated
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 {
@@ -646,7 +778,11 @@ updated
 
 ### Argument 2
 
-- Types
+- Name
+
+value
+
+- Type
 
 ```ts
 {
@@ -666,7 +802,11 @@ updated
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 {
@@ -682,7 +822,11 @@ updated
 
 ### Argument 2
 
-- Types
+- Name
+
+value
+
+- Type
 
 ```ts
 {
@@ -706,7 +850,11 @@ updated
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 {
@@ -726,7 +874,11 @@ updated
 
 ### Argument 1
 
-- Types
+- Name
+
+values
+
+- Type
 
 ```ts
 OmitId<MatchGame>
@@ -744,7 +896,11 @@ matchGame
 
 ### Argument 1
 
-- Types
+- Name
+
+values
+
+- Type
 
 ```ts
 MatchGame[]
@@ -762,7 +918,11 @@ data.match_game
 
 ### Argument 1
 
-- Types
+- Name
+
+values
+
+- Type
 
 ```ts
 {
@@ -798,7 +958,11 @@ data.match_game
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 number
@@ -816,7 +980,11 @@ gameId
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 {
@@ -836,7 +1004,11 @@ gameId
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 number
@@ -850,7 +1022,11 @@ existing.id
 
 ### Argument 2
 
-- Types
+- Name
+
+value
+
+- Type
 
 ```ts
 MatchGame
@@ -868,7 +1044,11 @@ updated
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 {
@@ -884,7 +1064,11 @@ updated
 
 ### Argument 2
 
-- Types
+- Name
+
+value
+
+- Type
 
 ```ts
 Partial<MatchGame>
@@ -906,7 +1090,11 @@ updatedMatchGame
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 {
@@ -926,7 +1114,11 @@ updatedMatchGame
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 {
@@ -950,7 +1142,11 @@ updatedMatchGame
 
 ### Argument 1
 
-- Types
+- Name
+
+values
+
+- Type
 
 ```ts
 OmitId<Participant>
@@ -968,7 +1164,11 @@ participant
 
 ### Argument 1
 
-- Types
+- Name
+
+values
+
+- Type
 
 ```ts
 OmitId<Participant>[]
@@ -986,7 +1186,11 @@ participants
 
 ### Argument 1
 
-- Types
+- Name
+
+values
+
+- Type
 
 ```ts
 Participant[]
@@ -1004,7 +1208,11 @@ data.participant
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 {
@@ -1032,7 +1240,11 @@ data.participant
 
 ### Argument 1
 
-- Types
+- Name
+
+filter
+
+- Type
 
 ```ts
 Partial<DataTypes[T]>

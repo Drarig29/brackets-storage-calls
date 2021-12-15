@@ -5,12 +5,14 @@
     "returnType": "Promise<number>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stage",
-        "type": "OmitId<Stage>"
+        "name": "values",
+        "type": "OmitId<Stage>",
+        "text": "stage"
       }
     ],
     "sourceFile": {
@@ -25,12 +27,14 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "data.stage",
-        "type": "Stage[]"
+        "name": "values",
+        "type": "Stage[]",
+        "text": "data.stage"
       }
     ],
     "sourceFile": {
@@ -45,12 +49,14 @@
     "returnType": "Promise<number>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stage",
-        "type": "OmitId<Stage>"
+        "name": "value",
+        "type": "OmitId<Stage>",
+        "text": "stage"
       }
     ],
     "sourceFile": {
@@ -65,12 +71,14 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "data.stage",
-        "type": "Stage[]"
+        "name": "value",
+        "type": "Stage[]",
+        "text": "data.stage"
       }
     ],
     "sourceFile": {
@@ -85,12 +93,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -105,12 +115,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "this.currentStageId",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "this.currentStageId"
       }
     ],
     "sourceFile": {
@@ -125,12 +137,14 @@
     "returnType": "Promise<Stage[] | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{    tournament_id: number;}"
+        "name": "filter",
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: this.stage.tournamentId }"
       }
     ],
     "sourceFile": {
@@ -145,8 +159,9 @@
     "returnType": "Promise<Stage[] | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       }
     ],
     "sourceFile": {
@@ -161,12 +176,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stored.stage_id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "stored.stage_id"
       }
     ],
     "sourceFile": {
@@ -181,12 +198,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "match.stage_id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "match.stage_id"
       }
     ],
     "sourceFile": {
@@ -201,12 +220,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "match.stage_id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "match.stage_id"
       }
     ],
     "sourceFile": {
@@ -221,12 +242,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -241,12 +264,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -261,12 +286,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "round.stage_id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "round.stage_id"
       }
     ],
     "sourceFile": {
@@ -281,12 +308,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "round.stage_id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "round.stage_id"
       }
     ],
     "sourceFile": {
@@ -301,12 +330,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -321,12 +352,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stored.stage_id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "stored.stage_id"
       }
     ],
     "sourceFile": {
@@ -341,12 +374,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "match.stage_id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "match.stage_id"
       }
     ],
     "sourceFile": {
@@ -361,12 +396,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "storedParent.stage_id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "storedParent.stage_id"
       }
     ],
     "sourceFile": {
@@ -381,12 +418,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -401,12 +440,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -421,12 +462,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -441,12 +484,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -461,12 +506,14 @@
     "returnType": "Promise<Stage[] | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "{ tournament_id: tournamentId }",
-        "type": "{    tournament_id: number;}"
+        "name": "filter",
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: tournamentId }"
       }
     ],
     "sourceFile": {
@@ -481,12 +528,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -501,12 +550,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "this.currentStageId",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "this.currentStageId"
       }
     ],
     "sourceFile": {
@@ -521,12 +572,14 @@
     "returnType": "Promise<Stage[] | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{    tournament_id: number;}"
+        "name": "id",
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: this.stage.tournamentId }"
       }
     ],
     "sourceFile": {
@@ -541,8 +594,9 @@
     "returnType": "Promise<Stage[] | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       }
     ],
     "sourceFile": {
@@ -557,12 +611,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stored.stage_id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "stored.stage_id"
       }
     ],
     "sourceFile": {
@@ -577,12 +633,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "match.stage_id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "match.stage_id"
       }
     ],
     "sourceFile": {
@@ -597,12 +655,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "match.stage_id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "match.stage_id"
       }
     ],
     "sourceFile": {
@@ -617,12 +677,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -637,12 +699,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -657,12 +721,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "round.stage_id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "round.stage_id"
       }
     ],
     "sourceFile": {
@@ -677,12 +743,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "round.stage_id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "round.stage_id"
       }
     ],
     "sourceFile": {
@@ -697,12 +765,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -717,12 +787,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stored.stage_id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "stored.stage_id"
       }
     ],
     "sourceFile": {
@@ -737,12 +809,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "match.stage_id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "match.stage_id"
       }
     ],
     "sourceFile": {
@@ -757,12 +831,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "storedParent.stage_id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "storedParent.stage_id"
       }
     ],
     "sourceFile": {
@@ -777,12 +853,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -797,12 +875,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -817,12 +897,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -837,12 +919,14 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -857,12 +941,14 @@
     "returnType": "Promise<Stage[] | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "{ tournament_id: tournamentId }",
-        "type": "{    tournament_id: number;}"
+        "name": "id",
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: tournamentId }"
       }
     ],
     "sourceFile": {
@@ -877,12 +963,13 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -897,12 +984,13 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "this.currentStageId",
-        "type": "number"
+        "type": "number",
+        "text": "this.currentStageId"
       }
     ],
     "sourceFile": {
@@ -917,12 +1005,13 @@
     "returnType": "Promise<Stage[] | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{    tournament_id: number;}"
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: this.stage.tournamentId }"
       }
     ],
     "sourceFile": {
@@ -937,8 +1026,9 @@
     "returnType": "Promise<Stage[] | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       }
     ],
     "sourceFile": {
@@ -953,12 +1043,13 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stored.stage_id",
-        "type": "number"
+        "type": "number",
+        "text": "stored.stage_id"
       }
     ],
     "sourceFile": {
@@ -973,12 +1064,13 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "match.stage_id",
-        "type": "number"
+        "type": "number",
+        "text": "match.stage_id"
       }
     ],
     "sourceFile": {
@@ -993,12 +1085,13 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "match.stage_id",
-        "type": "number"
+        "type": "number",
+        "text": "match.stage_id"
       }
     ],
     "sourceFile": {
@@ -1013,12 +1106,13 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -1033,12 +1127,13 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -1053,12 +1148,13 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "round.stage_id",
-        "type": "number"
+        "type": "number",
+        "text": "round.stage_id"
       }
     ],
     "sourceFile": {
@@ -1073,12 +1169,13 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "round.stage_id",
-        "type": "number"
+        "type": "number",
+        "text": "round.stage_id"
       }
     ],
     "sourceFile": {
@@ -1093,12 +1190,13 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -1113,12 +1211,13 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stored.stage_id",
-        "type": "number"
+        "type": "number",
+        "text": "stored.stage_id"
       }
     ],
     "sourceFile": {
@@ -1133,12 +1232,13 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "match.stage_id",
-        "type": "number"
+        "type": "number",
+        "text": "match.stage_id"
       }
     ],
     "sourceFile": {
@@ -1153,12 +1253,13 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "storedParent.stage_id",
-        "type": "number"
+        "type": "number",
+        "text": "storedParent.stage_id"
       }
     ],
     "sourceFile": {
@@ -1173,12 +1274,13 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -1193,12 +1295,13 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -1213,12 +1316,13 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -1233,12 +1337,13 @@
     "returnType": "Promise<Stage | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "type": "number",
+        "text": "stageId"
       }
     ],
     "sourceFile": {
@@ -1253,12 +1358,13 @@
     "returnType": "Promise<Stage[] | null>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "{ tournament_id: tournamentId }",
-        "type": "{    tournament_id: number;}"
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: tournamentId }"
       }
     ],
     "sourceFile": {
@@ -1273,16 +1379,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "stageId"
       },
       {
-        "text": "stage",
-        "type": "Stage"
+        "name": "value",
+        "type": "Stage",
+        "text": "stage"
       }
     ],
     "sourceFile": {
@@ -1297,16 +1406,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "stageId",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "stageId"
       },
       {
-        "text": "stage",
-        "type": "Stage"
+        "name": "value",
+        "type": "Stage",
+        "text": "stage"
       }
     ],
     "sourceFile": {
@@ -1321,8 +1433,9 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       }
     ],
     "sourceFile": {
@@ -1337,12 +1450,14 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "{ id: stageId }",
-        "type": "{    id: number;}"
+        "name": "filter",
+        "type": "{    id: number;}",
+        "text": "{ id: stageId }"
       }
     ],
     "sourceFile": {
@@ -1357,8 +1472,9 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       }
     ],
     "sourceFile": {
@@ -1373,12 +1489,13 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'stage'",
-        "type": "\"stage\""
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
-        "text": "{ id: stageId }",
-        "type": "{    id: number;}"
+        "type": "{    id: number;}",
+        "text": "{ id: stageId }"
       }
     ],
     "sourceFile": {
@@ -1393,12 +1510,14 @@
     "returnType": "Promise<number>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "group",
-        "type": "OmitId<Group>"
+        "name": "values",
+        "type": "OmitId<Group>",
+        "text": "group"
       }
     ],
     "sourceFile": {
@@ -1413,12 +1532,14 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "data.group",
-        "type": "Group[]"
+        "name": "values",
+        "type": "Group[]",
+        "text": "data.group"
       }
     ],
     "sourceFile": {
@@ -1433,12 +1554,14 @@
     "returnType": "Promise<number>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "group",
-        "type": "OmitId<Group>"
+        "name": "value",
+        "type": "OmitId<Group>",
+        "text": "group"
       }
     ],
     "sourceFile": {
@@ -1453,12 +1576,14 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "data.group",
-        "type": "Group[]"
+        "name": "value",
+        "type": "Group[]",
+        "text": "data.group"
       }
     ],
     "sourceFile": {
@@ -1473,8 +1598,9 @@
     "returnType": "Promise<Group[] | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       }
     ],
     "sourceFile": {
@@ -1489,12 +1615,14 @@
     "returnType": "Promise<Group | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "stored.group_id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "stored.group_id"
       }
     ],
     "sourceFile": {
@@ -1509,12 +1637,14 @@
     "returnType": "Promise<Group | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "match.group_id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "match.group_id"
       }
     ],
     "sourceFile": {
@@ -1529,12 +1659,14 @@
     "returnType": "Promise<Group | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "match.group_id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "match.group_id"
       }
     ],
     "sourceFile": {
@@ -1549,12 +1681,14 @@
     "returnType": "Promise<Group | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "round.group_id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "round.group_id"
       }
     ],
     "sourceFile": {
@@ -1569,12 +1703,14 @@
     "returnType": "Promise<Group | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "match.group_id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "match.group_id"
       }
     ],
     "sourceFile": {
@@ -1589,12 +1725,14 @@
     "returnType": "Promise<Group[] | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "name": "filter",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -1609,8 +1747,9 @@
     "returnType": "Promise<Group[] | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       }
     ],
     "sourceFile": {
@@ -1625,12 +1764,14 @@
     "returnType": "Promise<Group | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "stored.group_id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "stored.group_id"
       }
     ],
     "sourceFile": {
@@ -1645,12 +1786,14 @@
     "returnType": "Promise<Group | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "match.group_id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "match.group_id"
       }
     ],
     "sourceFile": {
@@ -1665,12 +1808,14 @@
     "returnType": "Promise<Group | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "match.group_id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "match.group_id"
       }
     ],
     "sourceFile": {
@@ -1685,12 +1830,14 @@
     "returnType": "Promise<Group | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "round.group_id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "round.group_id"
       }
     ],
     "sourceFile": {
@@ -1705,12 +1852,14 @@
     "returnType": "Promise<Group | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "match.group_id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "match.group_id"
       }
     ],
     "sourceFile": {
@@ -1725,12 +1874,14 @@
     "returnType": "Promise<Group[] | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "name": "id",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -1745,8 +1896,9 @@
     "returnType": "Promise<Group[] | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       }
     ],
     "sourceFile": {
@@ -1761,12 +1913,13 @@
     "returnType": "Promise<Group | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "stored.group_id",
-        "type": "number"
+        "type": "number",
+        "text": "stored.group_id"
       }
     ],
     "sourceFile": {
@@ -1781,12 +1934,13 @@
     "returnType": "Promise<Group | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "match.group_id",
-        "type": "number"
+        "type": "number",
+        "text": "match.group_id"
       }
     ],
     "sourceFile": {
@@ -1801,12 +1955,13 @@
     "returnType": "Promise<Group | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "match.group_id",
-        "type": "number"
+        "type": "number",
+        "text": "match.group_id"
       }
     ],
     "sourceFile": {
@@ -1821,12 +1976,13 @@
     "returnType": "Promise<Group | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "round.group_id",
-        "type": "number"
+        "type": "number",
+        "text": "round.group_id"
       }
     ],
     "sourceFile": {
@@ -1841,12 +1997,13 @@
     "returnType": "Promise<Group | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "match.group_id",
-        "type": "number"
+        "type": "number",
+        "text": "match.group_id"
       }
     ],
     "sourceFile": {
@@ -1861,12 +2018,13 @@
     "returnType": "Promise<Group[] | null>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -1881,8 +2039,9 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       }
     ],
     "sourceFile": {
@@ -1897,12 +2056,14 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "name": "filter",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -1917,8 +2078,9 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       }
     ],
     "sourceFile": {
@@ -1933,12 +2095,13 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'group'",
-        "type": "\"group\""
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -1953,12 +2116,14 @@
     "returnType": "Promise<number>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "round",
-        "type": "OmitId<Round>"
+        "name": "values",
+        "type": "OmitId<Round>",
+        "text": "round"
       }
     ],
     "sourceFile": {
@@ -1973,12 +2138,14 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "data.round",
-        "type": "Round[]"
+        "name": "values",
+        "type": "Round[]",
+        "text": "data.round"
       }
     ],
     "sourceFile": {
@@ -1993,12 +2160,14 @@
     "returnType": "Promise<number>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "round",
-        "type": "OmitId<Round>"
+        "name": "value",
+        "type": "OmitId<Round>",
+        "text": "round"
       }
     ],
     "sourceFile": {
@@ -2013,12 +2182,14 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "data.round",
-        "type": "Round[]"
+        "name": "value",
+        "type": "Round[]",
+        "text": "data.round"
       }
     ],
     "sourceFile": {
@@ -2033,8 +2204,9 @@
     "returnType": "Promise<Round[] | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       }
     ],
     "sourceFile": {
@@ -2049,12 +2221,14 @@
     "returnType": "Promise<Round | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "match.round_id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "match.round_id"
       }
     ],
     "sourceFile": {
@@ -2069,12 +2243,14 @@
     "returnType": "Promise<Round | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "roundId",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "roundId"
       }
     ],
     "sourceFile": {
@@ -2089,12 +2265,14 @@
     "returnType": "Promise<Round[] | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "name": "filter",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -2109,12 +2287,14 @@
     "returnType": "Promise<Round[] | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "{ group_id: round.group_id }",
-        "type": "{    group_id: number;}"
+        "name": "filter",
+        "type": "{    group_id: number;}",
+        "text": "{ group_id: round.group_id }"
       }
     ],
     "sourceFile": {
@@ -2129,12 +2309,14 @@
     "returnType": "Promise<Round | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "roundId",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "roundId"
       }
     ],
     "sourceFile": {
@@ -2149,12 +2331,14 @@
     "returnType": "Promise<Round[] | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "name": "filter",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -2169,8 +2353,9 @@
     "returnType": "Promise<Round[] | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       }
     ],
     "sourceFile": {
@@ -2185,12 +2370,14 @@
     "returnType": "Promise<Round | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "match.round_id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "match.round_id"
       }
     ],
     "sourceFile": {
@@ -2205,12 +2392,14 @@
     "returnType": "Promise<Round | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "roundId",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "roundId"
       }
     ],
     "sourceFile": {
@@ -2225,12 +2414,14 @@
     "returnType": "Promise<Round[] | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "name": "id",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -2245,12 +2436,14 @@
     "returnType": "Promise<Round[] | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "{ group_id: round.group_id }",
-        "type": "{    group_id: number;}"
+        "name": "id",
+        "type": "{    group_id: number;}",
+        "text": "{ group_id: round.group_id }"
       }
     ],
     "sourceFile": {
@@ -2265,12 +2458,14 @@
     "returnType": "Promise<Round | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "roundId",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "roundId"
       }
     ],
     "sourceFile": {
@@ -2285,12 +2480,14 @@
     "returnType": "Promise<Round[] | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "name": "id",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -2305,8 +2502,9 @@
     "returnType": "Promise<Round[] | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       }
     ],
     "sourceFile": {
@@ -2321,12 +2519,13 @@
     "returnType": "Promise<Round | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "match.round_id",
-        "type": "number"
+        "type": "number",
+        "text": "match.round_id"
       }
     ],
     "sourceFile": {
@@ -2341,12 +2540,13 @@
     "returnType": "Promise<Round | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "roundId",
-        "type": "number"
+        "type": "number",
+        "text": "roundId"
       }
     ],
     "sourceFile": {
@@ -2361,12 +2561,13 @@
     "returnType": "Promise<Round[] | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -2381,12 +2582,13 @@
     "returnType": "Promise<Round[] | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "{ group_id: round.group_id }",
-        "type": "{    group_id: number;}"
+        "type": "{    group_id: number;}",
+        "text": "{ group_id: round.group_id }"
       }
     ],
     "sourceFile": {
@@ -2401,12 +2603,13 @@
     "returnType": "Promise<Round | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "roundId",
-        "type": "number"
+        "type": "number",
+        "text": "roundId"
       }
     ],
     "sourceFile": {
@@ -2421,12 +2624,13 @@
     "returnType": "Promise<Round[] | null>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -2441,8 +2645,9 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       }
     ],
     "sourceFile": {
@@ -2457,12 +2662,14 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "name": "filter",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -2477,8 +2684,9 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       }
     ],
     "sourceFile": {
@@ -2493,12 +2701,13 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'round'",
-        "type": "\"round\""
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -2513,12 +2722,14 @@
     "returnType": "Promise<number>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "match",
-        "type": "OmitId<Match>"
+        "name": "values",
+        "type": "OmitId<Match>",
+        "text": "match"
       }
     ],
     "sourceFile": {
@@ -2533,12 +2744,14 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "data.match",
-        "type": "Match[]"
+        "name": "values",
+        "type": "Match[]",
+        "text": "data.match"
       }
     ],
     "sourceFile": {
@@ -2553,12 +2766,14 @@
     "returnType": "Promise<number>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "match",
-        "type": "OmitId<Match>"
+        "name": "value",
+        "type": "OmitId<Match>",
+        "text": "match"
       }
     ],
     "sourceFile": {
@@ -2573,12 +2788,14 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "data.match",
-        "type": "Match[]"
+        "name": "value",
+        "type": "Match[]",
+        "text": "data.match"
       }
     ],
     "sourceFile": {
@@ -2593,8 +2810,9 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       }
     ],
     "sourceFile": {
@@ -2609,12 +2827,14 @@
     "returnType": "Promise<Match | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "matchId",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "matchId"
       }
     ],
     "sourceFile": {
@@ -2629,12 +2849,14 @@
     "returnType": "Promise<Match | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "matchId",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "matchId"
       }
     ],
     "sourceFile": {
@@ -2649,12 +2871,14 @@
     "returnType": "Promise<Match | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "matchId",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "matchId"
       }
     ],
     "sourceFile": {
@@ -2669,12 +2893,14 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ round_id: roundId }",
-        "type": "{    round_id: number;}"
+        "name": "filter",
+        "type": "{    round_id: number;}",
+        "text": "{ round_id: roundId }"
       }
     ],
     "sourceFile": {
@@ -2689,12 +2915,14 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ group_id: groupId }",
-        "type": "{    group_id: number;}"
+        "name": "filter",
+        "type": "{    group_id: number;}",
+        "text": "{ group_id: groupId }"
       }
     ],
     "sourceFile": {
@@ -2709,12 +2937,14 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "name": "filter",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -2729,12 +2959,14 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ round_id: round.id }",
-        "type": "{    round_id: number;}"
+        "name": "filter",
+        "type": "{    round_id: number;}",
+        "text": "{ round_id: round.id }"
       }
     ],
     "sourceFile": {
@@ -2749,12 +2981,14 @@
     "returnType": "Promise<Match | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "id"
       }
     ],
     "sourceFile": {
@@ -2769,12 +3003,14 @@
     "returnType": "Promise<Match | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "match.id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "match.id"
       }
     ],
     "sourceFile": {
@@ -2789,12 +3025,14 @@
     "returnType": "Promise<Match | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "parentId",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "parentId"
       }
     ],
     "sourceFile": {
@@ -2809,12 +3047,14 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "name": "filter",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -2829,12 +3069,14 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ round_id: round.id }",
-        "type": "{    round_id: number;}"
+        "name": "filter",
+        "type": "{    round_id: number;}",
+        "text": "{ round_id: round.id }"
       }
     ],
     "sourceFile": {
@@ -2849,12 +3091,14 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ stage_id: stage.id }",
-        "type": "{    stage_id: number;}"
+        "name": "filter",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stage.id }"
       }
     ],
     "sourceFile": {
@@ -2869,12 +3113,14 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ round_id: firstRound.id }",
-        "type": "{    round_id: number;}"
+        "name": "filter",
+        "type": "{    round_id: number;}",
+        "text": "{ round_id: firstRound.id }"
       }
     ],
     "sourceFile": {
@@ -2889,12 +3135,14 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "name": "filter",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -2909,8 +3157,9 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       }
     ],
     "sourceFile": {
@@ -2925,12 +3174,14 @@
     "returnType": "Promise<Match | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "matchId",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "matchId"
       }
     ],
     "sourceFile": {
@@ -2945,12 +3196,14 @@
     "returnType": "Promise<Match | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "matchId",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "matchId"
       }
     ],
     "sourceFile": {
@@ -2965,12 +3218,14 @@
     "returnType": "Promise<Match | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "matchId",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "matchId"
       }
     ],
     "sourceFile": {
@@ -2985,12 +3240,14 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ round_id: roundId }",
-        "type": "{    round_id: number;}"
+        "name": "id",
+        "type": "{    round_id: number;}",
+        "text": "{ round_id: roundId }"
       }
     ],
     "sourceFile": {
@@ -3005,12 +3262,14 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ group_id: groupId }",
-        "type": "{    group_id: number;}"
+        "name": "id",
+        "type": "{    group_id: number;}",
+        "text": "{ group_id: groupId }"
       }
     ],
     "sourceFile": {
@@ -3025,12 +3284,14 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "name": "id",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -3045,12 +3306,14 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ round_id: round.id }",
-        "type": "{    round_id: number;}"
+        "name": "id",
+        "type": "{    round_id: number;}",
+        "text": "{ round_id: round.id }"
       }
     ],
     "sourceFile": {
@@ -3065,12 +3328,14 @@
     "returnType": "Promise<Match | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "id"
       }
     ],
     "sourceFile": {
@@ -3085,12 +3350,14 @@
     "returnType": "Promise<Match | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "match.id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "match.id"
       }
     ],
     "sourceFile": {
@@ -3105,12 +3372,14 @@
     "returnType": "Promise<Match | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "parentId",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "parentId"
       }
     ],
     "sourceFile": {
@@ -3125,12 +3394,14 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "name": "id",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -3145,12 +3416,14 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ round_id: round.id }",
-        "type": "{    round_id: number;}"
+        "name": "id",
+        "type": "{    round_id: number;}",
+        "text": "{ round_id: round.id }"
       }
     ],
     "sourceFile": {
@@ -3165,12 +3438,14 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ stage_id: stage.id }",
-        "type": "{    stage_id: number;}"
+        "name": "id",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stage.id }"
       }
     ],
     "sourceFile": {
@@ -3185,12 +3460,14 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ round_id: firstRound.id }",
-        "type": "{    round_id: number;}"
+        "name": "id",
+        "type": "{    round_id: number;}",
+        "text": "{ round_id: firstRound.id }"
       }
     ],
     "sourceFile": {
@@ -3205,12 +3482,14 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "name": "id",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -3225,8 +3504,9 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       }
     ],
     "sourceFile": {
@@ -3241,12 +3521,13 @@
     "returnType": "Promise<Match | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "matchId",
-        "type": "number"
+        "type": "number",
+        "text": "matchId"
       }
     ],
     "sourceFile": {
@@ -3261,12 +3542,13 @@
     "returnType": "Promise<Match | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "matchId",
-        "type": "number"
+        "type": "number",
+        "text": "matchId"
       }
     ],
     "sourceFile": {
@@ -3281,12 +3563,13 @@
     "returnType": "Promise<Match | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "matchId",
-        "type": "number"
+        "type": "number",
+        "text": "matchId"
       }
     ],
     "sourceFile": {
@@ -3301,12 +3584,13 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ round_id: roundId }",
-        "type": "{    round_id: number;}"
+        "type": "{    round_id: number;}",
+        "text": "{ round_id: roundId }"
       }
     ],
     "sourceFile": {
@@ -3321,12 +3605,13 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ group_id: groupId }",
-        "type": "{    group_id: number;}"
+        "type": "{    group_id: number;}",
+        "text": "{ group_id: groupId }"
       }
     ],
     "sourceFile": {
@@ -3341,12 +3626,13 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -3361,12 +3647,13 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ round_id: round.id }",
-        "type": "{    round_id: number;}"
+        "type": "{    round_id: number;}",
+        "text": "{ round_id: round.id }"
       }
     ],
     "sourceFile": {
@@ -3381,12 +3668,13 @@
     "returnType": "Promise<Match | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "id",
-        "type": "number"
+        "type": "number",
+        "text": "id"
       }
     ],
     "sourceFile": {
@@ -3401,12 +3689,13 @@
     "returnType": "Promise<Match | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "match.id",
-        "type": "number"
+        "type": "number",
+        "text": "match.id"
       }
     ],
     "sourceFile": {
@@ -3421,12 +3710,13 @@
     "returnType": "Promise<Match | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "parentId",
-        "type": "number"
+        "type": "number",
+        "text": "parentId"
       }
     ],
     "sourceFile": {
@@ -3441,12 +3731,13 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -3461,12 +3752,13 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ round_id: round.id }",
-        "type": "{    round_id: number;}"
+        "type": "{    round_id: number;}",
+        "text": "{ round_id: round.id }"
       }
     ],
     "sourceFile": {
@@ -3481,12 +3773,13 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ stage_id: stage.id }",
-        "type": "{    stage_id: number;}"
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stage.id }"
       }
     ],
     "sourceFile": {
@@ -3501,12 +3794,13 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ round_id: firstRound.id }",
-        "type": "{    round_id: number;}"
+        "type": "{    round_id: number;}",
+        "text": "{ round_id: firstRound.id }"
       }
     ],
     "sourceFile": {
@@ -3521,12 +3815,13 @@
     "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -3541,16 +3836,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "existing.id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "existing.id"
       },
       {
-        "text": "updated",
-        "type": "Match"
+        "name": "value",
+        "type": "Match",
+        "text": "updated"
       }
     ],
     "sourceFile": {
@@ -3565,16 +3863,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "match.id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "match.id"
       },
       {
-        "text": "{ ...match, child_count: targetChildCount }",
-        "type": "{    child_count: number;    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    status: Status;    opponent1: ParticipantResult | null;    opponent2: ParticipantResult | null;}"
+        "name": "value",
+        "type": "{    child_count: number;    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    status: Status;    opponent1: ParticipantResult | null;    opponent2: ParticipantResult | null;}",
+        "text": "{ ...match, child_count: targetChildCount }"
       }
     ],
     "sourceFile": {
@@ -3589,16 +3890,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "updated.id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "updated.id"
       },
       {
-        "text": "updated",
-        "type": "{    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    child_count: number;    status: Status;    opponent1: ParticipantResult | null;    opponent2: ParticipantResult | null;}"
+        "name": "value",
+        "type": "{    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    child_count: number;    status: Status;    opponent1: ParticipantResult | null;    opponent2: ParticipantResult | null;}",
+        "text": "updated"
       }
     ],
     "sourceFile": {
@@ -3613,16 +3917,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ round_id: roundId }",
-        "type": "{    round_id: number;}"
+        "name": "filter",
+        "type": "{    round_id: number;}",
+        "text": "{ round_id: roundId }"
       },
       {
-        "text": "{ child_count: childCount }",
-        "type": "{    child_count: number;}"
+        "name": "value",
+        "type": "{    child_count: number;}",
+        "text": "{ child_count: childCount }"
       }
     ],
     "sourceFile": {
@@ -3637,16 +3944,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ group_id: groupId }",
-        "type": "{    group_id: number;}"
+        "name": "filter",
+        "type": "{    group_id: number;}",
+        "text": "{ group_id: groupId }"
       },
       {
-        "text": "{ child_count: childCount }",
-        "type": "{    child_count: number;}"
+        "name": "value",
+        "type": "{    child_count: number;}",
+        "text": "{ child_count: childCount }"
       }
     ],
     "sourceFile": {
@@ -3661,16 +3971,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "name": "filter",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       },
       {
-        "text": "{ child_count: childCount }",
-        "type": "{    child_count: number;}"
+        "name": "value",
+        "type": "{    child_count: number;}",
+        "text": "{ child_count: childCount }"
       }
     ],
     "sourceFile": {
@@ -3685,16 +3998,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "match.id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "match.id"
       },
       {
-        "text": "match",
-        "type": "Match"
+        "name": "value",
+        "type": "Match",
+        "text": "match"
       }
     ],
     "sourceFile": {
@@ -3709,16 +4025,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "existing.id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "existing.id"
       },
       {
-        "text": "updated",
-        "type": "Match"
+        "name": "value",
+        "type": "Match",
+        "text": "updated"
       }
     ],
     "sourceFile": {
@@ -3733,16 +4052,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "match.id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "match.id"
       },
       {
-        "text": "{ ...match, child_count: targetChildCount }",
-        "type": "{    child_count: number;    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    status: Status;    opponent1: ParticipantResult | null;    opponent2: ParticipantResult | null;}"
+        "name": "value",
+        "type": "{    child_count: number;    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    status: Status;    opponent1: ParticipantResult | null;    opponent2: ParticipantResult | null;}",
+        "text": "{ ...match, child_count: targetChildCount }"
       }
     ],
     "sourceFile": {
@@ -3757,16 +4079,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "updated.id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "updated.id"
       },
       {
-        "text": "updated",
-        "type": "{    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    child_count: number;    status: Status;    opponent1: ParticipantResult | null;    opponent2: ParticipantResult | null;}"
+        "name": "value",
+        "type": "{    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    child_count: number;    status: Status;    opponent1: ParticipantResult | null;    opponent2: ParticipantResult | null;}",
+        "text": "updated"
       }
     ],
     "sourceFile": {
@@ -3781,16 +4106,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ round_id: roundId }",
-        "type": "{    round_id: number;}"
+        "name": "id",
+        "type": "{    round_id: number;}",
+        "text": "{ round_id: roundId }"
       },
       {
-        "text": "{ child_count: childCount }",
-        "type": "{    child_count: number;}"
+        "name": "value",
+        "type": "{    child_count: number;}",
+        "text": "{ child_count: childCount }"
       }
     ],
     "sourceFile": {
@@ -3805,16 +4133,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ group_id: groupId }",
-        "type": "{    group_id: number;}"
+        "name": "id",
+        "type": "{    group_id: number;}",
+        "text": "{ group_id: groupId }"
       },
       {
-        "text": "{ child_count: childCount }",
-        "type": "{    child_count: number;}"
+        "name": "value",
+        "type": "{    child_count: number;}",
+        "text": "{ child_count: childCount }"
       }
     ],
     "sourceFile": {
@@ -3829,16 +4160,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "name": "id",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       },
       {
-        "text": "{ child_count: childCount }",
-        "type": "{    child_count: number;}"
+        "name": "value",
+        "type": "{    child_count: number;}",
+        "text": "{ child_count: childCount }"
       }
     ],
     "sourceFile": {
@@ -3853,16 +4187,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "match.id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "match.id"
       },
       {
-        "text": "match",
-        "type": "Match"
+        "name": "value",
+        "type": "Match",
+        "text": "match"
       }
     ],
     "sourceFile": {
@@ -3877,8 +4214,9 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       }
     ],
     "sourceFile": {
@@ -3893,12 +4231,14 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "name": "filter",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -3913,8 +4253,9 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       }
     ],
     "sourceFile": {
@@ -3929,12 +4270,13 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match'",
-        "type": "\"match\""
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -3949,12 +4291,14 @@
     "returnType": "Promise<number>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "matchGame",
-        "type": "OmitId<MatchGame>"
+        "name": "values",
+        "type": "OmitId<MatchGame>",
+        "text": "matchGame"
       }
     ],
     "sourceFile": {
@@ -3969,12 +4313,14 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "data.match_game",
-        "type": "MatchGame[]"
+        "name": "values",
+        "type": "MatchGame[]",
+        "text": "data.match_game"
       }
     ],
     "sourceFile": {
@@ -3989,12 +4335,14 @@
     "returnType": "Promise<number>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "{\n                number: childCount + 1,\n                stage_id: match.stage_id,\n                parent_id: match.id,\n                status: match.status,\n                opponent1: { id: null },\n                opponent2: { id: null },\n            }",
-        "type": "{    number: number;    stage_id: number;    parent_id: number;    status: Status;    opponent1: {        id: null;    };    opponent2: {        id: null;    };}"
+        "name": "values",
+        "type": "{    number: number;    stage_id: number;    parent_id: number;    status: Status;    opponent1: {        id: null;    };    opponent2: {        id: null;    };}",
+        "text": "{\n                number: childCount + 1,\n                stage_id: match.stage_id,\n                parent_id: match.id,\n                status: match.status,\n                opponent1: { id: null },\n                opponent2: { id: null },\n            }"
       }
     ],
     "sourceFile": {
@@ -4009,12 +4357,14 @@
     "returnType": "Promise<number>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "matchGame",
-        "type": "OmitId<MatchGame>"
+        "name": "value",
+        "type": "OmitId<MatchGame>",
+        "text": "matchGame"
       }
     ],
     "sourceFile": {
@@ -4029,12 +4379,14 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "data.match_game",
-        "type": "MatchGame[]"
+        "name": "value",
+        "type": "MatchGame[]",
+        "text": "data.match_game"
       }
     ],
     "sourceFile": {
@@ -4049,12 +4401,14 @@
     "returnType": "Promise<number>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "{\n                number: childCount + 1,\n                stage_id: match.stage_id,\n                parent_id: match.id,\n                status: match.status,\n                opponent1: { id: null },\n                opponent2: { id: null },\n            }",
-        "type": "{    number: number;    stage_id: number;    parent_id: number;    status: Status;    opponent1: {        id: null;    };    opponent2: {        id: null;    };}"
+        "name": "value",
+        "type": "{    number: number;    stage_id: number;    parent_id: number;    status: Status;    opponent1: {        id: null;    };    opponent2: {        id: null;    };}",
+        "text": "{\n                number: childCount + 1,\n                stage_id: match.stage_id,\n                parent_id: match.id,\n                status: match.status,\n                opponent1: { id: null },\n                opponent2: { id: null },\n            }"
       }
     ],
     "sourceFile": {
@@ -4069,12 +4423,14 @@
     "returnType": "Promise<MatchGame | null>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "gameId",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "gameId"
       }
     ],
     "sourceFile": {
@@ -4089,12 +4445,14 @@
     "returnType": "Promise<MatchGame[] | null>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "{ parent_id: match.id }",
-        "type": "{    parent_id: number;}"
+        "name": "filter",
+        "type": "{    parent_id: number;}",
+        "text": "{ parent_id: match.id }"
       }
     ],
     "sourceFile": {
@@ -4109,12 +4467,14 @@
     "returnType": "Promise<MatchGame[] | null>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "{ parent_id: parentId }",
-        "type": "{    parent_id: number;}"
+        "name": "filter",
+        "type": "{    parent_id: number;}",
+        "text": "{ parent_id: parentId }"
       }
     ],
     "sourceFile": {
@@ -4129,12 +4489,14 @@
     "returnType": "Promise<MatchGame[] | null>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "{ parent_id: match.id }",
-        "type": "{    parent_id: number;}"
+        "name": "filter",
+        "type": "{    parent_id: number;}",
+        "text": "{ parent_id: match.id }"
       }
     ],
     "sourceFile": {
@@ -4149,12 +4511,14 @@
     "returnType": "Promise<MatchGame | null>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "game.id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "game.id"
       }
     ],
     "sourceFile": {
@@ -4169,12 +4533,14 @@
     "returnType": "Promise<MatchGame | null>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "gameId",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "gameId"
       }
     ],
     "sourceFile": {
@@ -4189,12 +4555,14 @@
     "returnType": "Promise<MatchGame[] | null>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "{ parent_id: match.id }",
-        "type": "{    parent_id: number;}"
+        "name": "id",
+        "type": "{    parent_id: number;}",
+        "text": "{ parent_id: match.id }"
       }
     ],
     "sourceFile": {
@@ -4209,12 +4577,14 @@
     "returnType": "Promise<MatchGame[] | null>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "{ parent_id: parentId }",
-        "type": "{    parent_id: number;}"
+        "name": "id",
+        "type": "{    parent_id: number;}",
+        "text": "{ parent_id: parentId }"
       }
     ],
     "sourceFile": {
@@ -4229,12 +4599,14 @@
     "returnType": "Promise<MatchGame[] | null>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "{ parent_id: match.id }",
-        "type": "{    parent_id: number;}"
+        "name": "id",
+        "type": "{    parent_id: number;}",
+        "text": "{ parent_id: match.id }"
       }
     ],
     "sourceFile": {
@@ -4249,12 +4621,14 @@
     "returnType": "Promise<MatchGame | null>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "game.id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "game.id"
       }
     ],
     "sourceFile": {
@@ -4269,12 +4643,13 @@
     "returnType": "Promise<MatchGame | null>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "gameId",
-        "type": "number"
+        "type": "number",
+        "text": "gameId"
       }
     ],
     "sourceFile": {
@@ -4289,12 +4664,13 @@
     "returnType": "Promise<MatchGame[] | null>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "{ parent_id: match.id }",
-        "type": "{    parent_id: number;}"
+        "type": "{    parent_id: number;}",
+        "text": "{ parent_id: match.id }"
       }
     ],
     "sourceFile": {
@@ -4309,12 +4685,13 @@
     "returnType": "Promise<MatchGame[] | null>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "{ parent_id: parentId }",
-        "type": "{    parent_id: number;}"
+        "type": "{    parent_id: number;}",
+        "text": "{ parent_id: parentId }"
       }
     ],
     "sourceFile": {
@@ -4329,12 +4706,13 @@
     "returnType": "Promise<MatchGame[] | null>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "{ parent_id: match.id }",
-        "type": "{    parent_id: number;}"
+        "type": "{    parent_id: number;}",
+        "text": "{ parent_id: match.id }"
       }
     ],
     "sourceFile": {
@@ -4349,12 +4727,13 @@
     "returnType": "Promise<MatchGame | null>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "game.id",
-        "type": "number"
+        "type": "number",
+        "text": "game.id"
       }
     ],
     "sourceFile": {
@@ -4369,16 +4748,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "existing.id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "existing.id"
       },
       {
-        "text": "updated",
-        "type": "MatchGame"
+        "name": "value",
+        "type": "MatchGame",
+        "text": "updated"
       }
     ],
     "sourceFile": {
@@ -4393,16 +4775,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "stored.id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "stored.id"
       },
       {
-        "text": "stored",
-        "type": "MatchGame"
+        "name": "value",
+        "type": "MatchGame",
+        "text": "stored"
       }
     ],
     "sourceFile": {
@@ -4417,16 +4802,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "stored.id",
-        "type": "number"
+        "name": "filter",
+        "type": "number",
+        "text": "stored.id"
       },
       {
-        "text": "stored",
-        "type": "MatchGame"
+        "name": "value",
+        "type": "MatchGame",
+        "text": "stored"
       }
     ],
     "sourceFile": {
@@ -4441,16 +4829,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "{ parent_id: match.id }",
-        "type": "{    parent_id: number;}"
+        "name": "filter",
+        "type": "{    parent_id: number;}",
+        "text": "{ parent_id: match.id }"
       },
       {
-        "text": "updatedMatchGame",
-        "type": "Partial<MatchGame>"
+        "name": "value",
+        "type": "Partial<MatchGame>",
+        "text": "updatedMatchGame"
       }
     ],
     "sourceFile": {
@@ -4465,16 +4856,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "existing.id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "existing.id"
       },
       {
-        "text": "updated",
-        "type": "MatchGame"
+        "name": "value",
+        "type": "MatchGame",
+        "text": "updated"
       }
     ],
     "sourceFile": {
@@ -4489,16 +4883,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "stored.id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "stored.id"
       },
       {
-        "text": "stored",
-        "type": "MatchGame"
+        "name": "value",
+        "type": "MatchGame",
+        "text": "stored"
       }
     ],
     "sourceFile": {
@@ -4513,16 +4910,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "stored.id",
-        "type": "number"
+        "name": "id",
+        "type": "number",
+        "text": "stored.id"
       },
       {
-        "text": "stored",
-        "type": "MatchGame"
+        "name": "value",
+        "type": "MatchGame",
+        "text": "stored"
       }
     ],
     "sourceFile": {
@@ -4537,16 +4937,19 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "{ parent_id: match.id }",
-        "type": "{    parent_id: number;}"
+        "name": "id",
+        "type": "{    parent_id: number;}",
+        "text": "{ parent_id: match.id }"
       },
       {
-        "text": "updatedMatchGame",
-        "type": "Partial<MatchGame>"
+        "name": "value",
+        "type": "Partial<MatchGame>",
+        "text": "updatedMatchGame"
       }
     ],
     "sourceFile": {
@@ -4561,8 +4964,9 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       }
     ],
     "sourceFile": {
@@ -4577,12 +4981,14 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "name": "filter",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -4597,12 +5003,14 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "{\n                parent_id: match.id,\n                number: childCount,\n            }",
-        "type": "{    parent_id: number;    number: number;}"
+        "name": "filter",
+        "type": "{    parent_id: number;    number: number;}",
+        "text": "{\n                parent_id: match.id,\n                number: childCount,\n            }"
       }
     ],
     "sourceFile": {
@@ -4617,8 +5025,9 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       }
     ],
     "sourceFile": {
@@ -4633,12 +5042,13 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "{ stage_id: stageId }",
-        "type": "{    stage_id: number;}"
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
@@ -4653,12 +5063,13 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'match_game'",
-        "type": "\"match_game\""
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
       },
       {
-        "text": "{\n                parent_id: match.id,\n                number: childCount,\n            }",
-        "type": "{    parent_id: number;    number: number;}"
+        "type": "{    parent_id: number;    number: number;}",
+        "text": "{\n                parent_id: match.id,\n                number: childCount,\n            }"
       }
     ],
     "sourceFile": {
@@ -4673,12 +5084,14 @@
     "returnType": "Promise<number>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "participant",
-        "type": "OmitId<Participant>"
+        "name": "values",
+        "type": "OmitId<Participant>",
+        "text": "participant"
       }
     ],
     "sourceFile": {
@@ -4693,12 +5106,14 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "participants",
-        "type": "OmitId<Participant>[]"
+        "name": "values",
+        "type": "OmitId<Participant>[]",
+        "text": "participants"
       }
     ],
     "sourceFile": {
@@ -4713,12 +5128,14 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "data.participant",
-        "type": "Participant[]"
+        "name": "values",
+        "type": "Participant[]",
+        "text": "data.participant"
       }
     ],
     "sourceFile": {
@@ -4733,12 +5150,14 @@
     "returnType": "Promise<number>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "participant",
-        "type": "OmitId<Participant>"
+        "name": "value",
+        "type": "OmitId<Participant>",
+        "text": "participant"
       }
     ],
     "sourceFile": {
@@ -4753,12 +5172,14 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "participants",
-        "type": "OmitId<Participant>[]"
+        "name": "value",
+        "type": "OmitId<Participant>[]",
+        "text": "participants"
       }
     ],
     "sourceFile": {
@@ -4773,12 +5194,14 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "data.participant",
-        "type": "Participant[]"
+        "name": "value",
+        "type": "Participant[]",
+        "text": "data.participant"
       }
     ],
     "sourceFile": {
@@ -4793,12 +5216,14 @@
     "returnType": "Promise<Participant[] | null>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{    tournament_id: number;}"
+        "name": "filter",
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: this.stage.tournamentId }"
       }
     ],
     "sourceFile": {
@@ -4813,12 +5238,14 @@
     "returnType": "Promise<Participant[] | null>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{    tournament_id: number;}"
+        "name": "filter",
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: this.stage.tournamentId }"
       }
     ],
     "sourceFile": {
@@ -4833,12 +5260,14 @@
     "returnType": "Promise<Participant[] | null>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{    tournament_id: number;}"
+        "name": "filter",
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: this.stage.tournamentId }"
       }
     ],
     "sourceFile": {
@@ -4853,8 +5282,9 @@
     "returnType": "Promise<Participant[] | null>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       }
     ],
     "sourceFile": {
@@ -4869,12 +5299,14 @@
     "returnType": "Promise<Participant[] | null>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "{ tournament_id: tournamentId }",
-        "type": "{    tournament_id: number;}"
+        "name": "filter",
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: tournamentId }"
       }
     ],
     "sourceFile": {
@@ -4889,12 +5321,14 @@
     "returnType": "Promise<Participant[] | null>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "{ tournament_id: stageData.stage.tournament_id }",
-        "type": "{    tournament_id: number;}"
+        "name": "filter",
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: stageData.stage.tournament_id }"
       }
     ],
     "sourceFile": {
@@ -4909,12 +5343,14 @@
     "returnType": "Promise<Participant[] | null>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{    tournament_id: number;}"
+        "name": "id",
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: this.stage.tournamentId }"
       }
     ],
     "sourceFile": {
@@ -4929,12 +5365,14 @@
     "returnType": "Promise<Participant[] | null>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{    tournament_id: number;}"
+        "name": "id",
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: this.stage.tournamentId }"
       }
     ],
     "sourceFile": {
@@ -4949,12 +5387,14 @@
     "returnType": "Promise<Participant[] | null>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{    tournament_id: number;}"
+        "name": "id",
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: this.stage.tournamentId }"
       }
     ],
     "sourceFile": {
@@ -4969,8 +5409,9 @@
     "returnType": "Promise<Participant[] | null>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       }
     ],
     "sourceFile": {
@@ -4985,12 +5426,14 @@
     "returnType": "Promise<Participant[] | null>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "{ tournament_id: tournamentId }",
-        "type": "{    tournament_id: number;}"
+        "name": "id",
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: tournamentId }"
       }
     ],
     "sourceFile": {
@@ -5005,12 +5448,14 @@
     "returnType": "Promise<Participant[] | null>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "{ tournament_id: stageData.stage.tournament_id }",
-        "type": "{    tournament_id: number;}"
+        "name": "id",
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: stageData.stage.tournament_id }"
       }
     ],
     "sourceFile": {
@@ -5025,12 +5470,13 @@
     "returnType": "Promise<Participant[] | null>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{    tournament_id: number;}"
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: this.stage.tournamentId }"
       }
     ],
     "sourceFile": {
@@ -5045,12 +5491,13 @@
     "returnType": "Promise<Participant[] | null>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{    tournament_id: number;}"
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: this.stage.tournamentId }"
       }
     ],
     "sourceFile": {
@@ -5065,12 +5512,13 @@
     "returnType": "Promise<Participant[] | null>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "{ tournament_id: this.stage.tournamentId }",
-        "type": "{    tournament_id: number;}"
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: this.stage.tournamentId }"
       }
     ],
     "sourceFile": {
@@ -5085,8 +5533,9 @@
     "returnType": "Promise<Participant[] | null>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       }
     ],
     "sourceFile": {
@@ -5101,12 +5550,13 @@
     "returnType": "Promise<Participant[] | null>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "{ tournament_id: tournamentId }",
-        "type": "{    tournament_id: number;}"
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: tournamentId }"
       }
     ],
     "sourceFile": {
@@ -5121,12 +5571,13 @@
     "returnType": "Promise<Participant[] | null>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       },
       {
-        "text": "{ tournament_id: stageData.stage.tournament_id }",
-        "type": "{    tournament_id: number;}"
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: stageData.stage.tournament_id }"
       }
     ],
     "sourceFile": {
@@ -5141,8 +5592,9 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       }
     ],
     "sourceFile": {
@@ -5157,8 +5609,9 @@
     "returnType": "Promise<boolean>",
     "arguments": [
       {
-        "text": "'participant'",
-        "type": "\"participant\""
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
       }
     ],
     "sourceFile": {
@@ -5172,12 +5625,14 @@
     "returnType": "Promise<DataTypes[T][] | null>",
     "arguments": [
       {
-        "text": "table",
-        "type": "T"
+        "name": "table",
+        "type": "T",
+        "text": "table"
       },
       {
-        "text": "filter",
-        "type": "Partial<DataTypes[T]>"
+        "name": "filter",
+        "type": "Partial<DataTypes[T]>",
+        "text": "filter"
       }
     ],
     "sourceFile": {
@@ -5191,12 +5646,14 @@
     "returnType": "Promise<DataTypes[T][] | null>",
     "arguments": [
       {
-        "text": "table",
-        "type": "T"
+        "name": "table",
+        "type": "T",
+        "text": "table"
       },
       {
-        "text": "filter",
-        "type": "Partial<DataTypes[T]>"
+        "name": "filter",
+        "type": "Partial<DataTypes[T]>",
+        "text": "filter"
       }
     ],
     "sourceFile": {
@@ -5210,12 +5667,14 @@
     "returnType": "Promise<DataTypes[T][] | null>",
     "arguments": [
       {
-        "text": "table",
-        "type": "T"
+        "name": "table",
+        "type": "T",
+        "text": "table"
       },
       {
-        "text": "filter",
-        "type": "Partial<DataTypes[T]>"
+        "name": "id",
+        "type": "Partial<DataTypes[T]>",
+        "text": "filter"
       }
     ],
     "sourceFile": {
@@ -5229,12 +5688,14 @@
     "returnType": "Promise<DataTypes[T][] | null>",
     "arguments": [
       {
-        "text": "table",
-        "type": "T"
+        "name": "table",
+        "type": "T",
+        "text": "table"
       },
       {
-        "text": "filter",
-        "type": "Partial<DataTypes[T]>"
+        "name": "id",
+        "type": "Partial<DataTypes[T]>",
+        "text": "filter"
       }
     ],
     "sourceFile": {
@@ -5248,12 +5709,13 @@
     "returnType": "Promise<DataTypes[T][] | null>",
     "arguments": [
       {
-        "text": "table",
-        "type": "T"
+        "name": "table",
+        "type": "T",
+        "text": "table"
       },
       {
-        "text": "filter",
-        "type": "Partial<DataTypes[T]>"
+        "type": "Partial<DataTypes[T]>",
+        "text": "filter"
       }
     ],
     "sourceFile": {
@@ -5267,12 +5729,13 @@
     "returnType": "Promise<DataTypes[T][] | null>",
     "arguments": [
       {
-        "text": "table",
-        "type": "T"
+        "name": "table",
+        "type": "T",
+        "text": "table"
       },
       {
-        "text": "filter",
-        "type": "Partial<DataTypes[T]>"
+        "type": "Partial<DataTypes[T]>",
+        "text": "filter"
       }
     ],
     "sourceFile": {

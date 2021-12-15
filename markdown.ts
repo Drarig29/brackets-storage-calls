@@ -45,7 +45,10 @@ export function exportToMarkdown(calls: FoundCall[]): string {
     for (let i = 1; i < call.arguments.length; i++) {
       output += `### Argument ${i}\n\n`;
 
-      output += '- Types\n\n';
+      output += '- Name\n\n';
+      output += `${call.arguments[i].name}\n\n`;
+
+      output += '- Type\n\n';
       output += `${formatTsCode(call.arguments[i].type)}\n\n`;
 
       output += '- Usage\n\n';

@@ -3,7 +3,6 @@ import { exportToMarkdown } from './markdown';
 import { FoundCall, FoundCallArgument } from './types';
 import {
   CallExpression,
-  Identifier,
   Node,
   Project,
   SyntaxKind,
@@ -31,11 +30,12 @@ function getStorageCalls(tsConfigFilePath: string): FoundCall[] {
   }
 
   const crudMethods = crudInterface.getMethods();
-
   const results: FoundCall[] = [];
 
   for (const method of crudMethods) {
-    const references = method.findReferencesAsNodes();
+    const params = method.getParameters().map(parameter => parameter.getName());
+    const references = method.findReferencesAsNodes()
+      .filter(node => node.getSourceFile().getBaseName() !== 'types.ts');
 
     for (const reference of references) {
       const callExpression = reference.getFirstAncestorByKind(
@@ -44,7 +44,7 @@ function getStorageCalls(tsConfigFilePath: string): FoundCall[] {
 
       if (!callExpression) continue;
 
-      const methodName = getMethodIndentifier(callExpression).getText();
+      const methodName = method.getName();
       const table = getMethodTable(callExpression);
       const returnType = serializeType(
         callExpression,
@@ -55,9 +55,10 @@ function getStorageCalls(tsConfigFilePath: string): FoundCall[] {
 
       const args: FoundCallArgument[] = callExpression
         .getArguments()
-        .map((arg) => ({
-          text: arg.getText(),
+        .map((arg, i) => ({
+          name: params[i],
           type: serializeType(arg, arg.getType()),
+          text: arg.getText(),
         }));
 
       results.push({
@@ -85,18 +86,6 @@ function getMethodTable(
   );
 
   return table?.getText().replace(/'/g, '');
-}
-
-function getMethodIndentifier(
-  callExpression: CallExpression<ts.CallExpression>
-): Identifier {
-  const propertyAccess = callExpression.getFirstChildByKindOrThrow(
-    SyntaxKind.PropertyAccessExpression
-  );
-  const identifier = propertyAccess.getFirstChildByKindOrThrow(
-    SyntaxKind.Identifier
-  );
-  return identifier;
 }
 
 function serializeType(enclosingNode: Node<ts.Node>, type: Type) {

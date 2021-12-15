@@ -1,6 +1,7 @@
 export interface FoundCallArgument {
-  text: string;
+  name: string;
   type: string;
+  text: string;
 }
 
 export interface FoundCall {
