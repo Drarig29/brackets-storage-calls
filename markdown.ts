@@ -1,15 +1,7 @@
 import { FoundCall, Priority } from './types';
 
 export function exportToMarkdown(calls: FoundCall[]): string {
-  const found: Record<string, boolean> = {};
-
-  const filtered = calls.filter(call => {
-    const key = call.arguments.reduce((acc, current) => acc + current.type + current.text, '');
-    if (found[key]) return false;
-    return found[key] = true;
-  });
-
-  const sorted = filtered.sort((a, b) => {
+  const sorted = calls.sort((a, b) => {
     const up = prioritizer(a, b);
     let r: Priority;
 
@@ -36,9 +28,18 @@ export function exportToMarkdown(calls: FoundCall[]): string {
     return a.table!.localeCompare(b.table!);
   });
 
+  const found = new Set();
+
+  const filtered = sorted.filter(call => {
+    const key = (call.methodName + call.returnType + call.arguments.reduce((acc, current) => acc + current.type, '')).replace(/\s/g, '');
+    if (found.has(key)) return false;
+    found.add(key);
+    return true;
+  });
+
   let output = '';
 
-  for (const call of sorted) {
+  for (const call of filtered) {
     output += `\`${call.methodName}(${call.arguments[0].text}): ${call.returnType}\` [${call.sourceFile.baseName}:${call.lineNumber}]\n\n`;
 
     for (let i = 1; i < call.arguments.length; i++) {
