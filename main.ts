@@ -45,10 +45,12 @@ function getStorageCalls(tsConfigFilePath: string): FoundCall[] {
       if (!callExpression) continue;
 
       const methodName = getMethodIndentifier(callExpression).getText();
+      const table = getMethodTable(callExpression);
       const returnType = serializeType(
         callExpression,
         callExpression.getReturnType()
       );
+
       const lineNumber = callExpression.getStartLineNumber();
 
       const args: FoundCallArgument[] = callExpression
@@ -60,6 +62,7 @@ function getStorageCalls(tsConfigFilePath: string): FoundCall[] {
 
       results.push({
         methodName,
+        table,
         returnType,
         arguments: args,
         sourceFile: {
@@ -72,6 +75,16 @@ function getStorageCalls(tsConfigFilePath: string): FoundCall[] {
   }
 
   return results;
+}
+
+function getMethodTable(
+  callExpression: CallExpression<ts.CallExpression>
+): string | undefined {
+  const table = callExpression.getFirstDescendantByKind(
+    SyntaxKind.StringLiteral
+  );
+
+  return table?.getText().replace(/'/g, '');
 }
 
 function getMethodIndentifier(
@@ -92,8 +105,10 @@ function serializeType(enclosingNode: Node<ts.Node>, type: Type) {
     .replace(/import\([^)]+\)\./g, '');
 }
 
-const calls = getStorageCalls(process.argv[2]);
+// const calls = getStorageCalls(process.argv[2]);
+import calls from './calls.json';
+
 const markdownOutput = exportToMarkdown(calls);
 
-writeFileSync('calls.json', JSON.stringify(calls, null, 2));
+// writeFileSync('calls.json', JSON.stringify(calls, null, 2));
 writeFileSync('output.md', markdownOutput);
