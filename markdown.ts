@@ -1,9 +1,36 @@
-import { FoundCall } from './types';
+import { FoundCall, Priority } from './types';
 
 export function exportToMarkdown(calls: FoundCall[]): string {
+  const sorted = calls.sort((a, b) => {
+    const up = prioritizer(a, b);
+    let r: Priority;
+
+    if (a.table === b.table) {
+      r = up('methodName', 'insert'); if (r.returned) return r.result; // C
+      r = up('methodName', 'select'); if (r.returned) return r.result; // R
+      r = up('methodName', 'update'); if (r.returned) return r.result; // U
+      r = up('methodName', 'delete'); if (r.returned) return r.result; // D
+      return a.methodName.localeCompare(b.methodName);
+    }
+
+    r = up('table', 'stage'); if (r.returned) return r.result;
+    r = up('table', 'group'); if (r.returned) return r.result;
+    r = up('table', 'round'); if (r.returned) return r.result;
+    r = up('table', 'match'); if (r.returned) return r.result;
+    r = up('table', 'match_game'); if (r.returned) return r.result;
+
+    // Participant will be forced to be here.
+
+    // Force table as variable to be at the end.
+    if (a.table && !b.table) return -1;
+    if (!a.table && b.table) return 1;
+    if (!a.table && !b.table) return 0;
+    return a.table!.localeCompare(b.table!);
+  });
+
   let output = '';
 
-  for (const call of calls) {
+  for (const call of sorted) {
     output += `\`${call.methodName}(${call.arguments[0].text}): ${call.returnType}\` [${call.sourceFile.baseName}:${call.lineNumber}]\n\n`;
 
     if (call.arguments[1]) {
@@ -18,6 +45,18 @@ export function exportToMarkdown(calls: FoundCall[]): string {
   }
 
   return output;
+}
+
+function prioritizer(a: FoundCall, b: FoundCall) {
+  return (key: keyof FoundCall, value: unknown): Priority => {
+    if (a[key] === value) {
+      return { returned: true, result: -1 }; // a is greater than b
+    }
+    if (b[key] === value) {
+      return { returned: true, result: 1 }; // b is greater than a
+    }
+    return { returned: false }
+  }
 }
 
 function surroundWithCodeBlock(code: string, language: string): string {
