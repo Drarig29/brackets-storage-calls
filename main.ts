@@ -101,14 +101,14 @@ function getMethodIndentifier(
 
 function serializeType(enclosingNode: Node<ts.Node>, type: Type) {
   return type
-    .getText(enclosingNode, TypeFormatFlags.MultilineObjectLiterals)
+    .getText(enclosingNode, TypeFormatFlags.MultilineObjectLiterals | TypeFormatFlags.NoTruncation)
     .replace(/import\([^)]+\)\./g, '');
 }
 
-// const calls = getStorageCalls(process.argv[2]);
-import calls from './calls.json';
+const calls = getStorageCalls(process.argv[2]);
+// import calls from './calls.json';
 
 const markdownOutput = exportToMarkdown(calls);
 
-// writeFileSync('calls.json', JSON.stringify(calls, null, 2));
+writeFileSync('calls.json', JSON.stringify(calls, null, 2));
 writeFileSync('output.md', markdownOutput);

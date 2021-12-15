@@ -761,7 +761,9 @@ match.id
     round_id: number;
     number: number;
     status: Status;
-    opponent1: ParticipantResult | null;   ...
+    opponent1: ParticipantResult | null;
+    opponent2: ParticipantResult | null;
+}
 ```
 
 - Usage
@@ -801,7 +803,9 @@ updated.id
     number: number;
     child_count: number;
     status: Status;
-    opponent1: ParticipantResult | null;   ...
+    opponent1: ParticipantResult | null;
+    opponent2: ParticipantResult | null;
+}
 ```
 
 - Usage

@@ -4432,7 +4432,7 @@
       },
       {
         "text": "updated",
-        "type": "{    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    child_count: number;    status: Status;    opponent1: ParticipantResult | null;   ..."
+        "type": "{    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    child_count: number;    status: Status;    opponent1: ParticipantResult | null;    opponent2: ParticipantResult | null;}"
       }
     ],
     "sourceFile": {
@@ -4456,7 +4456,7 @@
       },
       {
         "text": "{ ...match, child_count: targetChildCount }",
-        "type": "{    child_count: number;    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    status: Status;    opponent1: ParticipantResult | null;   ..."
+        "type": "{    child_count: number;    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    status: Status;    opponent1: ParticipantResult | null;    opponent2: ParticipantResult | null;}"
       }
     ],
     "sourceFile": {
@@ -4720,7 +4720,7 @@
       },
       {
         "text": "updated",
-        "type": "{    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    child_count: number;    status: Status;    opponent1: ParticipantResult | null;   ..."
+        "type": "{    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    child_count: number;    status: Status;    opponent1: ParticipantResult | null;    opponent2: ParticipantResult | null;}"
       }
     ],
     "sourceFile": {
@@ -4744,7 +4744,7 @@
       },
       {
         "text": "{ ...match, child_count: targetChildCount }",
-        "type": "{    child_count: number;    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    status: Status;    opponent1: ParticipantResult | null;   ..."
+        "type": "{    child_count: number;    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    status: Status;    opponent1: ParticipantResult | null;    opponent2: ParticipantResult | null;}"
       }
     ],
     "sourceFile": {
