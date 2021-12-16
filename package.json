@@ -12,7 +12,8 @@
   },
   "scripts": {
     "start": "tsc --watch",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "node test/test.js ../brackets-manager.js/tsconfig.json"
   },
   "keywords": [
     "javascript",
