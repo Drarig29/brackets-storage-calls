@@ -1,5 +1,5 @@
 const { writeFileSync } = require('fs');
-const { getStorageCalls, exportToMarkdown } = require('../dist');
+const { getStorageCalls, exportToMarkdown } = require('../bin');
 
 const givenArg = process.argv[2];
 const tsConfigFilePath = givenArg ? givenArg : './tsconfig.json';

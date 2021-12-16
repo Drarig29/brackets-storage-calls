@@ -2,16 +2,17 @@
   "name": "brackets-storage-calls",
   "version": "1.0.0",
   "description": "Creates a list of all storage calls with their signature and parameters",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./bin/index.js",
+  "types": "./bin/index.d.ts",
   "files": [
-    "dist"
+    "bin"
   ],
+  "bin": {
+    "brackets-storage-calls": "./bin/index.js"
+  },
   "scripts": {
     "start": "tsc --watch",
-    "build": "tsc",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm run build"
+    "build": "tsc"
   },
   "keywords": [
     "javascript",

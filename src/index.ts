@@ -1,4 +1,12 @@
+#!/usr/bin/env node
+
 import { getStorageCalls } from './main';
 import { exportToMarkdown } from './markdown';
 
-export { getStorageCalls, exportToMarkdown };
+const givenArg = process.argv[2];
+const tsConfigFilePath = givenArg ? givenArg : './tsconfig.json';
+
+const calls = getStorageCalls(tsConfigFilePath);
+const markdownOutput = exportToMarkdown(calls);
+
+console.log(markdownOutput);
