@@ -109,9 +109,3 @@ function serializeType(enclosingNode: Node<ts.Node>, type: Type) {
     .getText(enclosingNode, TypeFormatFlags.MultilineObjectLiterals | TypeFormatFlags.NoTruncation)
     .replace(/import\([^)]+\)\./g, '');
 }
-
-const calls = getStorageCalls(process.argv[2]);
-const markdownOutput = exportToMarkdown(calls);
-
-writeFileSync('calls.json', JSON.stringify(calls, null, 2));
-writeFileSync('output.md', markdownOutput);
