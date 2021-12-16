@@ -38,24 +38,56 @@ export function exportToMarkdown(calls: FoundCall[]): string {
   });
 
   let output = '';
+  let currentHeader = '';
+  let currentMethod = '';
 
   for (const call of filtered) {
-    output += `\`${call.methodName}(${call.arguments[0].text}): ${call.returnType}\` [${call.sourceFile.baseName}:${call.lineNumber}]\n\n`;
+    const currentTable = formatTable(call.table);
 
-    for (let i = 1; i < call.arguments.length; i++) {
-      output += `### Argument ${i}\n\n`;
-
-      output += '- Name\n\n';
-      output += `${call.arguments[i].name}\n\n`;
-
-      output += '- Type\n\n';
-      output += `${formatTsCode(call.arguments[i].type)}\n\n`;
-
-      output += '- Usage\n\n';
-      output += `${formatJsCode(call.arguments[i].text)}\n\n`;
+    if (currentTable !== currentHeader) {
+      currentHeader = currentTable;
+      output += `## ${currentHeader}\n\n`;
     }
 
-    output += '---\n\n';
+    if (call.methodName !== currentMethod) {
+      currentMethod = call.methodName;
+      output += `### \`${currentMethod}()\`\n\n`;
+    }
+
+    // TODO: Use current commit id to make a permalink
+
+    output += `<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/${call.sourceFile.baseName}#L${call.lineNumber}">Source</a> :material-chevron-down:\n\n`;
+    output += '```ts\n';
+    output += call.methodName;
+    output += '(';
+
+    output += [
+      call.arguments[0].text,
+      ...call.arguments.slice(1).map(arg => `${arg.name}: ${formatTsCode(arg.type)}`)
+    ].join(', ');
+
+    output += '): ';
+    output += call.returnType;
+    output += '\n```\n\n';
+
+    // output += '---\n\n';
+
+    // output += `\`${call.methodName}(${call.arguments[0].text}): ${call.returnType}\` [${call.sourceFile.baseName}:${call.lineNumber}]\n\n`;
+
+    // for (let i = 1; i < call.arguments.length; i++) {
+    //   output += `### Argument ${i}\n\n`;
+
+    //   output += '- Name\n\n';
+    //   output += `${call.arguments[i].name}\n\n`;
+
+    //   output += '- Type\n\n';
+    //   output += `${formatTsCode(call.arguments[i].type)}\n\n`;
+
+    //   output += '- Usage\n\n';
+    //   output += `${formatJsCode(call.arguments[i].text)}\n\n`;
+    // }
+
+    // output += '---\n\n';
   }
 
   return output;
@@ -73,6 +105,12 @@ function prioritizer(a: FoundCall, b: FoundCall) {
   }
 }
 
+function formatTable(table?: string): string {
+  table = table || 'Dynamic table';
+  table = (table[0].toUpperCase() + table.substring(1)).replace('_', ' ');
+  return table;
+}
+
 function surroundWithCodeBlock(code: string, language: string): string {
   return `\`\`\`${language}\n${code}\n\`\`\``;
 }
@@ -81,12 +119,12 @@ function formatJsCode(code: string): string {
   const formatted = code
     .replace(/(\s{4})+\s/g, '\n    ') // Remove the redundant indentations
     .replace(/(\s{4})\}$/g, '}'); // Remove the closing indentation
-  return surroundWithCodeBlock(formatted, 'js');
+  return formatted;
 }
 
 function formatTsCode(code: string): string {
   const formatted = code
     .replace(/\s{4}(?!\s{4})/g, '\n    ') // Add newlines
     .replace(/;}$/g, ';\n}'); // Add a newline for the closing tag
-  return surroundWithCodeBlock(formatted, 'ts');
+  return formatted;
 }

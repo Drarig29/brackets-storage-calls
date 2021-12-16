@@ -1,777 +1,277 @@
-`insert('stage'): Promise<boolean>` [manager.ts:76]
+## Stage
 
-### Argument 1
+### `insert()`
 
-- Name
-
-values
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/manager.ts#L76">Source</a> :material-chevron-down:
 
 ```ts
-Stage[]
+insert('stage', values: Stage[]): Promise<boolean>
 ```
 
-- Usage
-
-```js
-data.stage
-```
-
----
-
-`insert('stage'): Promise<number>` [create.ts:658]
-
-### Argument 1
-
-- Name
-
-value
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/create.ts#L658">Source</a> :material-chevron-down:
 
 ```ts
-OmitId<Stage>
+insert('stage', value: OmitId<Stage>): Promise<number>
 ```
 
-- Usage
+### `select()`
 
-```js
-stage
-```
-
----
-
-`select('stage'): Promise<Stage[] | null>` [create.ts:525]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/create.ts#L525">Source</a> :material-chevron-down:
 
 ```ts
-{
+select('stage', filter: {
     tournament_id: number;
-}
+}): Promise<Stage[] | null>
 ```
 
-- Usage
-
-```js
-{ tournament_id: this.stage.tournamentId }
-```
-
----
-
-`select('stage'): Promise<Stage | null>` [create.ts:834]
-
-### Argument 1
-
-- Name
-
-id
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/create.ts#L834">Source</a> :material-chevron-down:
 
 ```ts
-number
+select('stage', id: number): Promise<Stage | null>
 ```
 
-- Usage
-
-```js
-stageId
-```
-
----
-
-`select('stage'): Promise<Stage[] | null>` [manager.ts:107]
-
----
-
-`update('stage'): Promise<boolean>` [create.ts:842]
-
-### Argument 1
-
-- Name
-
-id
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/manager.ts#L107">Source</a> :material-chevron-down:
 
 ```ts
-number
+select('stage'): Promise<Stage[] | null>
 ```
 
-- Usage
+### `update()`
 
-```js
-stageId
-```
-
-### Argument 2
-
-- Name
-
-value
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/create.ts#L842">Source</a> :material-chevron-down:
 
 ```ts
-Stage
+update('stage', id: number, value: Stage): Promise<boolean>
 ```
 
-- Usage
+### `delete()`
 
-```js
-stage
-```
-
----
-
-`delete('stage'): Promise<boolean>` [delete.ts:36]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/delete.ts#L36">Source</a> :material-chevron-down:
 
 ```ts
-{
+delete('stage', filter: {
     id: number;
-}
+}): Promise<boolean>
 ```
 
-- Usage
-
-```js
-{ id: stageId }
-```
-
----
-
-`delete('stage'): Promise<boolean>` [manager.ts:74]
-
----
-
-`insert('group'): Promise<boolean>` [manager.ts:81]
-
-### Argument 1
-
-- Name
-
-values
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/manager.ts#L74">Source</a> :material-chevron-down:
 
 ```ts
-Group[]
+delete('stage'): Promise<boolean>
 ```
 
-- Usage
+## Group
 
-```js
-data.group
-```
+### `insert()`
 
----
-
-`insert('group'): Promise<number>` [create.ts:679]
-
-### Argument 1
-
-- Name
-
-value
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/manager.ts#L81">Source</a> :material-chevron-down:
 
 ```ts
-OmitId<Group>
+insert('group', values: Group[]): Promise<boolean>
 ```
 
-- Usage
-
-```js
-group
-```
-
----
-
-`select('group'): Promise<Group[] | null>` [get.ts:238]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/create.ts#L679">Source</a> :material-chevron-down:
 
 ```ts
-{
+insert('group', value: OmitId<Group>): Promise<number>
+```
+
+### `select()`
+
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/get.ts#L238">Source</a> :material-chevron-down:
+
+```ts
+select('group', filter: {
     stage_id: number;
-}
+}): Promise<Group[] | null>
 ```
 
-- Usage
-
-```js
-{ stage_id: stageId }
-```
-
----
-
-`select('group'): Promise<Group | null>` [reset.ts:24]
-
-### Argument 1
-
-- Name
-
-id
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/reset.ts#L24">Source</a> :material-chevron-down:
 
 ```ts
-number
+select('group', id: number): Promise<Group | null>
 ```
 
-- Usage
-
-```js
-stored.group_id
-```
-
----
-
-`select('group'): Promise<Group[] | null>` [manager.ts:110]
-
----
-
-`delete('group'): Promise<boolean>` [delete.ts:33]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/manager.ts#L110">Source</a> :material-chevron-down:
 
 ```ts
-{
+select('group'): Promise<Group[] | null>
+```
+
+### `delete()`
+
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/delete.ts#L33">Source</a> :material-chevron-down:
+
+```ts
+delete('group', filter: {
     stage_id: number;
-}
+}): Promise<boolean>
 ```
 
-- Usage
-
-```js
-{ stage_id: stageId }
-```
-
----
-
-`delete('group'): Promise<boolean>` [manager.ts:79]
-
----
-
-`insert('round'): Promise<boolean>` [manager.ts:86]
-
-### Argument 1
-
-- Name
-
-values
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/manager.ts#L79">Source</a> :material-chevron-down:
 
 ```ts
-Round[]
+delete('group'): Promise<boolean>
 ```
 
-- Usage
+## Round
 
-```js
-data.round
-```
+### `insert()`
 
----
-
-`insert('round'): Promise<number>` [create.ts:700]
-
-### Argument 1
-
-- Name
-
-value
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/manager.ts#L86">Source</a> :material-chevron-down:
 
 ```ts
-OmitId<Round>
+insert('round', values: Round[]): Promise<boolean>
 ```
 
-- Usage
-
-```js
-round
-```
-
----
-
-`select('round'): Promise<Round[] | null>` [get.ts:241]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/create.ts#L700">Source</a> :material-chevron-down:
 
 ```ts
-{
+insert('round', value: OmitId<Round>): Promise<number>
+```
+
+### `select()`
+
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/get.ts#L241">Source</a> :material-chevron-down:
+
+```ts
+select('round', filter: {
     stage_id: number;
-}
+}): Promise<Round[] | null>
 ```
 
-- Usage
-
-```js
-{ stage_id: stageId }
-```
-
----
-
-`select('round'): Promise<Round[] | null>` [getter.ts:73]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/getter.ts#L73">Source</a> :material-chevron-down:
 
 ```ts
-{
+select('round', filter: {
     group_id: number;
-}
+}): Promise<Round[] | null>
 ```
 
-- Usage
-
-```js
-{ group_id: round.group_id }
-```
-
----
-
-`select('round'): Promise<Round | null>` [find.ts:65]
-
-### Argument 1
-
-- Name
-
-id
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/find.ts#L65">Source</a> :material-chevron-down:
 
 ```ts
-number
+select('round', id: number): Promise<Round | null>
 ```
 
-- Usage
-
-```js
-match.round_id
-```
-
----
-
-`select('round'): Promise<Round[] | null>` [manager.ts:113]
-
----
-
-`delete('round'): Promise<boolean>` [delete.ts:30]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/manager.ts#L113">Source</a> :material-chevron-down:
 
 ```ts
-{
+select('round'): Promise<Round[] | null>
+```
+
+### `delete()`
+
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/delete.ts#L30">Source</a> :material-chevron-down:
+
+```ts
+delete('round', filter: {
     stage_id: number;
-}
+}): Promise<boolean>
 ```
 
-- Usage
-
-```js
-{ stage_id: stageId }
-```
-
----
-
-`delete('round'): Promise<boolean>` [manager.ts:84]
-
----
-
-`insert('match'): Promise<boolean>` [manager.ts:91]
-
-### Argument 1
-
-- Name
-
-values
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/manager.ts#L84">Source</a> :material-chevron-down:
 
 ```ts
-Match[]
+delete('round'): Promise<boolean>
 ```
 
-- Usage
+## Match
 
-```js
-data.match
-```
+### `insert()`
 
----
-
-`insert('match'): Promise<number>` [create.ts:713]
-
-### Argument 1
-
-- Name
-
-value
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/manager.ts#L91">Source</a> :material-chevron-down:
 
 ```ts
-OmitId<Match>
+insert('match', values: Match[]): Promise<boolean>
 ```
 
-- Usage
-
-```js
-match
-```
-
----
-
-`select('match'): Promise<Match[] | null>` [update.ts:195]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/create.ts#L713">Source</a> :material-chevron-down:
 
 ```ts
-{
+insert('match', value: OmitId<Match>): Promise<number>
+```
+
+### `select()`
+
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/update.ts#L195">Source</a> :material-chevron-down:
+
+```ts
+select('match', filter: {
     round_id: number;
-}
+}): Promise<Match[] | null>
 ```
 
-- Usage
-
-```js
-{ round_id: roundId }
-```
-
----
-
-`select('match'): Promise<Match[] | null>` [update.ts:178]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/update.ts#L178">Source</a> :material-chevron-down:
 
 ```ts
-{
+select('match', filter: {
     group_id: number;
-}
+}): Promise<Match[] | null>
 ```
 
-- Usage
-
-```js
-{ group_id: groupId }
-```
-
----
-
-`select('match'): Promise<Match[] | null>` [update.ts:161]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/update.ts#L161">Source</a> :material-chevron-down:
 
 ```ts
-{
+select('match', filter: {
     stage_id: number;
-}
+}): Promise<Match[] | null>
 ```
 
-- Usage
-
-```js
-{ stage_id: stageId }
-```
-
----
-
-`select('match'): Promise<Match | null>` [reset.ts:15]
-
-### Argument 1
-
-- Name
-
-id
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/reset.ts#L15">Source</a> :material-chevron-down:
 
 ```ts
-number
+select('match', id: number): Promise<Match | null>
 ```
 
-- Usage
-
-```js
-matchId
-```
-
----
-
-`select('match'): Promise<Match[] | null>` [manager.ts:116]
-
----
-
-`update('match'): Promise<boolean>` [update.ts:192]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/manager.ts#L116">Source</a> :material-chevron-down:
 
 ```ts
-{
+select('match'): Promise<Match[] | null>
+```
+
+### `update()`
+
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/update.ts#L192">Source</a> :material-chevron-down:
+
+```ts
+update('match', filter: {
     round_id: number;
-}
-```
-
-- Usage
-
-```js
-{ round_id: roundId }
-```
-
-### Argument 2
-
-- Name
-
-value
-
-- Type
-
-```ts
-{
+}, value: {
     child_count: number;
-}
+}): Promise<boolean>
 ```
 
-- Usage
-
-```js
-{ child_count: childCount }
-```
-
----
-
-`update('match'): Promise<boolean>` [update.ts:175]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/update.ts#L175">Source</a> :material-chevron-down:
 
 ```ts
-{
+update('match', filter: {
     group_id: number;
-}
-```
-
-- Usage
-
-```js
-{ group_id: groupId }
-```
-
-### Argument 2
-
-- Name
-
-value
-
-- Type
-
-```ts
-{
+}, value: {
     child_count: number;
-}
+}): Promise<boolean>
 ```
 
-- Usage
-
-```js
-{ child_count: childCount }
-```
-
----
-
-`update('match'): Promise<boolean>` [update.ts:158]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/update.ts#L158">Source</a> :material-chevron-down:
 
 ```ts
-{
+update('match', filter: {
     stage_id: number;
-}
-```
-
-- Usage
-
-```js
-{ stage_id: stageId }
-```
-
-### Argument 2
-
-- Name
-
-value
-
-- Type
-
-```ts
-{
+}, value: {
     child_count: number;
-}
+}): Promise<boolean>
 ```
 
-- Usage
-
-```js
-{ child_count: childCount }
-```
-
----
-
-`update('match'): Promise<boolean>` [create.ts:716]
-
-### Argument 1
-
-- Name
-
-id
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/create.ts#L716">Source</a> :material-chevron-down:
 
 ```ts
-number
+update('match', id: number, value: Match): Promise<boolean>
 ```
 
-- Usage
-
-```js
-existing.id
-```
-
-### Argument 2
-
-- Name
-
-value
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/update.ts#L261">Source</a> :material-chevron-down:
 
 ```ts
-Match
-```
-
-- Usage
-
-```js
-updated
-```
-
----
-
-`update('match'): Promise<boolean>` [update.ts:261]
-
-### Argument 1
-
-- Name
-
-id
-
-- Type
-
-```ts
-number
-```
-
-- Usage
-
-```js
-match.id
-```
-
-### Argument 2
-
-- Name
-
-value
-
-- Type
-
-```ts
-{
+update('match', id: number, value: {
     child_count: number;
     id: number;
     stage_id: number;
@@ -781,47 +281,13 @@ value
     status: Status;
     opponent1: ParticipantResult | null;
     opponent2: ParticipantResult | null;
-}
+}): Promise<boolean>
 ```
 
-- Usage
-
-```js
-{ ...match, child_count: targetChildCount }
-```
-
----
-
-`update('match'): Promise<boolean>` [update.ts:218]
-
-### Argument 1
-
-- Name
-
-id
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/update.ts#L218">Source</a> :material-chevron-down:
 
 ```ts
-number
-```
-
-- Usage
-
-```js
-updated.id
-```
-
-### Argument 2
-
-- Name
-
-value
-
-- Type
-
-```ts
-{
+update('match', id: number, value: {
     id: number;
     stage_id: number;
     group_id: number;
@@ -831,101 +297,45 @@ value
     status: Status;
     opponent1: ParticipantResult | null;
     opponent2: ParticipantResult | null;
-}
+}): Promise<boolean>
 ```
 
-- Usage
+### `delete()`
 
-```js
-updated
-```
-
----
-
-`delete('match'): Promise<boolean>` [delete.ts:27]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/delete.ts#L27">Source</a> :material-chevron-down:
 
 ```ts
-{
+delete('match', filter: {
     stage_id: number;
-}
+}): Promise<boolean>
 ```
 
-- Usage
-
-```js
-{ stage_id: stageId }
-```
-
----
-
-`delete('match'): Promise<boolean>` [manager.ts:89]
-
----
-
-`insert('match_game'): Promise<boolean>` [manager.ts:96]
-
-### Argument 1
-
-- Name
-
-values
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/manager.ts#L89">Source</a> :material-chevron-down:
 
 ```ts
-MatchGame[]
+delete('match'): Promise<boolean>
 ```
 
-- Usage
+## Match game
 
-```js
-data.match_game
-```
+### `insert()`
 
----
-
-`insert('match_game'): Promise<number>` [create.ts:738]
-
-### Argument 1
-
-- Name
-
-value
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/manager.ts#L96">Source</a> :material-chevron-down:
 
 ```ts
-OmitId<MatchGame>
+insert('match_game', values: MatchGame[]): Promise<boolean>
 ```
 
-- Usage
-
-```js
-matchGame
-```
-
----
-
-`insert('match_game'): Promise<number>` [update.ts:234]
-
-### Argument 1
-
-- Name
-
-value
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/create.ts#L738">Source</a> :material-chevron-down:
 
 ```ts
-{
+insert('match_game', value: OmitId<MatchGame>): Promise<number>
+```
+
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/update.ts#L234">Source</a> :material-chevron-down:
+
+```ts
+insert('match_game', value: {
     number: number;
     stage_id: number;
     parent_id: number;
@@ -936,325 +346,119 @@ value
     opponent2: { 
        id: null;
     };
-}
+}): Promise<number>
 ```
 
-- Usage
+### `select()`
 
-```js
-{
-    number: childCount + 1,
-    stage_id: match.stage_id,
-    parent_id: match.id,
-    status: match.status,
-    opponent1: { id: null },
-    opponent2: { id: null },
-}
-```
-
----
-
-`select('match_game'): Promise<MatchGame[] | null>` [update.ts:230]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/update.ts#L230">Source</a> :material-chevron-down:
 
 ```ts
-{
+select('match_game', filter: {
     parent_id: number;
-}
+}): Promise<MatchGame[] | null>
 ```
 
-- Usage
-
-```js
-{ parent_id: match.id }
-```
-
----
-
-`select('match_game'): Promise<MatchGame | null>` [reset.ts:47]
-
-### Argument 1
-
-- Name
-
-id
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/reset.ts#L47">Source</a> :material-chevron-down:
 
 ```ts
-number
+select('match_game', id: number): Promise<MatchGame | null>
 ```
 
-- Usage
+### `update()`
 
-```js
-gameId
-```
-
----
-
-`update('match_game'): Promise<boolean>` [updater.ts:159]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/updater.ts#L159">Source</a> :material-chevron-down:
 
 ```ts
-{
+update('match_game', filter: {
     parent_id: number;
-}
+}, value: Partial<MatchGame>): Promise<boolean>
 ```
 
-- Usage
-
-```js
-{ parent_id: match.id }
-```
-
-### Argument 2
-
-- Name
-
-value
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/create.ts#L741">Source</a> :material-chevron-down:
 
 ```ts
-Partial<MatchGame>
+update('match_game', id: number, value: MatchGame): Promise<boolean>
 ```
 
-- Usage
+### `delete()`
 
-```js
-updatedMatchGame
-```
-
----
-
-`update('match_game'): Promise<boolean>` [create.ts:741]
-
-### Argument 1
-
-- Name
-
-id
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/delete.ts#L24">Source</a> :material-chevron-down:
 
 ```ts
-number
-```
-
-- Usage
-
-```js
-existing.id
-```
-
-### Argument 2
-
-- Name
-
-value
-
-- Type
-
-```ts
-MatchGame
-```
-
-- Usage
-
-```js
-updated
-```
-
----
-
-`delete('match_game'): Promise<boolean>` [delete.ts:24]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
-
-```ts
-{
+delete('match_game', filter: {
     stage_id: number;
-}
+}): Promise<boolean>
 ```
 
-- Usage
-
-```js
-{ stage_id: stageId }
-```
-
----
-
-`delete('match_game'): Promise<boolean>` [update.ts:250]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/update.ts#L250">Source</a> :material-chevron-down:
 
 ```ts
-{
+delete('match_game', filter: {
     parent_id: number;
     number: number;
-}
+}): Promise<boolean>
 ```
 
-- Usage
-
-```js
-{
-    parent_id: match.id,
-    number: childCount,
-}
-```
-
----
-
-`delete('match_game'): Promise<boolean>` [manager.ts:94]
-
----
-
-`insert('participant'): Promise<boolean>` [create.ts:757]
-
-### Argument 1
-
-- Name
-
-values
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/manager.ts#L94">Source</a> :material-chevron-down:
 
 ```ts
-OmitId<Participant>[]
+delete('match_game'): Promise<boolean>
 ```
 
-- Usage
+## Participant
 
-```js
-participants
-```
+### `insert()`
 
----
-
-`insert('participant'): Promise<boolean>` [manager.ts:71]
-
-### Argument 1
-
-- Name
-
-values
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/create.ts#L757">Source</a> :material-chevron-down:
 
 ```ts
-Participant[]
+insert('participant', values: OmitId<Participant>[]): Promise<boolean>
 ```
 
-- Usage
-
-```js
-data.participant
-```
-
----
-
-`insert('participant'): Promise<number>` [create.ts:764]
-
-### Argument 1
-
-- Name
-
-value
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/manager.ts#L71">Source</a> :material-chevron-down:
 
 ```ts
-OmitId<Participant>
+insert('participant', values: Participant[]): Promise<boolean>
 ```
 
-- Usage
-
-```js
-participant
-```
-
----
-
-`select('participant'): Promise<Participant[] | null>` [create.ts:753]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/create.ts#L764">Source</a> :material-chevron-down:
 
 ```ts
-{
+insert('participant', value: OmitId<Participant>): Promise<number>
+```
+
+### `select()`
+
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/create.ts#L753">Source</a> :material-chevron-down:
+
+```ts
+select('participant', filter: {
     tournament_id: number;
-}
+}): Promise<Participant[] | null>
 ```
 
-- Usage
-
-```js
-{ tournament_id: this.stage.tournamentId }
-```
-
----
-
-`select('participant'): Promise<Participant[] | null>` [manager.ts:104]
-
----
-
-`delete('participant'): Promise<boolean>` [manager.ts:69]
-
----
-
-`select(table): Promise<DataTypes[T][] | null>` [manager.ts:39]
-
-### Argument 1
-
-- Name
-
-filter
-
-- Type
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/manager.ts#L104">Source</a> :material-chevron-down:
 
 ```ts
-Partial<DataTypes[T]>
+select('participant'): Promise<Participant[] | null>
 ```
 
-- Usage
+### `delete()`
 
-```js
-filter
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/manager.ts#L69">Source</a> :material-chevron-down:
+
+```ts
+delete('participant'): Promise<boolean>
 ```
 
----
+## Dynamic table
+
+### `select()`
+
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/manager.ts#L39">Source</a> :material-chevron-down:
+
+```ts
+select(table, filter: Partial<DataTypes[T]>): Promise<DataTypes[T][] | null>
+```
 
