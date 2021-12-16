@@ -1,5 +1,6 @@
 {
-  "commitId": "9dfabc5fc2ea611b7ae923abdcbb900232443833",
+  "name": "brackets-manager.js",
+  "commitId": "ed4f9df35fa5c73fe80a0fb25af20dab9fc4c662",
   "calls": [
     {
       "methodName": "select",
