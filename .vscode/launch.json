@@ -12,11 +12,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "runtimeArgs": [
-                "-r",
-                "ts-node/register",
-            ],
-            "program": "main.ts",
+            "program": "test/test.js",
             "args": [
                 "../brackets-manager.js/tsconfig.json"
             ]
