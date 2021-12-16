@@ -87,7 +87,7 @@ export function exportToMarkdown(analysis: ProjectAnalysis): string {
     // output += '---\n\n';
   }
 
-  return output;
+  return output.trim();
 }
 
 function prioritizer(a: FoundCall, b: FoundCall) {

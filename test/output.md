@@ -461,4 +461,3 @@ select('participant', filter: {
 ```ts
 delete('participant'): Promise<boolean>
 ```
-
