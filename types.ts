@@ -16,6 +16,11 @@ export interface FoundCall {
   lineNumber: number;
 }
 
+export interface ProjectAnalysis {
+  commitId: string;
+  calls: FoundCall[];
+}
+
 export type Priority = {
   returned: true, result: number
 } | {

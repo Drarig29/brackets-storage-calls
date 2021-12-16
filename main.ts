@@ -1,6 +1,8 @@
 import { writeFileSync } from 'fs';
+import { dirname } from 'path';
+import { execSync } from 'child_process';
 import { exportToMarkdown } from './markdown';
-import { FoundCall, FoundCallArgument } from './types';
+import { FoundCall, FoundCallArgument, ProjectAnalysis } from './types';
 import {
   CallExpression,
   Identifier,
@@ -12,7 +14,11 @@ import {
   TypeFormatFlags,
 } from 'ts-morph';
 
-function getStorageCalls(tsConfigFilePath: string): FoundCall[] {
+function getStorageCalls(tsConfigFilePath: string): ProjectAnalysis {
+  const workingDirectory = dirname(tsConfigFilePath);
+  const revision = execSync('git rev-parse HEAD', { cwd: workingDirectory })
+    .toString().trim();
+
   const project = new Project({
     tsConfigFilePath,
   });
@@ -82,7 +88,10 @@ function getStorageCalls(tsConfigFilePath: string): FoundCall[] {
     }
   }
 
-  return results;
+  return {
+    commitId: revision,
+    calls: results,
+  };
 }
 
 function getMethodTable(
@@ -102,8 +111,6 @@ function serializeType(enclosingNode: Node<ts.Node>, type: Type) {
 }
 
 const calls = getStorageCalls(process.argv[2]);
-// import calls from './calls.json';
-
 const markdownOutput = exportToMarkdown(calls);
 
 writeFileSync('calls.json', JSON.stringify(calls, null, 2));

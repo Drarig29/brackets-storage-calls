@@ -1,7 +1,7 @@
-import { FoundCall, Priority } from './types';
+import { FoundCall, Priority, ProjectAnalysis } from './types';
 
-export function exportToMarkdown(calls: FoundCall[]): string {
-  const sorted = calls.sort((a, b) => {
+export function exportToMarkdown(result: ProjectAnalysis): string {
+  const sorted = result.calls.sort((a, b) => {
     const up = prioritizer(a, b);
     let r: Priority;
 
