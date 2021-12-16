@@ -6,27 +6,26 @@ export function exportToMarkdown(calls: FoundCall[]): string {
     let r: Priority;
 
     if (a.table === b.table) {
-      r = up('methodName', 'insert'); if (r.returned) return r.result; // C
-      r = up('methodName', 'select'); if (r.returned) return r.result; // R
-      r = up('methodName', 'update'); if (r.returned) return r.result; // U
       r = up('methodName', 'delete'); if (r.returned) return r.result; // D
+      r = up('methodName', 'update'); if (r.returned) return r.result; // U
+      r = up('methodName', 'select'); if (r.returned) return r.result; // R
+      r = up('methodName', 'insert'); if (r.returned) return r.result; // C
       return a.methodName.localeCompare(b.methodName);
     }
 
-    r = up('table', 'stage'); if (r.returned) return r.result;
-    r = up('table', 'group'); if (r.returned) return r.result;
-    r = up('table', 'round'); if (r.returned) return r.result;
-    r = up('table', 'match'); if (r.returned) return r.result;
+    r = up('table', 'participant'); if (r.returned) return r.result;
     r = up('table', 'match_game'); if (r.returned) return r.result;
-
-    // Participant will be forced to be here.
+    r = up('table', 'match'); if (r.returned) return r.result;
+    r = up('table', 'round'); if (r.returned) return r.result;
+    r = up('table', 'group'); if (r.returned) return r.result;
+    r = up('table', 'stage'); if (r.returned) return r.result;
 
     // Force table as variable to be at the end.
     if (a.table && !b.table) return -1;
     if (!a.table && b.table) return 1;
     if (!a.table && !b.table) return 0;
     return a.table!.localeCompare(b.table!);
-  });
+  }).reverse();
 
   const found = new Set();
 

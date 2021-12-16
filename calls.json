@@ -1,25 +1,45 @@
 [
   {
-    "methodName": "insert",
-    "table": "stage",
-    "returnType": "Promise<boolean>",
+    "methodName": "select",
+    "returnType": "Promise<DataTypes[T][] | null>",
     "arguments": [
       {
         "name": "table",
-        "type": "\"stage\"",
-        "text": "'stage'"
+        "type": "T",
+        "text": "table"
       },
       {
-        "name": "values",
-        "type": "Stage[]",
-        "text": "data.stage"
+        "name": "filter",
+        "type": "Partial<DataTypes[T]>",
+        "text": "filter"
       }
     ],
     "sourceFile": {
       "baseName": "manager.ts",
       "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
     },
-    "lineNumber": 76
+    "lineNumber": 33
+  },
+  {
+    "methodName": "select",
+    "returnType": "Promise<DataTypes[T][] | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "T",
+        "text": "table"
+      },
+      {
+        "name": "filter",
+        "type": "Partial<DataTypes[T]>",
+        "text": "filter"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
+    "lineNumber": 39
   },
   {
     "methodName": "insert",
@@ -44,9 +64,9 @@
     "lineNumber": 658
   },
   {
-    "methodName": "select",
+    "methodName": "insert",
     "table": "stage",
-    "returnType": "Promise<Stage[] | null>",
+    "returnType": "Promise<boolean>",
     "arguments": [
       {
         "name": "table",
@@ -54,16 +74,16 @@
         "text": "'stage'"
       },
       {
-        "name": "filter",
-        "type": "{    tournament_id: number;}",
-        "text": "{ tournament_id: this.stage.tournamentId }"
+        "name": "values",
+        "type": "Stage[]",
+        "text": "data.stage"
       }
     ],
     "sourceFile": {
-      "baseName": "create.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
     },
-    "lineNumber": 525
+    "lineNumber": 76
   },
   {
     "methodName": "select",
@@ -74,326 +94,13 @@
         "name": "table",
         "type": "\"stage\"",
         "text": "'stage'"
-      },
-      {
-        "name": "filter",
-        "type": "{    tournament_id: number;}",
-        "text": "{ tournament_id: tournamentId }"
       }
     ],
     "sourceFile": {
-      "baseName": "get.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
     },
-    "lineNumber": 35
-  },
-  {
-    "methodName": "select",
-    "table": "stage",
-    "returnType": "Promise<Stage | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"stage\"",
-        "text": "'stage'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "stageId"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "create.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
-    },
-    "lineNumber": 834
-  },
-  {
-    "methodName": "select",
-    "table": "stage",
-    "returnType": "Promise<Stage | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"stage\"",
-        "text": "'stage'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "this.currentStageId"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "create.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
-    },
-    "lineNumber": 655
-  },
-  {
-    "methodName": "select",
-    "table": "stage",
-    "returnType": "Promise<Stage | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"stage\"",
-        "text": "'stage'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "stored.stage_id"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "reset.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
-    },
-    "lineNumber": 21
-  },
-  {
-    "methodName": "select",
-    "table": "stage",
-    "returnType": "Promise<Stage | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"stage\"",
-        "text": "'stage'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "match.stage_id"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "find.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
-    },
-    "lineNumber": 82
-  },
-  {
-    "methodName": "select",
-    "table": "stage",
-    "returnType": "Promise<Stage | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"stage\"",
-        "text": "'stage'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "match.stage_id"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "find.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
-    },
-    "lineNumber": 59
-  },
-  {
-    "methodName": "select",
-    "table": "stage",
-    "returnType": "Promise<Stage | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"stage\"",
-        "text": "'stage'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "stageId"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "find.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
-    },
-    "lineNumber": 33
-  },
-  {
-    "methodName": "select",
-    "table": "stage",
-    "returnType": "Promise<Stage | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"stage\"",
-        "text": "'stage'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "stageId"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "find.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
-    },
-    "lineNumber": 13
-  },
-  {
-    "methodName": "select",
-    "table": "stage",
-    "returnType": "Promise<Stage | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"stage\"",
-        "text": "'stage'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "round.stage_id"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "update.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
-    },
-    "lineNumber": 136
-  },
-  {
-    "methodName": "select",
-    "table": "stage",
-    "returnType": "Promise<Stage | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"stage\"",
-        "text": "'stage'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "round.stage_id"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "update.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
-    },
-    "lineNumber": 77
-  },
-  {
-    "methodName": "select",
-    "table": "stage",
-    "returnType": "Promise<Stage | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"stage\"",
-        "text": "'stage'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "stageId"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "update.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
-    },
-    "lineNumber": 54
-  },
-  {
-    "methodName": "select",
-    "table": "stage",
-    "returnType": "Promise<Stage | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"stage\"",
-        "text": "'stage'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "stored.stage_id"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "updater.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
-    },
-    "lineNumber": 131
-  },
-  {
-    "methodName": "select",
-    "table": "stage",
-    "returnType": "Promise<Stage | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"stage\"",
-        "text": "'stage'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "match.stage_id"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "updater.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
-    },
-    "lineNumber": 102
-  },
-  {
-    "methodName": "select",
-    "table": "stage",
-    "returnType": "Promise<Stage | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"stage\"",
-        "text": "'stage'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "storedParent.stage_id"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "updater.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
-    },
-    "lineNumber": 62
-  },
-  {
-    "methodName": "select",
-    "table": "stage",
-    "returnType": "Promise<Stage | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"stage\"",
-        "text": "'stage'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "stageId"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "updater.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
-    },
-    "lineNumber": 18
+    "lineNumber": 107
   },
   {
     "methodName": "select",
@@ -415,7 +122,7 @@
       "baseName": "get.ts",
       "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
     },
-    "lineNumber": 235
+    "lineNumber": 73
   },
   {
     "methodName": "select",
@@ -459,7 +166,315 @@
       "baseName": "get.ts",
       "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
     },
-    "lineNumber": 73
+    "lineNumber": 235
+  },
+  {
+    "methodName": "select",
+    "table": "stage",
+    "returnType": "Promise<Stage | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "stageId"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
+    "lineNumber": 18
+  },
+  {
+    "methodName": "select",
+    "table": "stage",
+    "returnType": "Promise<Stage | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "storedParent.stage_id"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
+    "lineNumber": 62
+  },
+  {
+    "methodName": "select",
+    "table": "stage",
+    "returnType": "Promise<Stage | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "match.stage_id"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
+    "lineNumber": 102
+  },
+  {
+    "methodName": "select",
+    "table": "stage",
+    "returnType": "Promise<Stage | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "stored.stage_id"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
+    "lineNumber": 131
+  },
+  {
+    "methodName": "select",
+    "table": "stage",
+    "returnType": "Promise<Stage | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "stageId"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
+    "lineNumber": 54
+  },
+  {
+    "methodName": "select",
+    "table": "stage",
+    "returnType": "Promise<Stage | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "round.stage_id"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
+    "lineNumber": 77
+  },
+  {
+    "methodName": "select",
+    "table": "stage",
+    "returnType": "Promise<Stage | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "round.stage_id"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
+    "lineNumber": 136
+  },
+  {
+    "methodName": "select",
+    "table": "stage",
+    "returnType": "Promise<Stage | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "stageId"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
+    "lineNumber": 13
+  },
+  {
+    "methodName": "select",
+    "table": "stage",
+    "returnType": "Promise<Stage | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "stageId"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
+    "lineNumber": 33
+  },
+  {
+    "methodName": "select",
+    "table": "stage",
+    "returnType": "Promise<Stage | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "match.stage_id"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
+    "lineNumber": 59
+  },
+  {
+    "methodName": "select",
+    "table": "stage",
+    "returnType": "Promise<Stage | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "match.stage_id"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
+    "lineNumber": 82
+  },
+  {
+    "methodName": "select",
+    "table": "stage",
+    "returnType": "Promise<Stage | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "stored.stage_id"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "reset.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
+    },
+    "lineNumber": 21
+  },
+  {
+    "methodName": "select",
+    "table": "stage",
+    "returnType": "Promise<Stage | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "this.currentStageId"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
+    "lineNumber": 655
+  },
+  {
+    "methodName": "select",
+    "table": "stage",
+    "returnType": "Promise<Stage | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "stageId"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
+    "lineNumber": 834
   },
   {
     "methodName": "select",
@@ -470,13 +485,40 @@
         "name": "table",
         "type": "\"stage\"",
         "text": "'stage'"
+      },
+      {
+        "name": "filter",
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: tournamentId }"
       }
     ],
     "sourceFile": {
-      "baseName": "manager.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
     },
-    "lineNumber": 107
+    "lineNumber": 35
+  },
+  {
+    "methodName": "select",
+    "table": "stage",
+    "returnType": "Promise<Stage[] | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
+      },
+      {
+        "name": "filter",
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: this.stage.tournamentId }"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
+    "lineNumber": 525
   },
   {
     "methodName": "update",
@@ -514,6 +556,23 @@
         "name": "table",
         "type": "\"stage\"",
         "text": "'stage'"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
+    "lineNumber": 74
+  },
+  {
+    "methodName": "delete",
+    "table": "stage",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"stage\"",
+        "text": "'stage'"
       },
       {
         "name": "filter",
@@ -526,45 +585,6 @@
       "fullPath": "/home/corentin/brackets/brackets-manager.js/src/delete.ts"
     },
     "lineNumber": 36
-  },
-  {
-    "methodName": "delete",
-    "table": "stage",
-    "returnType": "Promise<boolean>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"stage\"",
-        "text": "'stage'"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "manager.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
-    },
-    "lineNumber": 74
-  },
-  {
-    "methodName": "insert",
-    "table": "group",
-    "returnType": "Promise<boolean>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"group\"",
-        "text": "'group'"
-      },
-      {
-        "name": "values",
-        "type": "Group[]",
-        "text": "data.group"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "manager.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
-    },
-    "lineNumber": 81
   },
   {
     "methodName": "insert",
@@ -589,6 +609,28 @@
     "lineNumber": 679
   },
   {
+    "methodName": "insert",
+    "table": "group",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
+      },
+      {
+        "name": "values",
+        "type": "Group[]",
+        "text": "data.group"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
+    "lineNumber": 81
+  },
+  {
     "methodName": "select",
     "table": "group",
     "returnType": "Promise<Group[] | null>",
@@ -597,40 +639,13 @@
         "name": "table",
         "type": "\"group\"",
         "text": "'group'"
-      },
-      {
-        "name": "filter",
-        "type": "{    stage_id: number;}",
-        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
-      "baseName": "get.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
     },
-    "lineNumber": 238
-  },
-  {
-    "methodName": "select",
-    "table": "group",
-    "returnType": "Promise<Group | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"group\"",
-        "text": "'group'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "stored.group_id"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "reset.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
-    },
-    "lineNumber": 24
+    "lineNumber": 110
   },
   {
     "methodName": "select",
@@ -649,32 +664,10 @@
       }
     ],
     "sourceFile": {
-      "baseName": "find.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
     },
-    "lineNumber": 85
-  },
-  {
-    "methodName": "select",
-    "table": "group",
-    "returnType": "Promise<Group | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"group\"",
-        "text": "'group'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "match.group_id"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "find.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
-    },
-    "lineNumber": 62
+    "lineNumber": 105
   },
   {
     "methodName": "select",
@@ -715,15 +708,81 @@
       }
     ],
     "sourceFile": {
-      "baseName": "updater.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
     },
-    "lineNumber": 105
+    "lineNumber": 62
+  },
+  {
+    "methodName": "select",
+    "table": "group",
+    "returnType": "Promise<Group | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "match.group_id"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
+    "lineNumber": 85
+  },
+  {
+    "methodName": "select",
+    "table": "group",
+    "returnType": "Promise<Group | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "stored.group_id"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "reset.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
+    },
+    "lineNumber": 24
   },
   {
     "methodName": "select",
     "table": "group",
     "returnType": "Promise<Group[] | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"group\"",
+        "text": "'group'"
+      },
+      {
+        "name": "filter",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
+    "lineNumber": 238
+  },
+  {
+    "methodName": "delete",
+    "table": "group",
+    "returnType": "Promise<boolean>",
     "arguments": [
       {
         "name": "table",
@@ -735,7 +794,7 @@
       "baseName": "manager.ts",
       "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
     },
-    "lineNumber": 110
+    "lineNumber": 79
   },
   {
     "methodName": "delete",
@@ -760,21 +819,26 @@
     "lineNumber": 33
   },
   {
-    "methodName": "delete",
-    "table": "group",
-    "returnType": "Promise<boolean>",
+    "methodName": "insert",
+    "table": "round",
+    "returnType": "Promise<number>",
     "arguments": [
       {
         "name": "table",
-        "type": "\"group\"",
-        "text": "'group'"
+        "type": "\"round\"",
+        "text": "'round'"
+      },
+      {
+        "name": "value",
+        "type": "OmitId<Round>",
+        "text": "round"
       }
     ],
     "sourceFile": {
-      "baseName": "manager.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
     },
-    "lineNumber": 79
+    "lineNumber": 700
   },
   {
     "methodName": "insert",
@@ -799,9 +863,26 @@
     "lineNumber": 86
   },
   {
-    "methodName": "insert",
+    "methodName": "select",
     "table": "round",
-    "returnType": "Promise<number>",
+    "returnType": "Promise<Round[] | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
+    "lineNumber": 113
+  },
+  {
+    "methodName": "select",
+    "table": "round",
+    "returnType": "Promise<Round | null>",
     "arguments": [
       {
         "name": "table",
@@ -809,16 +890,60 @@
         "text": "'round'"
       },
       {
-        "name": "value",
-        "type": "OmitId<Round>",
-        "text": "round"
+        "name": "id",
+        "type": "number",
+        "text": "roundId"
       }
     ],
     "sourceFile": {
-      "baseName": "create.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
     },
-    "lineNumber": 700
+    "lineNumber": 70
+  },
+  {
+    "methodName": "select",
+    "table": "round",
+    "returnType": "Promise<Round | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "roundId"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
+    "lineNumber": 74
+  },
+  {
+    "methodName": "select",
+    "table": "round",
+    "returnType": "Promise<Round | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"round\"",
+        "text": "'round'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "match.round_id"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+    },
+    "lineNumber": 65
   },
   {
     "methodName": "select",
@@ -837,10 +962,10 @@
       }
     ],
     "sourceFile": {
-      "baseName": "get.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
     },
-    "lineNumber": 241
+    "lineNumber": 50
   },
   {
     "methodName": "select",
@@ -881,81 +1006,15 @@
       }
     ],
     "sourceFile": {
-      "baseName": "getter.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
     },
-    "lineNumber": 50
+    "lineNumber": 241
   },
   {
-    "methodName": "select",
+    "methodName": "delete",
     "table": "round",
-    "returnType": "Promise<Round | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"round\"",
-        "text": "'round'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "match.round_id"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "find.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
-    },
-    "lineNumber": 65
-  },
-  {
-    "methodName": "select",
-    "table": "round",
-    "returnType": "Promise<Round | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"round\"",
-        "text": "'round'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "roundId"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "update.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
-    },
-    "lineNumber": 74
-  },
-  {
-    "methodName": "select",
-    "table": "round",
-    "returnType": "Promise<Round | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"round\"",
-        "text": "'round'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "roundId"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "getter.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
-    },
-    "lineNumber": 70
-  },
-  {
-    "methodName": "select",
-    "table": "round",
-    "returnType": "Promise<Round[] | null>",
+    "returnType": "Promise<boolean>",
     "arguments": [
       {
         "name": "table",
@@ -967,7 +1026,7 @@
       "baseName": "manager.ts",
       "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
     },
-    "lineNumber": 113
+    "lineNumber": 84
   },
   {
     "methodName": "delete",
@@ -992,21 +1051,26 @@
     "lineNumber": 30
   },
   {
-    "methodName": "delete",
-    "table": "round",
-    "returnType": "Promise<boolean>",
+    "methodName": "insert",
+    "table": "match",
+    "returnType": "Promise<number>",
     "arguments": [
       {
         "name": "table",
-        "type": "\"round\"",
-        "text": "'round'"
+        "type": "\"match\"",
+        "text": "'match'"
+      },
+      {
+        "name": "value",
+        "type": "OmitId<Match>",
+        "text": "match"
       }
     ],
     "sourceFile": {
-      "baseName": "manager.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
     },
-    "lineNumber": 84
+    "lineNumber": 713
   },
   {
     "methodName": "insert",
@@ -1031,28 +1095,6 @@
     "lineNumber": 91
   },
   {
-    "methodName": "insert",
-    "table": "match",
-    "returnType": "Promise<number>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"match\"",
-        "text": "'match'"
-      },
-      {
-        "name": "value",
-        "type": "OmitId<Match>",
-        "text": "match"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "create.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
-    },
-    "lineNumber": 713
-  },
-  {
     "methodName": "select",
     "table": "match",
     "returnType": "Promise<Match[] | null>",
@@ -1061,23 +1103,62 @@
         "name": "table",
         "type": "\"match\"",
         "text": "'match'"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
+    "lineNumber": 116
+  },
+  {
+    "methodName": "select",
+    "table": "match",
+    "returnType": "Promise<Match | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
       },
       {
-        "name": "filter",
-        "type": "{    round_id: number;}",
-        "text": "{ round_id: roundId }"
+        "name": "id",
+        "type": "number",
+        "text": "parentId"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+    },
+    "lineNumber": 53
+  },
+  {
+    "methodName": "select",
+    "table": "match",
+    "returnType": "Promise<Match | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "match.id"
       }
     ],
     "sourceFile": {
       "baseName": "update.ts",
       "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
     },
-    "lineNumber": 195
+    "lineNumber": 20
   },
   {
     "methodName": "select",
     "table": "match",
-    "returnType": "Promise<Match[] | null>",
+    "returnType": "Promise<Match | null>",
     "arguments": [
       {
         "name": "table",
@@ -1085,170 +1166,16 @@
         "text": "'match'"
       },
       {
-        "name": "filter",
-        "type": "{    group_id: number;}",
-        "text": "{ group_id: groupId }"
+        "name": "id",
+        "type": "number",
+        "text": "id"
       }
     ],
     "sourceFile": {
       "baseName": "update.ts",
       "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
     },
-    "lineNumber": 178
-  },
-  {
-    "methodName": "select",
-    "table": "match",
-    "returnType": "Promise<Match[] | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"match\"",
-        "text": "'match'"
-      },
-      {
-        "name": "filter",
-        "type": "{    stage_id: number;}",
-        "text": "{ stage_id: stageId }"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "update.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
-    },
-    "lineNumber": 161
-  },
-  {
-    "methodName": "select",
-    "table": "match",
-    "returnType": "Promise<Match[] | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"match\"",
-        "text": "'match'"
-      },
-      {
-        "name": "filter",
-        "type": "{    round_id: number;}",
-        "text": "{ round_id: round.id }"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "update.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
-    },
-    "lineNumber": 130
-  },
-  {
-    "methodName": "select",
-    "table": "match",
-    "returnType": "Promise<Match[] | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"match\"",
-        "text": "'match'"
-      },
-      {
-        "name": "filter",
-        "type": "{    stage_id: number;}",
-        "text": "{ stage_id: stageId }"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "get.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
-    },
-    "lineNumber": 244
-  },
-  {
-    "methodName": "select",
-    "table": "match",
-    "returnType": "Promise<Match[] | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"match\"",
-        "text": "'match'"
-      },
-      {
-        "name": "filter",
-        "type": "{    round_id: number;}",
-        "text": "{ round_id: round.id }"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "get.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
-    },
-    "lineNumber": 139
-  },
-  {
-    "methodName": "select",
-    "table": "match",
-    "returnType": "Promise<Match[] | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"match\"",
-        "text": "'match'"
-      },
-      {
-        "name": "filter",
-        "type": "{    stage_id: number;}",
-        "text": "{ stage_id: stage.id }"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "get.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
-    },
-    "lineNumber": 112
-  },
-  {
-    "methodName": "select",
-    "table": "match",
-    "returnType": "Promise<Match[] | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"match\"",
-        "text": "'match'"
-      },
-      {
-        "name": "filter",
-        "type": "{    round_id: number;}",
-        "text": "{ round_id: firstRound.id }"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "getter.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
-    },
-    "lineNumber": 380
-  },
-  {
-    "methodName": "select",
-    "table": "match",
-    "returnType": "Promise<Match[] | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"match\"",
-        "text": "'match'"
-      },
-      {
-        "name": "filter",
-        "type": "{    stage_id: number;}",
-        "text": "{ stage_id: stageId }"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "getter.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
-    },
-    "lineNumber": 377
+    "lineNumber": 104
   },
   {
     "methodName": "select",
@@ -1267,10 +1194,10 @@
       }
     ],
     "sourceFile": {
-      "baseName": "reset.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
+      "baseName": "find.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
     },
-    "lineNumber": 15
+    "lineNumber": 56
   },
   {
     "methodName": "select",
@@ -1311,76 +1238,10 @@
       }
     ],
     "sourceFile": {
-      "baseName": "find.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/find.ts"
+      "baseName": "reset.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
     },
-    "lineNumber": 56
-  },
-  {
-    "methodName": "select",
-    "table": "match",
-    "returnType": "Promise<Match | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"match\"",
-        "text": "'match'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "id"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "update.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
-    },
-    "lineNumber": 104
-  },
-  {
-    "methodName": "select",
-    "table": "match",
-    "returnType": "Promise<Match | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"match\"",
-        "text": "'match'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "match.id"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "update.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
-    },
-    "lineNumber": 20
-  },
-  {
-    "methodName": "select",
-    "table": "match",
-    "returnType": "Promise<Match | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"match\"",
-        "text": "'match'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "parentId"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "updater.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
-    },
-    "lineNumber": 53
+    "lineNumber": 15
   },
   {
     "methodName": "select",
@@ -1391,18 +1252,23 @@
         "name": "table",
         "type": "\"match\"",
         "text": "'match'"
+      },
+      {
+        "name": "filter",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
-      "baseName": "manager.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
     },
-    "lineNumber": 116
+    "lineNumber": 377
   },
   {
-    "methodName": "update",
+    "methodName": "select",
     "table": "match",
-    "returnType": "Promise<boolean>",
+    "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
         "name": "table",
@@ -1412,24 +1278,19 @@
       {
         "name": "filter",
         "type": "{    round_id: number;}",
-        "text": "{ round_id: roundId }"
-      },
-      {
-        "name": "value",
-        "type": "{    child_count: number;}",
-        "text": "{ child_count: childCount }"
+        "text": "{ round_id: firstRound.id }"
       }
     ],
     "sourceFile": {
-      "baseName": "update.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
     },
-    "lineNumber": 192
+    "lineNumber": 380
   },
   {
-    "methodName": "update",
+    "methodName": "select",
     "table": "match",
-    "returnType": "Promise<boolean>",
+    "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
         "name": "table",
@@ -1438,25 +1299,42 @@
       },
       {
         "name": "filter",
-        "type": "{    group_id: number;}",
-        "text": "{ group_id: groupId }"
-      },
-      {
-        "name": "value",
-        "type": "{    child_count: number;}",
-        "text": "{ child_count: childCount }"
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stage.id }"
       }
     ],
     "sourceFile": {
-      "baseName": "update.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
     },
-    "lineNumber": 175
+    "lineNumber": 112
   },
   {
-    "methodName": "update",
+    "methodName": "select",
     "table": "match",
-    "returnType": "Promise<boolean>",
+    "returnType": "Promise<Match[] | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
+      },
+      {
+        "name": "filter",
+        "type": "{    round_id: number;}",
+        "text": "{ round_id: round.id }"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
+    "lineNumber": 139
+  },
+  {
+    "methodName": "select",
+    "table": "match",
+    "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
         "name": "table",
@@ -1467,23 +1345,18 @@
         "name": "filter",
         "type": "{    stage_id: number;}",
         "text": "{ stage_id: stageId }"
-      },
-      {
-        "name": "value",
-        "type": "{    child_count: number;}",
-        "text": "{ child_count: childCount }"
       }
     ],
     "sourceFile": {
-      "baseName": "update.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
     },
-    "lineNumber": 158
+    "lineNumber": 244
   },
   {
-    "methodName": "update",
+    "methodName": "select",
     "table": "match",
-    "returnType": "Promise<boolean>",
+    "returnType": "Promise<Match[] | null>",
     "arguments": [
       {
         "name": "table",
@@ -1491,21 +1364,82 @@
         "text": "'match'"
       },
       {
-        "name": "id",
-        "type": "number",
-        "text": "existing.id"
-      },
-      {
-        "name": "value",
-        "type": "Match",
-        "text": "updated"
+        "name": "filter",
+        "type": "{    round_id: number;}",
+        "text": "{ round_id: round.id }"
       }
     ],
     "sourceFile": {
-      "baseName": "create.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
     },
-    "lineNumber": 716
+    "lineNumber": 130
+  },
+  {
+    "methodName": "select",
+    "table": "match",
+    "returnType": "Promise<Match[] | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
+      },
+      {
+        "name": "filter",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
+    "lineNumber": 161
+  },
+  {
+    "methodName": "select",
+    "table": "match",
+    "returnType": "Promise<Match[] | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
+      },
+      {
+        "name": "filter",
+        "type": "{    group_id: number;}",
+        "text": "{ group_id: groupId }"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
+    "lineNumber": 178
+  },
+  {
+    "methodName": "select",
+    "table": "match",
+    "returnType": "Promise<Match[] | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
+      },
+      {
+        "name": "filter",
+        "type": "{    round_id: number;}",
+        "text": "{ round_id: roundId }"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
+    "lineNumber": 195
   },
   {
     "methodName": "update",
@@ -1524,15 +1458,15 @@
       },
       {
         "name": "value",
-        "type": "{    child_count: number;    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    status: Status;    opponent1: ParticipantResult | null;    opponent2: ParticipantResult | null;}",
-        "text": "{ ...match, child_count: targetChildCount }"
+        "type": "Match",
+        "text": "match"
       }
     ],
     "sourceFile": {
-      "baseName": "update.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
     },
-    "lineNumber": 261
+    "lineNumber": 144
   },
   {
     "methodName": "update",
@@ -1578,15 +1512,140 @@
       },
       {
         "name": "value",
-        "type": "Match",
-        "text": "match"
+        "type": "{    child_count: number;    id: number;    stage_id: number;    group_id: number;    round_id: number;    number: number;    status: Status;    opponent1: ParticipantResult | null;    opponent2: ParticipantResult | null;}",
+        "text": "{ ...match, child_count: targetChildCount }"
       }
     ],
     "sourceFile": {
-      "baseName": "updater.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
     },
-    "lineNumber": 144
+    "lineNumber": 261
+  },
+  {
+    "methodName": "update",
+    "table": "match",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "existing.id"
+      },
+      {
+        "name": "value",
+        "type": "Match",
+        "text": "updated"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+    },
+    "lineNumber": 716
+  },
+  {
+    "methodName": "update",
+    "table": "match",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
+      },
+      {
+        "name": "filter",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
+      },
+      {
+        "name": "value",
+        "type": "{    child_count: number;}",
+        "text": "{ child_count: childCount }"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
+    "lineNumber": 158
+  },
+  {
+    "methodName": "update",
+    "table": "match",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
+      },
+      {
+        "name": "filter",
+        "type": "{    group_id: number;}",
+        "text": "{ group_id: groupId }"
+      },
+      {
+        "name": "value",
+        "type": "{    child_count: number;}",
+        "text": "{ child_count: childCount }"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
+    "lineNumber": 175
+  },
+  {
+    "methodName": "update",
+    "table": "match",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
+      },
+      {
+        "name": "filter",
+        "type": "{    round_id: number;}",
+        "text": "{ round_id: roundId }"
+      },
+      {
+        "name": "value",
+        "type": "{    child_count: number;}",
+        "text": "{ child_count: childCount }"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+    },
+    "lineNumber": 192
+  },
+  {
+    "methodName": "delete",
+    "table": "match",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"match\"",
+        "text": "'match'"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
+    "lineNumber": 89
   },
   {
     "methodName": "delete",
@@ -1611,26 +1670,9 @@
     "lineNumber": 27
   },
   {
-    "methodName": "delete",
-    "table": "match",
-    "returnType": "Promise<boolean>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"match\"",
-        "text": "'match'"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "manager.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
-    },
-    "lineNumber": 89
-  },
-  {
     "methodName": "insert",
     "table": "match_game",
-    "returnType": "Promise<boolean>",
+    "returnType": "Promise<number>",
     "arguments": [
       {
         "name": "table",
@@ -1638,16 +1680,16 @@
         "text": "'match_game'"
       },
       {
-        "name": "values",
-        "type": "MatchGame[]",
-        "text": "data.match_game"
+        "name": "value",
+        "type": "{    number: number;    stage_id: number;    parent_id: number;    status: Status;    opponent1: {        id: null;    };    opponent2: {        id: null;    };}",
+        "text": "{\n                number: childCount + 1,\n                stage_id: match.stage_id,\n                parent_id: match.id,\n                status: match.status,\n                opponent1: { id: null },\n                opponent2: { id: null },\n            }"
       }
     ],
     "sourceFile": {
-      "baseName": "manager.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
     },
-    "lineNumber": 96
+    "lineNumber": 234
   },
   {
     "methodName": "insert",
@@ -1674,7 +1716,7 @@
   {
     "methodName": "insert",
     "table": "match_game",
-    "returnType": "Promise<number>",
+    "returnType": "Promise<boolean>",
     "arguments": [
       {
         "name": "table",
@@ -1682,16 +1724,60 @@
         "text": "'match_game'"
       },
       {
-        "name": "value",
-        "type": "{    number: number;    stage_id: number;    parent_id: number;    status: Status;    opponent1: {        id: null;    };    opponent2: {        id: null;    };}",
-        "text": "{\n                number: childCount + 1,\n                stage_id: match.stage_id,\n                parent_id: match.id,\n                status: match.status,\n                opponent1: { id: null },\n                opponent2: { id: null },\n            }"
+        "name": "values",
+        "type": "MatchGame[]",
+        "text": "data.match_game"
       }
     ],
     "sourceFile": {
-      "baseName": "update.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
     },
-    "lineNumber": 234
+    "lineNumber": 96
+  },
+  {
+    "methodName": "select",
+    "table": "match_game",
+    "returnType": "Promise<MatchGame | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "game.id"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "getter.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
+    },
+    "lineNumber": 499
+  },
+  {
+    "methodName": "select",
+    "table": "match_game",
+    "returnType": "Promise<MatchGame | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "text": "gameId"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "reset.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
+    },
+    "lineNumber": 47
   },
   {
     "methodName": "select",
@@ -1710,10 +1796,10 @@
       }
     ],
     "sourceFile": {
-      "baseName": "update.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
     },
-    "lineNumber": 230
+    "lineNumber": 61
   },
   {
     "methodName": "select",
@@ -1754,81 +1840,10 @@
       }
     ],
     "sourceFile": {
-      "baseName": "get.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
     },
-    "lineNumber": 61
-  },
-  {
-    "methodName": "select",
-    "table": "match_game",
-    "returnType": "Promise<MatchGame | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"match_game\"",
-        "text": "'match_game'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "gameId"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "reset.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
-    },
-    "lineNumber": 47
-  },
-  {
-    "methodName": "select",
-    "table": "match_game",
-    "returnType": "Promise<MatchGame | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"match_game\"",
-        "text": "'match_game'"
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "text": "game.id"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "getter.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/getter.ts"
-    },
-    "lineNumber": 499
-  },
-  {
-    "methodName": "update",
-    "table": "match_game",
-    "returnType": "Promise<boolean>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"match_game\"",
-        "text": "'match_game'"
-      },
-      {
-        "name": "filter",
-        "type": "{    parent_id: number;}",
-        "text": "{ parent_id: match.id }"
-      },
-      {
-        "name": "value",
-        "type": "Partial<MatchGame>",
-        "text": "updatedMatchGame"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "updater.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
-    },
-    "lineNumber": 159
+    "lineNumber": 230
   },
   {
     "methodName": "update",
@@ -1843,19 +1858,19 @@
       {
         "name": "id",
         "type": "number",
-        "text": "existing.id"
+        "text": "stored.id"
       },
       {
         "name": "value",
         "type": "MatchGame",
-        "text": "updated"
+        "text": "stored"
       }
     ],
     "sourceFile": {
-      "baseName": "create.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
+      "baseName": "update.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
     },
-    "lineNumber": 741
+    "lineNumber": 41
   },
   {
     "methodName": "update",
@@ -1897,22 +1912,22 @@
       {
         "name": "id",
         "type": "number",
-        "text": "stored.id"
+        "text": "existing.id"
       },
       {
         "name": "value",
         "type": "MatchGame",
-        "text": "stored"
+        "text": "updated"
       }
     ],
     "sourceFile": {
-      "baseName": "update.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+      "baseName": "create.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
     },
-    "lineNumber": 41
+    "lineNumber": 741
   },
   {
-    "methodName": "delete",
+    "methodName": "update",
     "table": "match_game",
     "returnType": "Promise<boolean>",
     "arguments": [
@@ -1923,15 +1938,37 @@
       },
       {
         "name": "filter",
-        "type": "{    stage_id: number;}",
-        "text": "{ stage_id: stageId }"
+        "type": "{    parent_id: number;}",
+        "text": "{ parent_id: match.id }"
+      },
+      {
+        "name": "value",
+        "type": "Partial<MatchGame>",
+        "text": "updatedMatchGame"
       }
     ],
     "sourceFile": {
-      "baseName": "delete.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/delete.ts"
+      "baseName": "updater.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
     },
-    "lineNumber": 24
+    "lineNumber": 159
+  },
+  {
+    "methodName": "delete",
+    "table": "match_game",
+    "returnType": "Promise<boolean>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"match_game\"",
+        "text": "'match_game'"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
+    "lineNumber": 94
   },
   {
     "methodName": "delete",
@@ -1964,18 +2001,23 @@
         "name": "table",
         "type": "\"match_game\"",
         "text": "'match_game'"
+      },
+      {
+        "name": "filter",
+        "type": "{    stage_id: number;}",
+        "text": "{ stage_id: stageId }"
       }
     ],
     "sourceFile": {
-      "baseName": "manager.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+      "baseName": "delete.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/delete.ts"
     },
-    "lineNumber": 94
+    "lineNumber": 24
   },
   {
     "methodName": "insert",
     "table": "participant",
-    "returnType": "Promise<boolean>",
+    "returnType": "Promise<number>",
     "arguments": [
       {
         "name": "table",
@@ -1983,16 +2025,16 @@
         "text": "'participant'"
       },
       {
-        "name": "values",
-        "type": "OmitId<Participant>[]",
-        "text": "participants"
+        "name": "value",
+        "type": "OmitId<Participant>",
+        "text": "participant"
       }
     ],
     "sourceFile": {
       "baseName": "create.ts",
       "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
     },
-    "lineNumber": 757
+    "lineNumber": 764
   },
   {
     "methodName": "insert",
@@ -2019,7 +2061,7 @@
   {
     "methodName": "insert",
     "table": "participant",
-    "returnType": "Promise<number>",
+    "returnType": "Promise<boolean>",
     "arguments": [
       {
         "name": "table",
@@ -2027,16 +2069,77 @@
         "text": "'participant'"
       },
       {
-        "name": "value",
-        "type": "OmitId<Participant>",
-        "text": "participant"
+        "name": "values",
+        "type": "OmitId<Participant>[]",
+        "text": "participants"
       }
     ],
     "sourceFile": {
       "baseName": "create.ts",
       "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
     },
-    "lineNumber": 764
+    "lineNumber": 757
+  },
+  {
+    "methodName": "select",
+    "table": "participant",
+    "returnType": "Promise<Participant[] | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "manager.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
+    },
+    "lineNumber": 104
+  },
+  {
+    "methodName": "select",
+    "table": "participant",
+    "returnType": "Promise<Participant[] | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
+      },
+      {
+        "name": "filter",
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: stageData.stage.tournament_id }"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
+    "lineNumber": 16
+  },
+  {
+    "methodName": "select",
+    "table": "participant",
+    "returnType": "Promise<Participant[] | null>",
+    "arguments": [
+      {
+        "name": "table",
+        "type": "\"participant\"",
+        "text": "'participant'"
+      },
+      {
+        "name": "filter",
+        "type": "{    tournament_id: number;}",
+        "text": "{ tournament_id: tournamentId }"
+      }
+    ],
+    "sourceFile": {
+      "baseName": "get.ts",
+      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
+    },
+    "lineNumber": 40
   },
   {
     "methodName": "select",
@@ -2058,7 +2161,7 @@
       "baseName": "create.ts",
       "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
     },
-    "lineNumber": 753
+    "lineNumber": 502
   },
   {
     "methodName": "select",
@@ -2102,68 +2205,7 @@
       "baseName": "create.ts",
       "fullPath": "/home/corentin/brackets/brackets-manager.js/src/create.ts"
     },
-    "lineNumber": 502
-  },
-  {
-    "methodName": "select",
-    "table": "participant",
-    "returnType": "Promise<Participant[] | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"participant\"",
-        "text": "'participant'"
-      },
-      {
-        "name": "filter",
-        "type": "{    tournament_id: number;}",
-        "text": "{ tournament_id: tournamentId }"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "get.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
-    },
-    "lineNumber": 40
-  },
-  {
-    "methodName": "select",
-    "table": "participant",
-    "returnType": "Promise<Participant[] | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"participant\"",
-        "text": "'participant'"
-      },
-      {
-        "name": "filter",
-        "type": "{    tournament_id: number;}",
-        "text": "{ tournament_id: stageData.stage.tournament_id }"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "get.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/get.ts"
-    },
-    "lineNumber": 16
-  },
-  {
-    "methodName": "select",
-    "table": "participant",
-    "returnType": "Promise<Participant[] | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "\"participant\"",
-        "text": "'participant'"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "manager.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
-    },
-    "lineNumber": 104
+    "lineNumber": 753
   },
   {
     "methodName": "delete",
@@ -2181,47 +2223,5 @@
       "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
     },
     "lineNumber": 69
-  },
-  {
-    "methodName": "select",
-    "returnType": "Promise<DataTypes[T][] | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "T",
-        "text": "table"
-      },
-      {
-        "name": "filter",
-        "type": "Partial<DataTypes[T]>",
-        "text": "filter"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "manager.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
-    },
-    "lineNumber": 39
-  },
-  {
-    "methodName": "select",
-    "returnType": "Promise<DataTypes[T][] | null>",
-    "arguments": [
-      {
-        "name": "table",
-        "type": "T",
-        "text": "table"
-      },
-      {
-        "name": "filter",
-        "type": "Partial<DataTypes[T]>",
-        "text": "filter"
-      }
-    ],
-    "sourceFile": {
-      "baseName": "manager.ts",
-      "fullPath": "/home/corentin/brackets/brackets-manager.js/src/manager.ts"
-    },
-    "lineNumber": 33
   }
 ]
