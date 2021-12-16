@@ -1,7 +1,7 @@
 import { FoundCall, Priority, ProjectAnalysis } from './types';
 
-export function exportToMarkdown(result: ProjectAnalysis): string {
-  const sorted = result.calls.sort((a, b) => {
+export function exportToMarkdown(analysis: ProjectAnalysis): string {
+  const sorted = analysis.calls.sort((a, b) => {
     const up = prioritizer(a, b);
     let r: Priority;
 
@@ -53,9 +53,7 @@ export function exportToMarkdown(result: ProjectAnalysis): string {
       output += `### \`${currentMethod}()\`\n\n`;
     }
 
-    // TODO: Use current commit id to make a permalink
-
-    output += `<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/master/src/${call.sourceFile.baseName}#L${call.lineNumber}">Source</a> :material-chevron-down:\n\n`;
+    output += `<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/${analysis.commitId}/src/${call.sourceFile.baseName}#L${call.lineNumber}">Source</a> :material-chevron-down:\n\n`;
     output += '```ts\n';
     output += call.methodName;
     output += '(';
