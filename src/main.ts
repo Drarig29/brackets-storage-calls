@@ -19,7 +19,9 @@ export function getStorageCalls(tsConfigFilePath: string): ProjectAnalysis {
     .toString().trim();
 
   const projectName = basename(workingDirectory);
-  console.info(`Analyzing ${projectName}...\n`);
+
+  // Don't output this in the stdout, so that we can do `brackets-storage-calls > file`.
+  process.stderr.write(`Analyzing ${projectName}...\n`);
 
   const project = new Project({
     tsConfigFilePath,

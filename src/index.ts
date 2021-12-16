@@ -9,4 +9,4 @@ const tsConfigFilePath = givenArg ? givenArg : './tsconfig.json';
 const calls = getStorageCalls(tsConfigFilePath);
 const markdownOutput = exportToMarkdown(calls);
 
-console.log(markdownOutput);
+process.stdout.write(markdownOutput);
