@@ -17,6 +17,7 @@ export interface FoundCall {
 }
 
 export interface ProjectAnalysis {
+  name: string;
   commitId: string;
   calls: FoundCall[];
 }

@@ -1,7 +1,5 @@
-import { writeFileSync } from 'fs';
-import { dirname } from 'path';
+import { basename, dirname, resolve } from 'path';
 import { execSync } from 'child_process';
-import { exportToMarkdown } from './markdown';
 import { FoundCall, FoundCallArgument, ProjectAnalysis } from './types';
 import {
   CallExpression,
@@ -14,10 +12,14 @@ import {
   TypeFormatFlags,
 } from 'ts-morph';
 
-function getStorageCalls(tsConfigFilePath: string): ProjectAnalysis {
-  const workingDirectory = dirname(tsConfigFilePath);
+export function getStorageCalls(tsConfigFilePath: string): ProjectAnalysis {
+  const absolutePath = resolve(tsConfigFilePath);
+  const workingDirectory = dirname(absolutePath);
   const revision = execSync('git rev-parse HEAD', { cwd: workingDirectory })
     .toString().trim();
+
+  const projectName = basename(workingDirectory);
+  console.info(`Analyzing ${projectName}...\n`);
 
   const project = new Project({
     tsConfigFilePath,
@@ -89,6 +91,7 @@ function getStorageCalls(tsConfigFilePath: string): ProjectAnalysis {
   }
 
   return {
+    name: projectName,
     commitId: revision,
     calls: results,
   };
