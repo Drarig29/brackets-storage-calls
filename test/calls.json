@@ -1,6 +1,6 @@
 {
   "name": "brackets-manager.js",
-  "commitId": "ed4f9df35fa5c73fe80a0fb25af20dab9fc4c662",
+  "commitId": "d98770463ac4459f2d698a889584298fe97a30d8",
   "calls": [
     {
       "methodName": "select",
@@ -206,28 +206,6 @@
         {
           "name": "id",
           "type": "number",
-          "text": "storedParent.stage_id"
-        }
-      ],
-      "sourceFile": {
-        "baseName": "updater.ts",
-        "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
-      },
-      "lineNumber": 62
-    },
-    {
-      "methodName": "select",
-      "table": "stage",
-      "returnType": "Promise<Stage | null>",
-      "arguments": [
-        {
-          "name": "table",
-          "type": "\"stage\"",
-          "text": "'stage'"
-        },
-        {
-          "name": "id",
-          "type": "number",
           "text": "match.stage_id"
         }
       ],
@@ -235,7 +213,7 @@
         "baseName": "updater.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
       },
-      "lineNumber": 102
+      "lineNumber": 99
     },
     {
       "methodName": "select",
@@ -257,7 +235,29 @@
         "baseName": "updater.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
       },
-      "lineNumber": 131
+      "lineNumber": 122
+    },
+    {
+      "methodName": "select",
+      "table": "stage",
+      "returnType": "Promise<Stage | null>",
+      "arguments": [
+        {
+          "name": "table",
+          "type": "\"stage\"",
+          "text": "'stage'"
+        },
+        {
+          "name": "id",
+          "type": "number",
+          "text": "stored.stage_id"
+        }
+      ],
+      "sourceFile": {
+        "baseName": "updater.ts",
+        "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
+      },
+      "lineNumber": 147
     },
     {
       "methodName": "select",
@@ -279,7 +279,7 @@
         "baseName": "update.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
       },
-      "lineNumber": 54
+      "lineNumber": 46
     },
     {
       "methodName": "select",
@@ -301,7 +301,7 @@
         "baseName": "update.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
       },
-      "lineNumber": 77
+      "lineNumber": 69
     },
     {
       "methodName": "select",
@@ -323,7 +323,7 @@
         "baseName": "update.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
       },
-      "lineNumber": 136
+      "lineNumber": 128
     },
     {
       "methodName": "select",
@@ -434,6 +434,28 @@
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
       },
       "lineNumber": 21
+    },
+    {
+      "methodName": "select",
+      "table": "stage",
+      "returnType": "Promise<Stage | null>",
+      "arguments": [
+        {
+          "name": "table",
+          "type": "\"stage\"",
+          "text": "'stage'"
+        },
+        {
+          "name": "id",
+          "type": "number",
+          "text": "stored.stage_id"
+        }
+      ],
+      "sourceFile": {
+        "baseName": "reset.ts",
+        "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
+      },
+      "lineNumber": 50
     },
     {
       "methodName": "select",
@@ -670,7 +692,7 @@
         "baseName": "updater.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
       },
-      "lineNumber": 105
+      "lineNumber": 102
     },
     {
       "methodName": "select",
@@ -692,7 +714,7 @@
         "baseName": "update.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
       },
-      "lineNumber": 140
+      "lineNumber": 132
     },
     {
       "methodName": "select",
@@ -924,7 +946,7 @@
         "baseName": "update.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
       },
-      "lineNumber": 74
+      "lineNumber": 66
     },
     {
       "methodName": "select",
@@ -1134,7 +1156,7 @@
         "baseName": "updater.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
       },
-      "lineNumber": 53
+      "lineNumber": 54
     },
     {
       "methodName": "select",
@@ -1178,7 +1200,7 @@
         "baseName": "update.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
       },
-      "lineNumber": 104
+      "lineNumber": 96
     },
     {
       "methodName": "select",
@@ -1376,7 +1398,7 @@
         "baseName": "update.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
       },
-      "lineNumber": 130
+      "lineNumber": 122
     },
     {
       "methodName": "select",
@@ -1398,7 +1420,7 @@
         "baseName": "update.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
       },
-      "lineNumber": 161
+      "lineNumber": 153
     },
     {
       "methodName": "select",
@@ -1420,7 +1442,7 @@
         "baseName": "update.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
       },
-      "lineNumber": 178
+      "lineNumber": 170
     },
     {
       "methodName": "select",
@@ -1442,7 +1464,7 @@
         "baseName": "update.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
       },
-      "lineNumber": 195
+      "lineNumber": 187
     },
     {
       "methodName": "update",
@@ -1469,7 +1491,7 @@
         "baseName": "updater.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
       },
-      "lineNumber": 144
+      "lineNumber": 166
     },
     {
       "methodName": "update",
@@ -1496,7 +1518,7 @@
         "baseName": "update.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
       },
-      "lineNumber": 218
+      "lineNumber": 210
     },
     {
       "methodName": "update",
@@ -1523,7 +1545,7 @@
         "baseName": "update.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
       },
-      "lineNumber": 261
+      "lineNumber": 253
     },
     {
       "methodName": "update",
@@ -1577,7 +1599,7 @@
         "baseName": "update.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
       },
-      "lineNumber": 158
+      "lineNumber": 150
     },
     {
       "methodName": "update",
@@ -1604,7 +1626,7 @@
         "baseName": "update.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
       },
-      "lineNumber": 175
+      "lineNumber": 167
     },
     {
       "methodName": "update",
@@ -1631,7 +1653,7 @@
         "baseName": "update.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
       },
-      "lineNumber": 192
+      "lineNumber": 184
     },
     {
       "methodName": "delete",
@@ -1692,7 +1714,7 @@
         "baseName": "update.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
       },
-      "lineNumber": 234
+      "lineNumber": 226
     },
     {
       "methodName": "insert",
@@ -1824,7 +1846,7 @@
         "baseName": "updater.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
       },
-      "lineNumber": 56
+      "lineNumber": 57
     },
     {
       "methodName": "select",
@@ -1846,7 +1868,7 @@
         "baseName": "update.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
       },
-      "lineNumber": 230
+      "lineNumber": 222
     },
     {
       "methodName": "update",
@@ -1870,10 +1892,10 @@
         }
       ],
       "sourceFile": {
-        "baseName": "update.ts",
-        "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
+        "baseName": "updater.ts",
+        "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
       },
-      "lineNumber": 41
+      "lineNumber": 154
     },
     {
       "methodName": "update",
@@ -1900,7 +1922,7 @@
         "baseName": "reset.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/reset.ts"
       },
-      "lineNumber": 52
+      "lineNumber": 57
     },
     {
       "methodName": "update",
@@ -1954,7 +1976,7 @@
         "baseName": "updater.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/base/updater.ts"
       },
-      "lineNumber": 159
+      "lineNumber": 181
     },
     {
       "methodName": "delete",
@@ -1993,7 +2015,7 @@
         "baseName": "update.ts",
         "fullPath": "/home/corentin/brackets/brackets-manager.js/src/update.ts"
       },
-      "lineNumber": 250
+      "lineNumber": 242
     },
     {
       "methodName": "delete",

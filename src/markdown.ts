@@ -53,7 +53,9 @@ export function exportToMarkdown(analysis: ProjectAnalysis): string {
       output += `### \`${currentMethod}()\`\n\n`;
     }
 
-    output += `<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/${analysis.commitId}/src/${call.sourceFile.baseName}#L${call.lineNumber}">Source</a> :material-chevron-down:\n\n`;
+    const filename = relativeToSrc(call.sourceFile.fullPath);
+
+    output += `<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/${analysis.commitId}/src/${filename}#L${call.lineNumber}">Source</a> :material-chevron-down:\n\n`;
     output += '```ts\n';
     output += call.methodName;
     output += '(';
@@ -100,6 +102,11 @@ function prioritizer(a: FoundCall, b: FoundCall) {
     }
     return { returned: false }
   }
+}
+
+function relativeToSrc(path: string) {
+  const src = '/src/';
+  return path.substring(path.indexOf(src) + src.length);
 }
 
 function formatTable(table?: string): string {
