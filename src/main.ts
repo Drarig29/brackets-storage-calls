@@ -32,15 +32,19 @@ export function getStorageCalls(tsConfigFilePath: string): ProjectAnalysis {
     throw Error('Type definition file not found.');
   }
 
-  const crudInterface = typeDefinitions
-    .getInterfaces()
-    .find((iface) => iface.getName() === 'CrudInterface');
+  const interfaces = typeDefinitions.getInterfaces()
+  const [crudInterface, storageInterface] = interfaces.filter(iface => ['CrudInterface', 'Storage'].includes(iface.getName()))
 
   if (!crudInterface) {
-    throw Error('CrudInterface not found.');
+    throw Error('`CrudInterface` interface not found.');
   }
 
-  const crudMethods = crudInterface.getMethods();
+  if (!storageInterface) {
+    throw Error('`Storage` interface not found.');
+  }
+
+  // Sadly, `getMethods()` does not return inherited methods.
+  const crudMethods = [...crudInterface.getMethods(), ...storageInterface.getMethods()];
   const results: FoundCall[] = [];
 
   for (const method of crudMethods) {

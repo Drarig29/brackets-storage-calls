@@ -1,6 +1,6 @@
 {
   "name": "brackets-manager.js",
-  "commitId": "e6d0b90d0046894da5258c7456d63b1fff98ba53",
+  "commitId": "1da7b310696cb4903c33dfd46589441a4295f9f2",
   "calls": [
     {
       "methodName": "select",
@@ -21,7 +21,7 @@
         "baseName": "manager.ts",
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/manager.ts"
       },
-      "lineNumber": 45
+      "lineNumber": 54
     },
     {
       "methodName": "select",
@@ -42,7 +42,7 @@
         "baseName": "manager.ts",
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/manager.ts"
       },
-      "lineNumber": 57
+      "lineNumber": 66
     },
     {
       "methodName": "insert",
@@ -86,7 +86,7 @@
         "baseName": "manager.ts",
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/manager.ts"
       },
-      "lineNumber": 98
+      "lineNumber": 104
     },
     {
       "methodName": "select",
@@ -103,7 +103,7 @@
         "baseName": "manager.ts",
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/manager.ts"
       },
-      "lineNumber": 129
+      "lineNumber": 135
     },
     {
       "methodName": "select",
@@ -702,7 +702,7 @@
         "baseName": "manager.ts",
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/manager.ts"
       },
-      "lineNumber": 96
+      "lineNumber": 102
     },
     {
       "methodName": "delete",
@@ -725,6 +725,94 @@
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/delete.ts"
       },
       "lineNumber": 42
+    },
+    {
+      "methodName": "selectFirst",
+      "table": "group",
+      "returnType": "Promise<Group | null>",
+      "arguments": [
+        {
+          "name": "table",
+          "type": "\"group\"",
+          "text": "'group'"
+        },
+        {
+          "name": "filter",
+          "type": "{    stage_id: Id;    number: number;}",
+          "text": "{\n                stage_id: group.stage_id,\n                number: group.number,\n            }"
+        }
+      ],
+      "sourceFile": {
+        "baseName": "stageCreator.ts",
+        "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/base/stageCreator.ts"
+      },
+      "lineNumber": 693
+    },
+    {
+      "methodName": "selectFirst",
+      "table": "group",
+      "returnType": "Promise<Group | null>",
+      "arguments": [
+        {
+          "name": "table",
+          "type": "\"group\"",
+          "text": "'group'"
+        },
+        {
+          "name": "filter",
+          "type": "{    stage_id: Id;    number: number;}",
+          "text": "{ stage_id: stageId, number: 2 }"
+        }
+      ],
+      "sourceFile": {
+        "baseName": "getter.ts",
+        "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/base/getter.ts"
+      },
+      "lineNumber": 439
+    },
+    {
+      "methodName": "selectFirst",
+      "table": "group",
+      "returnType": "Promise<Group | null>",
+      "arguments": [
+        {
+          "name": "table",
+          "type": "\"group\"",
+          "text": "'group'"
+        },
+        {
+          "name": "filter",
+          "type": "{    stage_id: Id;    number: number;}",
+          "text": "{ stage_id: stageId, number: 1 }"
+        }
+      ],
+      "sourceFile": {
+        "baseName": "getter.ts",
+        "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/base/getter.ts"
+      },
+      "lineNumber": 428
+    },
+    {
+      "methodName": "selectFirst",
+      "table": "group",
+      "returnType": "Promise<Group | null>",
+      "arguments": [
+        {
+          "name": "table",
+          "type": "\"group\"",
+          "text": "'group'"
+        },
+        {
+          "name": "filter",
+          "type": "{    stage_id: Id;    number: number;}",
+          "text": "{ stage_id: stageId, number: groupNumber }"
+        }
+      ],
+      "sourceFile": {
+        "baseName": "getter.ts",
+        "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/base/getter.ts"
+      },
+      "lineNumber": 417
     },
     {
       "methodName": "insert",
@@ -768,7 +856,7 @@
         "baseName": "manager.ts",
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/manager.ts"
       },
-      "lineNumber": 103
+      "lineNumber": 109
     },
     {
       "methodName": "select",
@@ -785,7 +873,7 @@
         "baseName": "manager.ts",
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/manager.ts"
       },
-      "lineNumber": 132
+      "lineNumber": 138
     },
     {
       "methodName": "select",
@@ -934,7 +1022,7 @@
         "baseName": "manager.ts",
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/manager.ts"
       },
-      "lineNumber": 101
+      "lineNumber": 107
     },
     {
       "methodName": "delete",
@@ -957,6 +1045,126 @@
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/delete.ts"
       },
       "lineNumber": 39
+    },
+    {
+      "methodName": "selectLast",
+      "table": "round",
+      "returnType": "Promise<Round | null>",
+      "arguments": [
+        {
+          "name": "table",
+          "type": "\"round\"",
+          "text": "'round'"
+        },
+        {
+          "name": "filter",
+          "type": "{    group_id: Id;}",
+          "text": "{ group_id: groupId }"
+        }
+      ],
+      "sourceFile": {
+        "baseName": "getter.ts",
+        "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/base/getter.ts"
+      },
+      "lineNumber": 404
+    },
+    {
+      "methodName": "selectFirst",
+      "table": "round",
+      "returnType": "Promise<Round | null>",
+      "arguments": [
+        {
+          "name": "table",
+          "type": "\"round\"",
+          "text": "'round'"
+        },
+        {
+          "name": "filter",
+          "type": "{    group_id: Id;    number: number;}",
+          "text": "{\n                group_id: round.group_id,\n                number: round.number,\n            }"
+        }
+      ],
+      "sourceFile": {
+        "baseName": "stageCreator.ts",
+        "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/base/stageCreator.ts"
+      },
+      "lineNumber": 714
+    },
+    {
+      "methodName": "selectFirst",
+      "table": "round",
+      "returnType": "Promise<Round | null>",
+      "arguments": [
+        {
+          "name": "table",
+          "type": "\"round\"",
+          "text": "'round'"
+        },
+        {
+          "name": "filter",
+          "type": "{    stage_id: Id;    number: number;}",
+          "text": "{ stage_id: stage.id, number: 1 }"
+        },
+        {
+          "name": "assertUnique",
+          "type": "false",
+          "text": "false"
+        }
+      ],
+      "sourceFile": {
+        "baseName": "get.ts",
+        "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/get.ts"
+      },
+      "lineNumber": 256
+    },
+    {
+      "methodName": "selectFirst",
+      "table": "round",
+      "returnType": "Promise<Round | null>",
+      "arguments": [
+        {
+          "name": "table",
+          "type": "\"round\"",
+          "text": "'round'"
+        },
+        {
+          "name": "filter",
+          "type": "{    group_id: Id;    number: number;}",
+          "text": "{\n            group_id: groupId,\n            number: roundNumber,\n        }"
+        }
+      ],
+      "sourceFile": {
+        "baseName": "getter.ts",
+        "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/base/getter.ts"
+      },
+      "lineNumber": 478
+    },
+    {
+      "methodName": "selectFirst",
+      "table": "round",
+      "returnType": "Promise<Round | null>",
+      "arguments": [
+        {
+          "name": "table",
+          "type": "\"round\"",
+          "text": "'round'"
+        },
+        {
+          "name": "filter",
+          "type": "{    stage_id: Id;    number: number;}",
+          "text": "{ stage_id: stageId, number: 1 }"
+        },
+        {
+          "name": "assertUnique",
+          "type": "false",
+          "text": "false"
+        }
+      ],
+      "sourceFile": {
+        "baseName": "getter.ts",
+        "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/base/getter.ts"
+      },
+      "lineNumber": 393
     },
     {
       "methodName": "insert",
@@ -1000,7 +1208,7 @@
         "baseName": "manager.ts",
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/manager.ts"
       },
-      "lineNumber": 108
+      "lineNumber": 114
     },
     {
       "methodName": "select",
@@ -1017,7 +1225,7 @@
         "baseName": "manager.ts",
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/manager.ts"
       },
-      "lineNumber": 135
+      "lineNumber": 141
     },
     {
       "methodName": "select",
@@ -1188,7 +1396,7 @@
         "baseName": "manager.ts",
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/manager.ts"
       },
-      "lineNumber": 106
+      "lineNumber": 112
     },
     {
       "methodName": "delete",
@@ -1211,6 +1419,72 @@
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/delete.ts"
       },
       "lineNumber": 36
+    },
+    {
+      "methodName": "selectFirst",
+      "table": "match",
+      "returnType": "Promise<Match | null>",
+      "arguments": [
+        {
+          "name": "table",
+          "type": "\"match\"",
+          "text": "'match'"
+        },
+        {
+          "name": "filter",
+          "type": "{    round_id: Id;    number: number;}",
+          "text": "{\n                round_id: roundId,\n                number: matchNumber,\n            }"
+        }
+      ],
+      "sourceFile": {
+        "baseName": "stageCreator.ts",
+        "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/base/stageCreator.ts"
+      },
+      "lineNumber": 362
+    },
+    {
+      "methodName": "selectFirst",
+      "table": "match",
+      "returnType": "Promise<Match | null>",
+      "arguments": [
+        {
+          "name": "table",
+          "type": "\"match\"",
+          "text": "'match'"
+        },
+        {
+          "name": "filter",
+          "type": "{    round_id: Id;    number: number;}",
+          "text": "{\n            round_id: round.id,\n            number: matchNumber,\n        }"
+        }
+      ],
+      "sourceFile": {
+        "baseName": "getter.ts",
+        "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/base/getter.ts"
+      },
+      "lineNumber": 485
+    },
+    {
+      "methodName": "selectFirst",
+      "table": "match",
+      "returnType": "Promise<Match | null>",
+      "arguments": [
+        {
+          "name": "table",
+          "type": "\"match\"",
+          "text": "'match'"
+        },
+        {
+          "name": "filter",
+          "type": "{    round_id: Id;    number: number;}",
+          "text": "{\n            round_id: lastRound.id,\n            number: 1,\n        }"
+        }
+      ],
+      "sourceFile": {
+        "baseName": "getter.ts",
+        "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/base/getter.ts"
+      },
+      "lineNumber": 116
     },
     {
       "methodName": "insert",
@@ -1254,7 +1528,7 @@
         "baseName": "manager.ts",
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/manager.ts"
       },
-      "lineNumber": 113
+      "lineNumber": 119
     },
     {
       "methodName": "select",
@@ -1271,7 +1545,7 @@
         "baseName": "manager.ts",
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/manager.ts"
       },
-      "lineNumber": 138
+      "lineNumber": 144
     },
     {
       "methodName": "select",
@@ -1550,7 +1824,7 @@
         {
           "name": "filter",
           "type": "{    round_id: Id;}",
-          "text": "{ round_id: round.id }"
+          "text": "{ round_id: firstRound.id }"
         }
       ],
       "sourceFile": {
@@ -1873,7 +2147,7 @@
         "baseName": "manager.ts",
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/manager.ts"
       },
-      "lineNumber": 111
+      "lineNumber": 117
     },
     {
       "methodName": "delete",
@@ -1896,6 +2170,50 @@
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/delete.ts"
       },
       "lineNumber": 33
+    },
+    {
+      "methodName": "selectFirst",
+      "table": "match_game",
+      "returnType": "Promise<MatchGame | null>",
+      "arguments": [
+        {
+          "name": "table",
+          "type": "\"match_game\"",
+          "text": "'match_game'"
+        },
+        {
+          "name": "filter",
+          "type": "{    parent_id: Id;    number: number;}",
+          "text": "{\n                parent_id: matchGame.parent_id,\n                number: matchGame.number,\n            }"
+        }
+      ],
+      "sourceFile": {
+        "baseName": "stageCreator.ts",
+        "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/base/stageCreator.ts"
+      },
+      "lineNumber": 752
+    },
+    {
+      "methodName": "selectFirst",
+      "table": "match_game",
+      "returnType": "Promise<MatchGame | null>",
+      "arguments": [
+        {
+          "name": "table",
+          "type": "\"match_game\"",
+          "text": "'match_game'"
+        },
+        {
+          "name": "filter",
+          "type": "{    parent_id: Id;    number: number;}",
+          "text": "{\n                parent_id: game.parent_id,\n                number: game.number,\n            }"
+        }
+      ],
+      "sourceFile": {
+        "baseName": "getter.ts",
+        "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/base/getter.ts"
+      },
+      "lineNumber": 508
     },
     {
       "methodName": "insert",
@@ -1961,7 +2279,7 @@
         "baseName": "manager.ts",
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/manager.ts"
       },
-      "lineNumber": 118
+      "lineNumber": 124
     },
     {
       "methodName": "select",
@@ -2196,7 +2514,7 @@
         "baseName": "manager.ts",
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/manager.ts"
       },
-      "lineNumber": 116
+      "lineNumber": 122
     },
     {
       "methodName": "delete",
@@ -2284,7 +2602,7 @@
         "baseName": "manager.ts",
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/manager.ts"
       },
-      "lineNumber": 93
+      "lineNumber": 99
     },
     {
       "methodName": "insert",
@@ -2323,7 +2641,7 @@
         "baseName": "manager.ts",
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/manager.ts"
       },
-      "lineNumber": 126
+      "lineNumber": 132
     },
     {
       "methodName": "select",
@@ -2450,7 +2768,7 @@
         "baseName": "manager.ts",
         "fullPath": "/Users/corentin.girard/playground/brackets-manager.js/src/manager.ts"
       },
-      "lineNumber": 91
+      "lineNumber": 97
     }
   ]
 }
