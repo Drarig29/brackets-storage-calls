@@ -1,6 +1,6 @@
 {
   "name": "brackets-storage-calls",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Creates a list of all storage calls with their signature and parameters",
   "main": "./bin/index.js",
   "types": "./bin/index.d.ts",
