@@ -13,7 +13,8 @@
   "scripts": {
     "start": "tsc --watch",
     "build": "tsc",
-    "test": "node test/test.js ../brackets-manager.js/tsconfig.json"
+    "test": "node test/test.js ../brackets-manager.js/tsconfig.json",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "javascript",
