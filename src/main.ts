@@ -4,6 +4,7 @@ import { FoundCall, FoundCallArgument, ProjectAnalysis } from './types';
 import {
   CallExpression,
   Identifier,
+  InterfaceDeclaration,
   Node,
   Project,
   SyntaxKind,
@@ -32,15 +33,14 @@ export function getStorageCalls(tsConfigFilePath: string): ProjectAnalysis {
     throw Error('Type definition file not found.');
   }
 
-  const interfaces = typeDefinitions.getInterfaces()
-  const [crudInterface, storageInterface] = interfaces.filter(iface => ['CrudInterface', 'Storage'].includes(iface.getName()))
-
-  if (!crudInterface) {
-    throw Error('`CrudInterface` interface not found.');
-  }
-
+  const storageInterface = typeDefinitions.getInterface('Storage');
   if (!storageInterface) {
     throw Error('`Storage` interface not found.');
+  }
+
+  const crudInterface = getBaseInterface(storageInterface, 'CrudInterface');
+  if (!crudInterface) {
+    throw Error('`CrudInterface` interface not found.');
   }
 
   // Sadly, `getMethods()` does not return inherited methods.
@@ -101,6 +101,17 @@ export function getStorageCalls(tsConfigFilePath: string): ProjectAnalysis {
     commitId: revision,
     calls: results,
   };
+}
+
+function getBaseInterface(
+  interfaceDeclaration: InterfaceDeclaration,
+  name: string
+): InterfaceDeclaration | undefined {
+  return interfaceDeclaration
+    .getBaseDeclarations()
+    .find((declaration): declaration is InterfaceDeclaration =>
+      Node.isInterfaceDeclaration(declaration) && declaration.getName() === name
+    );
 }
 
 function getMethodTable(

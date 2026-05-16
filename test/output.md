@@ -2,7 +2,7 @@
 
 ### `select()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/manager.ts#L54">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/manager.ts#L54">Source</a> :material-chevron-down:
 
 ```ts
 select(table, filter: Partial<DataTypes[T]>): Promise<DataTypes[T][] | null>
@@ -12,13 +12,13 @@ select(table, filter: Partial<DataTypes[T]>): Promise<DataTypes[T][] | null>
 
 ### `insert()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/stageCreator.ts#L679">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/stage/creator.ts#L743">Source</a> :material-chevron-down:
 
 ```ts
-insert('stage', value: OmitId<Stage>): Promise<number>
+insert('stage', value: OmitId<Stage>): Promise<Id>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/manager.ts#L104">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/manager.ts#L104">Source</a> :material-chevron-down:
 
 ```ts
 insert('stage', values: Stage[]): Promise<boolean>
@@ -26,19 +26,19 @@ insert('stage', values: Stage[]): Promise<boolean>
 
 ### `select()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/manager.ts#L135">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/manager.ts#L135">Source</a> :material-chevron-down:
 
 ```ts
 select('stage'): Promise<Stage[] | null>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/get.ts#L139">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/get.ts#L14">Source</a> :material-chevron-down:
 
 ```ts
 select('stage', id: Id): Promise<Stage | null>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/get.ts#L35">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/get.ts#L38">Source</a> :material-chevron-down:
 
 ```ts
 select('stage', filter: {
@@ -48,7 +48,7 @@ select('stage', filter: {
 
 ### `update()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/stageCreator.ts#L674">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/stage/creator.ts#L738">Source</a> :material-chevron-down:
 
 ```ts
 update('stage', id: Id, value: Stage): Promise<boolean>
@@ -56,13 +56,13 @@ update('stage', id: Id, value: Stage): Promise<boolean>
 
 ### `delete()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/manager.ts#L102">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/manager.ts#L102">Source</a> :material-chevron-down:
 
 ```ts
 delete('stage'): Promise<boolean>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/delete.ts#L42">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/delete.ts#L44">Source</a> :material-chevron-down:
 
 ```ts
 delete('stage', filter: {
@@ -74,7 +74,7 @@ delete('stage', filter: {
 
 ### `selectFirst()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/stageCreator.ts#L693">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/stage/creator.ts#L757">Source</a> :material-chevron-down:
 
 ```ts
 selectFirst('group', filter: {
@@ -85,13 +85,13 @@ selectFirst('group', filter: {
 
 ### `insert()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/stageCreator.ts#L700">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/stage/creator.ts#L764">Source</a> :material-chevron-down:
 
 ```ts
-insert('group', value: OmitId<Group>): Promise<number>
+insert('group', value: OmitId<Group>): Promise<Id>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/manager.ts#L109">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/manager.ts#L109">Source</a> :material-chevron-down:
 
 ```ts
 insert('group', values: Group[]): Promise<boolean>
@@ -99,19 +99,19 @@ insert('group', values: Group[]): Promise<boolean>
 
 ### `select()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/manager.ts#L138">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/manager.ts#L138">Source</a> :material-chevron-down:
 
 ```ts
 select('group'): Promise<Group[] | null>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/updater.ts#L133">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/updater.ts#L143">Source</a> :material-chevron-down:
 
 ```ts
 select('group', id: Id): Promise<Group | null>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/get.ts#L360">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/get.ts#L429">Source</a> :material-chevron-down:
 
 ```ts
 select('group', filter: {
@@ -121,13 +121,13 @@ select('group', filter: {
 
 ### `delete()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/manager.ts#L107">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/manager.ts#L107">Source</a> :material-chevron-down:
 
 ```ts
 delete('group'): Promise<boolean>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/delete.ts#L39">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/delete.ts#L41">Source</a> :material-chevron-down:
 
 ```ts
 delete('group', filter: {
@@ -139,17 +139,17 @@ delete('group', filter: {
 
 ### `selectLast()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/getter.ts#L404">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/getter.ts#L507">Source</a> :material-chevron-down:
 
 ```ts
 selectLast('round', filter: {
     group_id: Id;
-}): Promise<Round | null>
+}, assertUnique: false): Promise<Round | null>
 ```
 
 ### `selectFirst()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/stageCreator.ts#L714">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/stage/creator.ts#L778">Source</a> :material-chevron-down:
 
 ```ts
 selectFirst('round', filter: {
@@ -158,7 +158,7 @@ selectFirst('round', filter: {
 }): Promise<Round | null>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/get.ts#L256">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/get.ts#L283">Source</a> :material-chevron-down:
 
 ```ts
 selectFirst('round', filter: {
@@ -169,13 +169,13 @@ selectFirst('round', filter: {
 
 ### `insert()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/stageCreator.ts#L721">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/stage/creator.ts#L785">Source</a> :material-chevron-down:
 
 ```ts
-insert('round', value: OmitId<Round>): Promise<number>
+insert('round', value: OmitId<Round>): Promise<Id>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/manager.ts#L114">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/manager.ts#L114">Source</a> :material-chevron-down:
 
 ```ts
 insert('round', values: Round[]): Promise<boolean>
@@ -183,19 +183,19 @@ insert('round', values: Round[]): Promise<boolean>
 
 ### `select()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/manager.ts#L141">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/manager.ts#L141">Source</a> :material-chevron-down:
 
 ```ts
 select('round'): Promise<Round[] | null>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/getter.ts#L70">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/getter.ts#L70">Source</a> :material-chevron-down:
 
 ```ts
 select('round', id: Id): Promise<Round | null>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/getter.ts#L50">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/getter.ts#L50">Source</a> :material-chevron-down:
 
 ```ts
 select('round', filter: {
@@ -203,7 +203,7 @@ select('round', filter: {
 }): Promise<Round[] | null>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/getter.ts#L73">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/getter.ts#L73">Source</a> :material-chevron-down:
 
 ```ts
 select('round', filter: {
@@ -213,13 +213,13 @@ select('round', filter: {
 
 ### `delete()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/manager.ts#L112">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/manager.ts#L112">Source</a> :material-chevron-down:
 
 ```ts
 delete('round'): Promise<boolean>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/delete.ts#L36">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/delete.ts#L38">Source</a> :material-chevron-down:
 
 ```ts
 delete('round', filter: {
@@ -231,7 +231,7 @@ delete('round', filter: {
 
 ### `selectFirst()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/stageCreator.ts#L362">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/stage/creator.ts#L413">Source</a> :material-chevron-down:
 
 ```ts
 selectFirst('match', filter: {
@@ -240,15 +240,24 @@ selectFirst('match', filter: {
 }): Promise<Match | null>
 ```
 
-### `insert()`
-
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/stageCreator.ts#L734">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/getter.ts#L417">Source</a> :material-chevron-down:
 
 ```ts
-insert('match', value: OmitId<Match>): Promise<number>
+selectFirst('match', filter: {
+    group_id: Id;
+    number: number;
+}): Promise<Match | null>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/manager.ts#L119">Source</a> :material-chevron-down:
+### `insert()`
+
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/stage/creator.ts#L798">Source</a> :material-chevron-down:
+
+```ts
+insert('match', value: OmitId<Match>): Promise<Id>
+```
+
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/manager.ts#L119">Source</a> :material-chevron-down:
 
 ```ts
 insert('match', values: Match[]): Promise<boolean>
@@ -256,27 +265,19 @@ insert('match', values: Match[]): Promise<boolean>
 
 ### `select()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/manager.ts#L144">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/manager.ts#L144">Source</a> :material-chevron-down:
 
 ```ts
 select('match'): Promise<Match[] | null>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/updater.ts#L85">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/updater.ts#L86">Source</a> :material-chevron-down:
 
 ```ts
 select('match', id: Id): Promise<Match | null>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/getter.ts#L376">Source</a> :material-chevron-down:
-
-```ts
-select('match', filter: {
-    stage_id: Id;
-}): Promise<Match[] | null>
-```
-
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/getter.ts#L380">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/getter.ts#L135">Source</a> :material-chevron-down:
 
 ```ts
 select('match', filter: {
@@ -284,7 +285,15 @@ select('match', filter: {
 }): Promise<Match[] | null>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/update.ts#L191">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/getter.ts#L479">Source</a> :material-chevron-down:
+
+```ts
+select('match', filter: {
+    stage_id: Id;
+}): Promise<Match[] | null>
+```
+
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/update.ts#L247">Source</a> :material-chevron-down:
 
 ```ts
 select('match', filter: {
@@ -294,13 +303,13 @@ select('match', filter: {
 
 ### `update()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/updater.ts#L197">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/updater.ts#L222">Source</a> :material-chevron-down:
 
 ```ts
 update('match', id: Id, value: Match): Promise<boolean>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/update.ts#L231">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/update.ts#L287">Source</a> :material-chevron-down:
 
 ```ts
 update('match', id: Id, value: {
@@ -316,7 +325,7 @@ update('match', id: Id, value: {
 }): Promise<boolean>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/update.ts#L274">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/update.ts#L330">Source</a> :material-chevron-down:
 
 ```ts
 update('match', id: Id, value: {
@@ -332,7 +341,7 @@ update('match', id: Id, value: {
 }): Promise<boolean>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/update.ts#L171">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/update.ts#L227">Source</a> :material-chevron-down:
 
 ```ts
 update('match', filter: {
@@ -342,7 +351,7 @@ update('match', filter: {
 }): Promise<boolean>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/update.ts#L188">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/update.ts#L244">Source</a> :material-chevron-down:
 
 ```ts
 update('match', filter: {
@@ -352,7 +361,7 @@ update('match', filter: {
 }): Promise<boolean>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/update.ts#L205">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/update.ts#L261">Source</a> :material-chevron-down:
 
 ```ts
 update('match', filter: {
@@ -364,13 +373,13 @@ update('match', filter: {
 
 ### `delete()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/manager.ts#L117">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/manager.ts#L117">Source</a> :material-chevron-down:
 
 ```ts
 delete('match'): Promise<boolean>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/delete.ts#L33">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/delete.ts#L35">Source</a> :material-chevron-down:
 
 ```ts
 delete('match', filter: {
@@ -382,7 +391,7 @@ delete('match', filter: {
 
 ### `selectFirst()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/stageCreator.ts#L752">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/stage/creator.ts#L816">Source</a> :material-chevron-down:
 
 ```ts
 selectFirst('match_game', filter: {
@@ -393,7 +402,7 @@ selectFirst('match_game', filter: {
 
 ### `insert()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/update.ts#L247">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/update.ts#L303">Source</a> :material-chevron-down:
 
 ```ts
 insert('match_game', value: {
@@ -407,16 +416,16 @@ insert('match_game', value: {
     opponent2: { 
        id: null;
     };
-}): Promise<number>
+}): Promise<Id>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/stageCreator.ts#L759">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/stage/creator.ts#L823">Source</a> :material-chevron-down:
 
 ```ts
-insert('match_game', value: OmitId<MatchGame>): Promise<number>
+insert('match_game', value: OmitId<MatchGame>): Promise<Id>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/manager.ts#L124">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/manager.ts#L124">Source</a> :material-chevron-down:
 
 ```ts
 insert('match_game', values: MatchGame[]): Promise<boolean>
@@ -424,13 +433,13 @@ insert('match_game', values: MatchGame[]): Promise<boolean>
 
 ### `select()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/getter.ts#L502">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/getter.ts#L605">Source</a> :material-chevron-down:
 
 ```ts
 select('match_game', id: Id): Promise<MatchGame | null>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/get.ts#L61">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/get.ts#L64">Source</a> :material-chevron-down:
 
 ```ts
 select('match_game', filter: {
@@ -440,13 +449,13 @@ select('match_game', filter: {
 
 ### `update()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/updater.ts#L185">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/updater.ts#L210">Source</a> :material-chevron-down:
 
 ```ts
 update('match_game', id: Id, value: MatchGame): Promise<boolean>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/updater.ts#L212">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/updater.ts#L237">Source</a> :material-chevron-down:
 
 ```ts
 update('match_game', filter: {
@@ -456,13 +465,13 @@ update('match_game', filter: {
 
 ### `delete()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/manager.ts#L122">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/manager.ts#L122">Source</a> :material-chevron-down:
 
 ```ts
 delete('match_game'): Promise<boolean>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/update.ts#L263">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/update.ts#L319">Source</a> :material-chevron-down:
 
 ```ts
 delete('match_game', filter: {
@@ -471,7 +480,7 @@ delete('match_game', filter: {
 }): Promise<boolean>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/delete.ts#L30">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/delete.ts#L32">Source</a> :material-chevron-down:
 
 ```ts
 delete('match_game', filter: {
@@ -483,19 +492,19 @@ delete('match_game', filter: {
 
 ### `insert()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/stageCreator.ts#L785">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/stage/creator.ts#L849">Source</a> :material-chevron-down:
 
 ```ts
-insert('participant', value: OmitId<Participant>): Promise<number>
+insert('participant', value: OmitId<Participant>): Promise<Id>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/manager.ts#L99">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/manager.ts#L99">Source</a> :material-chevron-down:
 
 ```ts
 insert('participant', values: Participant[]): Promise<boolean>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/base/stageCreator.ts#L778">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/base/stage/creator.ts#L842">Source</a> :material-chevron-down:
 
 ```ts
 insert('participant', values: OmitId<Participant>[]): Promise<boolean>
@@ -503,13 +512,13 @@ insert('participant', values: OmitId<Participant>[]): Promise<boolean>
 
 ### `select()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/manager.ts#L132">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/manager.ts#L132">Source</a> :material-chevron-down:
 
 ```ts
 select('participant'): Promise<Participant[] | null>
 ```
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/get.ts#L16">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/get.ts#L19">Source</a> :material-chevron-down:
 
 ```ts
 select('participant', filter: {
@@ -519,7 +528,7 @@ select('participant', filter: {
 
 ### `delete()`
 
-<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/1da7b310696cb4903c33dfd46589441a4295f9f2/src/manager.ts#L97">Source</a> :material-chevron-down:
+<a target="_blank" href="https://github.com/Drarig29/brackets-manager.js/blob/862963f546875673c7e31e2087602f3206c74af3/src/manager.ts#L97">Source</a> :material-chevron-down:
 
 ```ts
 delete('participant'): Promise<boolean>
